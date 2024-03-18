@@ -74,13 +74,10 @@ function Section1() {
         if (accessData.length === 0) return;
 
         const yearAccessData = accessData.map(d => d[selectedYear]);
-        console.log(yearAccessData);
         const colorScale = d3.scaleSequential(d3.interpolateBlues)
             .domain(d3.extent(yearAccessData));
 
         const accessByCountry = new Map(accessData.map(d => [d.country, d[selectedYear]]));
-
-        console.log(accessByCountry);
 
         d3.select(ref.current).selectAll('.country')
             .attr('fill', d => {
