@@ -11,10 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "eurostat-map": "^3.6.100",
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "reaviz": "^15.7.2"
+    "reaviz": "^15.7.2",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",

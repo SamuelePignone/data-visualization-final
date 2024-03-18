@@ -1,12 +1,16 @@
 import { useState } from 'react'
-import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Intro from './components/Intro'
+import Section1 from './components/Section1'
 
 function App() {
 	return (
 		<>
 			<Navbar />
 			<Hero />
+			<Intro />
+			<Section1 />
 		</>
 	)
 }

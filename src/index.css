@@ -25,5 +25,10 @@
   font-family: 'Satoshi', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 @media (prefers-color-scheme: light) {
 }
