@@ -25,9 +25,8 @@
   font-family: 'Satoshi', sans-serif;
 }
 
-html, body {
+html {
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 @media (prefers-color-scheme: light) {

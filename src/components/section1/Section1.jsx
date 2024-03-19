@@ -1,15 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import europemap from '../map/europe.json';
+import europemap from '../../map/europe.json';
 
 function Section1() {
     const ref = useRef();
     const [dimensions, setDimensions] = useState({ // Defaults
-        width: 960, 
-        height: 600, 
+        width: 960,
+        height: 600,
     });
     const [accessData, setAccessData] = useState([]);
     const [selectedYear, setSelectedYear] = useState("2023");
+    const [loading, setLoading] = useState(false);
 
     // Effect hook to handle window resize
     useEffect(() => {
@@ -32,18 +33,42 @@ function Section1() {
 
     // Fetch the internet access data
     useEffect(() => {
-        const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTosOMt-nisY0b03je3jyLy-RCAUVymrLNuHU7xDfX15WH24zYE-2k5XUVcpSsPUMALUvDDUrfiDfwJ/pub?gid=378454871&single=true&output=csv";
+        setLoading(true);
+        const container = d3.select(ref.current);
+        container.selectAll('svg').remove();
+
+        const svg = d3.select(ref.current)
+            .append('svg')
+            .attr('viewBox', `0 0 ${dimensions.width} ${dimensions.height}`)
+            .attr('preserveAspectRatio', 'xMidYMid meet');
+
+        const projection = d3.geoMercator()
+            .center([20, 52])
+            .scale(500)
+            .translate([dimensions.width / 2, dimensions.height / 2]);
+        const path = d3.geoPath().projection(projection);
+
+        svg.selectAll('path')
+            .data(europemap.features)
+            .enter().append('path')
+            .attr('d', path)
+            .attr('stroke', 'white')
+            .attr('fill', '#ccc')
+            .attr('class', 'country');
+
+        const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0rO63WLpPEEZHo6G3BiNj2ZRGlA_wppyVHxQJOpUhT8ZHNuYVmNNPrzTySOWF6r1fk_zswIYkRFXY/pub?gid=445652727&single=true&output=csv";
 
         d3.csv(dataUrl).then(data => {
             const processedData = data.map(row => {
                 const processedRow = { country: row.country_codes };
                 for (let year = 2002; year <= 2023; year++) {
-                    processedRow[year.toString()] = +row[year.toString()] || 0; // Convert to number, use 0 if missing
+                    processedRow[year.toString()] = +row[year.toString()].replace(',', '.'); // Convert to number, use 0 if missing
                 }
                 return processedRow;
             });
             setAccessData(processedData);
         });
+        setLoading(false);
     }, []);
 
     // Initialize the map only once
@@ -67,7 +92,9 @@ function Section1() {
             .enter().append('path')
             .attr('d', path)
             .attr('stroke', 'white')
-            .attr('class', 'country'); 
+            .attr('fill', '#ccc')
+            .attr('class', 'country')
+            .style('cursor', 'help');
     }, [dimensions]);
 
     useEffect(() => {
@@ -83,6 +110,30 @@ function Section1() {
             .attr('fill', d => {
                 const access = accessByCountry.get(d.properties.ISO2);
                 return access ? colorScale(access) : '#ccc';
+            })
+            .on('mouseover', function (event, d) {
+                // show tooltip
+                const access = accessByCountry.get(d.properties.ISO2);
+                const tooltip = d3.select('#tooltip');
+                tooltip.style('display', 'block');
+                tooltip.transition()
+                    .duration(200)
+                    .style('opacity', .9);
+                tooltip.html(`<p style='color: #1e81b0'>${d.properties.NAME}</p>
+                                <p style='color: #1e81b0'>${access ? access.toString()+'%' : 'No data'}</p>`)
+                    .style('left', (event.pageX) + 'px')
+                    .style('top', (event.pageY - 28) + 'px');
+            })
+            .on('mouseout', function (event, d) {
+                // hide if the mouse leaves the country and it's not on the tooltip
+                const tooltip = d3.select('#tooltip');
+                if (!tooltip.node().contains(event.relatedTarget)) {
+                    tooltip.transition()
+                        .duration(500)
+                        .style('opacity', 0)
+                        .on('end', () => tooltip.style('display', 'none'));
+                }
+
             });
     }, [selectedYear, accessData]);
 
@@ -96,7 +147,9 @@ function Section1() {
                     return <option key={year} value={year}>{year}</option>;
                 })}
             </select>
-            <div ref={ref} style={{ width: '100%', height: '100%' }}></div>
+            {loading && <p>Loading...</p>}
+            <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'block' }}></div>
+            <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden'></div>
         </div>
     );
 }

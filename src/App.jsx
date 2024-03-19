@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
-import Section1 from './components/Section1'
+import Section1 from './components/section1/Section1'
 
 function App() {
 	return (
