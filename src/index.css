@@ -29,5 +29,16 @@ html {
   overflow-x: hidden;
 }
 
+.bar {
+  border-radius: 5px;
+}
+._outerBar_18e6r_97 {
+  background: white !important;
+  border-radius: 5px;
+}
+.value {
+  opacity: .5;
+}
+
 @media (prefers-color-scheme: light) {
 }
