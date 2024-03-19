@@ -149,7 +149,7 @@ function Section1() {
             </select>
             {loading && <p>Loading...</p>}
             <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'block' }}></div>
-            <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden'></div>
+            <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>
         </div>
     );
 }
