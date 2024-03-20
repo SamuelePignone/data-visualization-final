@@ -14,8 +14,8 @@ function Section2() {
     const [densityPC, setDensityPC] = useState([]);
     const [data, setData] = useState([]);
     var margin = { top: 60, right: 30, bottom: 20, left: 110 },
-        width = 460 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom;
+        width = 600 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
 
     useEffect(() => {
         // render the ridgeline plot
@@ -81,7 +81,11 @@ function Section2() {
         });
     }, []);
 
-    return <svg ref={ref}></svg>;
+    return (
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <svg ref={ref}></svg>
+        </div>
+    );
 }
 
 export default Section2;
