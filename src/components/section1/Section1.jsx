@@ -9,7 +9,8 @@ function Section1() {
     const intervalRef = useRef(null);
     const [dimensions, setDimensions] = useState({ // Defaults
         width: 960,
-        height: 600,
+        height: 500,
+        margin: { top: 50, right: 30, bottom: 30, left: 60 },
     });
     const [accessData, setAccessData] = useState([]);
     const [selectedYear, setSelectedYear] = useState("2023");
@@ -48,6 +49,7 @@ function Section1() {
                 setDimensions({
                     width: ref.current.offsetWidth,
                     height: ref.current.offsetHeight,
+                    margin: { top: 50, right: 30, bottom: 30, left: 60 },
                 });
             }
         };
@@ -68,8 +70,10 @@ function Section1() {
 
         const svg = d3.select(ref.current)
             .append('svg')
-            .attr('viewBox', `0 0 ${dimensions.width} ${dimensions.height}`)
-            .attr('preserveAspectRatio', 'xMidYMid meet');
+            .attr('width', dimensions.width + dimensions.margin.left + dimensions.margin.right)
+            .attr('height', dimensions.height + dimensions.margin.top + dimensions.margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${dimensions.margin.left},${dimensions.margin.top})`);
 
         const projection = d3.geoMercator()
             .center([20, 52])
@@ -107,8 +111,10 @@ function Section1() {
 
         const svg = d3.select(ref.current)
             .append('svg')
-            .attr('viewBox', `0 0 ${dimensions.width} ${dimensions.height}`)
-            .attr('preserveAspectRatio', 'xMidYMid meet');
+            .attr('width', dimensions.width + dimensions.margin.left + dimensions.margin.right)
+            .attr('height', dimensions.height + dimensions.margin.top + dimensions.margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${dimensions.margin.left},${dimensions.margin.top})`);
 
         const projection = d3.geoMercator()
             .center([20, 52])
@@ -172,7 +178,7 @@ function Section1() {
     const handleYearChange = (event) => setSelectedYear(event.target.value);
 
     return (
-        <div className='h-screen w-screen'>
+        <div className='w-screen'>
             <select value={selectedYear} onChange={handleYearChange}>
                 {[...Array(22).keys()].map(i => {
                     const year = 2002 + i;
@@ -181,7 +187,7 @@ function Section1() {
             </select>
             {loading && <p>Loading...</p>}
 
-            <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'block' }}></div>
+            <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
             <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>
             <div className='w-full flex flex-col justify-center items-center'>
                 {
