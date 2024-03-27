@@ -1,7 +1,18 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 
-const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yNHbo1Is82RqIZBFbkBBUA1rs4OXft0ghhucgXY8Kh7CfutB0Ed_nx-JL5i1i2tyZUegUWdTPTZ0/pub?gid=2024710507&single=true&output=csv";
+const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQuCzxlUAfFTrdlGQImLgF7T0PGvr0nPMSb4qSvfpyJcniLmKaQ3YwN8f-zc7Be05MKGq1OUS6EUJUT/pub?gid=2146609813&single=true&output=csv";
+
+function kernelDensityEstimatorWithMissing(kernel, X) {
+    return function(V) {
+    return X.map(function(x) {
+        var validValues = V.filter(function(v) {
+        return v !== ":" && !isNaN(v); // Check for missing values and NaNs
+        });
+        return [x, d3.mean(validValues, function(v) { return kernel(x - v); })];
+    });
+    };
+}
 
 function kernelDensityEstimator(kernel, X) {
     // manage nan by replacing with 0
@@ -14,7 +25,6 @@ function kernelDensityEstimator(kernel, X) {
         });
     };
 }
-
 
 function kernelEpanechnikov(k) {
     return function (v) {
@@ -63,9 +73,14 @@ function Section2() {
                 .call(d3.axisBottom(x));
 
             let allDensity = [];
-            var kde = kernelDensityEstimator(kernelEpanechnikov(7), x.ticks(40));
+            var kde = kernelDensityEstimatorWithMissing(kernelEpanechnikov(7), x.ticks(40));
+            console.log(data);
             categories.forEach(category => {
-                var density_TV = kde(data.filter(d => d['Indicator'] === "H_IMPH").map(d => d[category.toString()]));
+                console.log(category);
+                //console.log(data.filter(d => d['Indicator'] === "I_IUMC").map(d => d[category.toString()]));
+                var density_TV = kde(data.filter(d => d['Indicator'] === "I_IUMC").map(d => d[category.toString()]));
+                console.log(density_TV);
+                console.log('----------------------');
                 allDensity.push({ key: category, density: density_TV });
                 //setDensityTV(kde(data.filter(d => d['Indicator'] === "H_ITV").map(d => d.category)));
                 //setDensityMobile(kde(data.filter(d => d['Indicator'] === "H_IMOBILE").map(d => d.category)));
