@@ -1,5 +1,4 @@
 export const mapstate = (state) => {
-    console.log(state);
     switch (state) {
         case 'AT':
             return 'Austria';

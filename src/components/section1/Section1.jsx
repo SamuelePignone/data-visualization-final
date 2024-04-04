@@ -1,12 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
+import Tooltip from '../Tooltip';
+import { getColor } from '../Config';
+import ColorLegend from '../ColorLegend';
+import AnimationControl from '../AnimationControl';
 import { BarList } from 'reaviz';
 import europemap from '../../map/europe_cleaned.json';
 import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
 
 function Section1() {
     const ref = useRef();
-    const intervalRef = useRef(null);
     const [dimensions, setDimensions] = useState({ // Defaults
         width: 960,
         height: 500,
@@ -17,30 +20,9 @@ function Section1() {
     const [loading, setLoading] = useState(false);
     const [animation, setAnimation] = useState(false);
 
-    // start an animation from 2002 to 2023
-    // for each year, update the selected year
-    // use a timeout to wait between years
-    const play = () => {
-        setAnimation(true);
-        setSelectedYear("2002");
-        let year = 2003;
-        intervalRef.current = setInterval(() => {
-            setSelectedYear(year.toString());
-            year++;
-            if (year > 2023) {
-                clearInterval(intervalRef.current);
-                setAnimation(false);
-            }
-        }, 1000);
-    }
-
-    // stop the animation
-    const stop = () => {
-        if (intervalRef.current) {
-            clearInterval(intervalRef.current);
-            setAnimation(false);
-        }
-    }
+    const [tooltipContent, setTooltipContent] = useState('');
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
     // Effect hook to handle window resize
     useEffect(() => {
@@ -136,42 +118,51 @@ function Section1() {
         if (accessData.length === 0) return;
 
         const yearAccessData = accessData.map(d => d[selectedYear]);
-        const colorScale = d3.scaleSequential(d3.interpolateBlues)
-            .domain([0, 100]);
 
         const accessByCountry = new Map(accessData.map(d => [d.country, d[selectedYear]]));
 
         d3.select(ref.current).selectAll('.country')
+            // .on('mouseover', function (event, d) {
+            //     // show tooltip
+            //     const access = accessByCountry.get(d.properties.ISO2);
+            //     const tooltip = d3.select('#tooltip');
+            //     tooltip.style('display', 'block');
+            //     tooltip.transition()
+            //         .duration(200)
+            //         .style('opacity', .9);
+            //     tooltip.html(`<p style='color: #1e81b0'>${d.properties.NAME}</p>
+            //                 <p style='color: #1e81b0'>${access ? access.toString() + '%' : 'No data'}</p>`)
+            //         .style('left', (event.pageX) + 'px')
+            //         .style('top', (event.pageY - 28) + 'px');
+            // })
+            // .on('mouseout', function (event, d) {
+            //     // hide if the mouse leaves the country and it's not on the tooltip
+            //     const tooltip = d3.select('#tooltip');
+            //     if (!tooltip.node().contains(event.relatedTarget)) {
+            //         tooltip.transition()
+            //             .duration(500)
+            //             .style('opacity', 0)
+            //             .on('end', () => tooltip.style('display', 'none'));
+            //     }
+
+            // })
             .on('mouseover', function (event, d) {
-                // show tooltip
                 const access = accessByCountry.get(d.properties.ISO2);
-                const tooltip = d3.select('#tooltip');
-                tooltip.style('display', 'block');
-                tooltip.transition()
-                    .duration(200)
-                    .style('opacity', .9);
-                tooltip.html(`<p style='color: #1e81b0'>${d.properties.NAME}</p>
-                            <p style='color: #1e81b0'>${access ? access.toString() + '%' : 'No data'}</p>`)
-                    .style('left', (event.pageX) + 'px')
-                    .style('top', (event.pageY - 28) + 'px');
+                setTooltipContent(`<p>${d.properties.NAME}</p>
+                                   <p>${access ? access.toString() + '%' : 'No data'}</p>`);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+                setTooltipVisible(true);
             })
             .on('mouseout', function (event, d) {
-                // hide if the mouse leaves the country and it's not on the tooltip
-                const tooltip = d3.select('#tooltip');
-                if (!tooltip.node().contains(event.relatedTarget)) {
-                    tooltip.transition()
-                        .duration(500)
-                        .style('opacity', 0)
-                        .on('end', () => tooltip.style('display', 'none'));
-                }
-
+                setTooltipVisible(false);
             })
+
             // update fill color with a transition to the new color
             .transition()
             .duration(500)
             .attr('fill', d => {
                 const access = accessByCountry.get(d.properties.ISO2);
-                return access ? colorScale(access) : '#ccc';
+                return access ? getColor(access) : '#ccc';
             })
     }, [selectedYear, accessData, dimensions]);
 
@@ -188,38 +179,28 @@ function Section1() {
             {loading && <p>Loading...</p>}
 
             <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
-            <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>
+            <ColorLegend
+                orientation="horizontal"
+                startLabel="0%"
+                endLabel="100%"
+            />
+            <Tooltip
+                content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
+                isVisible={tooltipVisible}
+                style={{
+                    left: tooltipPosition.x,
+                    top: tooltipPosition.y,
+                }}
+            />
             <div className='w-full flex flex-col justify-center items-center'>
-                {
-                    animation ? (
-                        <>
-                            <p>Year: {selectedYear}</p>
-                            <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                <p className='mr-3 font-bold'>2002</p>
-                                <BarList
-                                    style={{ width: 350 }}
-                                    data={[{
-                                        key: "",
-                                        data: (selectedYear - 2002) * 100 / 21
-                                    }]}
-                                    type='percent'
-                                />
-                                <p className='ml-3 font-bold'>2023</p>
-                            </div>
-                            <div onClick={stop} className=''>
-                                <FaCircleStop className='text-3xl cursor-pointer' />
-                            </div>
-                        </>
-                    ) : (
-                        <>
-                            <p></p>
-                            <div onClick={play} className=''>
-                                <FaCirclePlay className='text-3xl cursor-pointer' />
-                            </div>
-                            <p className='mt-2'>Start an animation from 2002 to 2023</p>
-                        </>
-                    )
-                }
+                <AnimationControl
+                    start={2002}
+                    end={2023}
+                    onYearChange={(currentYear) => setSelectedYear(currentYear)}
+                    isActive={animation}
+                    setIsActive={setAnimation}
+                    text={'Start an animation from '+'2022'+' to '+'2023'}
+                />
             </div>
         </div>
     );

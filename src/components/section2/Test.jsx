@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { getColor } from '../Config';
 import * as d3 from 'd3';
 
 const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yNHbo1Is82RqIZBFbkBBUA1rs4OXft0ghhucgXY8Kh7CfutB0Ed_nx-JL5i1i2tyZUegUWdTPTZ0/pub?gid=2024710507&single=true&output=csv";
@@ -179,15 +180,15 @@ function Test() {
                 var myColor = function (t) {
                     if (indicator === "H_ITV") {
                         //return d3.interpolateBlues(t);
-                        return "blue"
+                        return "#BEA6A1"
                     }
                     if (indicator === "H_IPC") {
                         //return d3.interpolateGreens(t);
-                        return "green"
+                        return "#009EA4"
                     }
                     if (indicator === "H_IMPH") {
                         //return d3.interpolateOranges(t);
-                        return "orange"
+                        return "#A50F15"
                     }
                 };
 
@@ -222,7 +223,6 @@ function Test() {
                     )
                     .data(indicator === "H_ITV" ? tvDensity : indicator === "H_IMPH" ? mobileDensity : pcDensity)
                     .on("mouseover", function (event, d) {
-                        console.log(d);
                         var yearData = indicator === "H_ITV" ? tvYearMeanData.find(function (yearData) { return yearData.year === d.key; }) : indicator === "H_IMPH" ? mobileYearMeanData.find(function (yearData) { return yearData.year === d.key; }) : pcYearMeanData.find(function (yearData) { return yearData.year === d.key; });
                         var year = yearData.year;
                         var meanValue = yearData.mean;

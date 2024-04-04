@@ -32,12 +32,13 @@ html {
 .bar {
   border-radius: 5px;
 }
-._outerBar_18e6r_97 {
-  background: white !important;
+.outer {
+  background: white;
   border-radius: 5px;
 }
 .value {
-  opacity: .5;
+  display: none !important;
+  width: 0 !important;
 }
 
 text {
