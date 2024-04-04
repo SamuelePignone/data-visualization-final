@@ -1,109 +1,137 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Heatmap, HeatmapSeries, BarList, ChartTooltip, TooltipTemplate, TooltipArea, HeatmapCell, SequentialLegend } from 'reaviz';
 import * as d3 from 'd3';
-import dataFile from '../../data/cleaned_heatmap.json';
+import data_file from '../../data/cleaned_heatmap.json';
+import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
+import { mapstate, mapvalue } from './MapState';
 
-function Section3D3Heatmap() {
-    const svgRef = useRef(null);
+function Section3() {
+    const [dimensions, setDimensions] = useState({
+        width: 1300,
+        height: 400,
+        margin: { top: 50, right: 30, bottom: 30, left: 60 },
+    });
+    const [data, setData] = useState([]);
     const [selectedYear, setSelectedYear] = useState("2023");
     const [availableYears, setAvailableYears] = useState([]);
     const [animation, setAnimation] = useState(false);
     const intervalRef = useRef(null);
 
-    // Initialization and Drawing Logic
-    useEffect(() => {
-        if (!dataFile[selectedYear]) return;
-
-        const data = dataFile[selectedYear];
-        const margin = { top: 50, right: 30, bottom: 30, left: 60 };
-        const width = 1300 - margin.left - margin.right;
-        const height = 400 - margin.top - margin.bottom;
-        
-        // Clean up SVG
-        d3.select(svgRef.current).selectAll("*").remove();
-
-        // Set up SVG container
-        const svg = d3.select(svgRef.current)
-                      .attr("width", width + margin.left + margin.right)
-                      .attr("height", height + margin.top + margin.bottom)
-                    .append("g")
-                      .attr("transform", `translate(${margin.left},${margin.top})`);
-
-        // Scale setup
-        const xScale = d3.scaleBand()
-                         .range([0, width])
-                         .domain(data.map(d => d.x))
-                         .padding(0.01);
-
-        const yScale = d3.scaleBand()
-                         .range([height, 0])
-                         .domain(data.map(d => d.y))
-                         .padding(0.01);
-
-        const colorScale = d3.scaleSequential()
-                             .interpolator(d3.interpolateInferno)
-                             .domain([0, d3.max(data, d => d.value)]);
-
-        // Drawing the heatmap
-        svg.selectAll()
-           .data(data, d => d.x + ':' + d.y)
-           .join("rect")
-           .attr("x", d => xScale(d.x))
-           .attr("y", d => yScale(d.y))
-           .attr("width", xScale.bandwidth())
-           .attr("height", yScale.bandwidth())
-           .style("fill", d => colorScale(d.value));
-
-        // Adding Axes
-        svg.append("g")
-           .attr("transform", `translate(0,${height})`)
-           .call(d3.axisBottom(xScale));
-
-        svg.append("g")
-           .call(d3.axisLeft(yScale));
-
-    }, [selectedYear]);
-
-    // Available Years Logic
-    useEffect(() => {
-        setAvailableYears(Object.keys(dataFile));
-    }, []);
-
-    // Animation Logic
-    useEffect(() => {
-        if (animation) {
-            let index = availableYears.indexOf(selectedYear);
-            intervalRef.current = setInterval(() => {
-                index = (index + 1) % availableYears.length;
-                setSelectedYear(availableYears[index]);
-            }, 1000);
-        }
-        return () => clearInterval(intervalRef.current);
-    }, [animation, availableYears, selectedYear]);
-
     const play = () => {
         setAnimation(true);
-    };
+        setSelectedYear(availableYears[0]);
+        let index = 1;
+        intervalRef.current = setInterval(() => {
+            setSelectedYear(availableYears[index]);
+            index++;
+            if (index >= availableYears.length) {
+                clearInterval(intervalRef.current);
+                setAnimation(false);
+            }
+        }, 1000);
+    }
 
+    // stop the animation
     const stop = () => {
-        setAnimation(false);
-        clearInterval(intervalRef.current);
-    };
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+            setAnimation(false);
+        }
+    }
+
+    useEffect(() => {
+        setAvailableYears(Object.keys(data_file));
+        setData(data_file[selectedYear]);
+    }, [selectedYear]);
+
+    var interpolator = d3.scaleSequential(d3.interpolateBlues)
+        .domain([0, 1000]);
+
+    // create a list of colors from 0 to 100
+    var array_from_0_to_1000 = Array.from(Array(1001).keys());
+    var colorScheme = array_from_0_to_1000.map(interpolator);
 
     return (
         <>
             <select value={selectedYear} onChange={(e) => setSelectedYear(e.target.value)}>
-                {availableYears.map(year => (
+                {availableYears.map((year) => (
                     <option key={year} value={year}>{year}</option>
                 ))}
             </select>
-            <svg ref={svgRef}></svg>
-            {animation ? (
-                <button onClick={stop}>Stop</button>
-            ) : (
-                <button onClick={play}>Play</button>
-            )}
+            <div style={{ margin: '55px', textAlign: 'center', display: 'flex', justifyContent: 'center' }}>
+                <Heatmap
+                    height={dimensions.height - dimensions.margin.top - dimensions.margin.bottom}
+                    width={dimensions.width - dimensions.margin.left - dimensions.margin.right}
+                    data={data}
+                    series={
+                        <HeatmapSeries
+                            colorScheme={'Reds'}
+                            emptyColor='#f5f5f5'
+                            cell={
+                                <HeatmapCell tooltip={
+                                    <ChartTooltip
+                                        content={d => (
+                                            <>
+                                                {`${d.data.x} in ${mapstate(d.data.key)}`}
+                                                <br />
+                                                {`${mapvalue(d.data.value)}`}
+                                            </>
+                                        )}
+                                        style={{ backgroundColor: 'white', padding: '10px', border: '1px solid #ccc' }}
+                                    />
+                                } />
+                            }
+                        />
+                    }
+                />
+                <SequentialLegend
+                    data={[{
+                        key: 'Foo',
+                        data: 100
+                    }, {
+                        key: 'Bar',
+                        data: 0
+                    }]}
+                    style={{
+                        height: '165px',
+                        marginLeft: '10px'
+                    }}
+                    colorScheme={'Reds'} />
+            </div>
+            <div className='w-full flex flex-col justify-center items-center'>
+                {
+                    animation ? (
+                        <>
+                            <p>Year: {selectedYear}</p>
+                            <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <p className='mr-3 font-bold'>{availableYears[0]}</p>
+                                <BarList
+                                    style={{ width: 350 }}
+                                    data={[{
+                                        key: "",
+                                        data: (selectedYear - availableYears[0]) * 100 / (availableYears.length - 1)
+                                    }]}
+                                    type='percent'
+                                />
+                                <p className='ml-3 font-bold'>{availableYears[availableYears.length - 1]}</p>
+                            </div>
+                            <div onClick={stop} className=''>
+                                <FaCircleStop className='text-3xl cursor-pointer' />
+                            </div>
+                        </>
+                    ) : (
+                        <>
+                            <p></p>
+                            <div onClick={play} className=''>
+                                <FaCirclePlay className='text-3xl cursor-pointer' />
+                            </div>
+                            <p className='mt-2'>Start an animation from 2002 to 2023</p>
+                        </>
+                    )
+                }
+            </div>
         </>
-    );
+    )
 }
 
-export default Section3D3Heatmap;
+export default Section3
