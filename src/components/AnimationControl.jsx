@@ -3,14 +3,14 @@ import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
 import { getColor } from './Config';
 import { BarList, BarListSeries } from 'reaviz';
 
-const AnimationControl = ({ start, end, onYearChange, isActive, setIsActive, text }) => {
-    const [currentYear, setCurrentYear] = useState(start);
+const AnimationControl = ({ start, end, year, onYearChange, isActive, setIsActive, text }) => {
+    const [currentYear, setCurrentYear] = useState(year);
     const intervalRef = useRef(null);
 
     useEffect(() => {
         // Ensure the external state is updated when currentYear changes
         onYearChange(currentYear);
-    }, [currentYear, onYearChange]);
+    }, [currentYear]);
 
     const play = () => {
         setIsActive(true);
@@ -54,7 +54,9 @@ const AnimationControl = ({ start, end, onYearChange, isActive, setIsActive, tex
                             series={
                                 <BarListSeries
                                     colorScheme={['#a50f15']}
-                                    barClassName="bar" outerBarClassName="outer" valueClassName="value" valuePosition="end"
+                                    barClassName="bar" 
+                                    outerBarClassName="outer" 
+                                    valueClassName="value" 
                                 />
                             }
                             type='percent'

@@ -1,52 +1,151 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import dataFile from '../../data/cleaned_heatmap.json';
+import { getColor } from '../Config';
+import ColorLegend from '../ColorLegend';
+import Tooltip from '../Tooltip';
+import AnimationControl from '../AnimationControl';
+import { mapstate, mapvalue } from './MapState';
+import YearSelector from '../YearSelector';
 
 function Section3D3() {
     const [selectedYear, setSelectedYear] = useState("2023");
-    const svgRef = useRef();
-    const [availableYears, setAvailableYears] = useState([]);
+    const [availableYears, setAvailableYears] = useState(Object.keys(dataFile));
+    const ref = useRef();
+    const [dimensions, setDimensions] = useState({
+        width: 900,
+        height: 500,
+        margin: { top: 5, right: 25, bottom: 30, left: 100 },
+    });
+
+    const [tooltipContent, setTooltipContent] = useState('');
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
+
+    const [animation, setAnimation] = useState(false);
+
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setAvailableYears(Object.keys(dataFile));
-        // Initialize or update the heatmap when component mounts or selectedYear changes
-        drawHeatmap(dataFile[selectedYear]);
-    }, [selectedYear]);
+        const container = d3.select(ref.current);
+        container.selectAll('svg').remove();
+        
+        const states = dataFile[selectedYear].map(d => d.key);
+        const activities = dataFile[selectedYear][0].data.map(d => d.key);
+        
+        const padding = 0.1;
+        
+        const x = d3.scaleBand()
+            .range([0, dimensions.width])
+            .domain(states)
+            .padding(padding);
+        
+        const real_height = (padding * 2 * activities.length) + activities.length * x.bandwidth();
+        
+        const y = d3.scaleBand()
+            .range([0, real_height])
+            .domain(activities)
+            .padding(padding);
 
-    // Function to draw the heatmap
-    const drawHeatmap = (data) => {
-        const svg = d3.select(svgRef.current);
-        const width = +svg.attr("width");
-        const height = +svg.attr("height");
+        const svg = d3.select(ref.current)
+            .append('svg')
+            .attr('id', 'heatmap')
+            .attr('width', dimensions.width + dimensions.margin.left + dimensions.margin.right)
+            .attr('height', real_height + dimensions.margin.top + dimensions.margin.bottom)
+            .append('g')
+            .attr('transform', `translate(${dimensions.margin.left},${dimensions.margin.top})`);
 
-        // Clear previous contents
-        svg.selectAll("*").remove();
+        svg.append('g')
+            .style('font-size', 10)
+            .attr('transform', `translate(0, ${real_height + 4})`)
+            .call(d3.axisBottom(x).tickSize(0))
+            .select('.domain').remove();
 
-        // Setup scales - assuming your data structure, adjust as needed
-        const xScale = d3.scaleBand().range([0, width]).domain(data.map(d => d.x)).padding(0.05);
-        const yScale = d3.scaleBand().range([height, 0]).domain(data.map(d => d.y)).padding(0.05);
-        const colorScale = d3.scaleSequential().domain([0, 100]).interpolator(d3.interpolateBlues);
+        svg.append('g')
+            .style('font-size', 10)
+            .call(d3.axisLeft(y).tickSize(0))
+            .select('.domain').remove();
 
-        // Draw cells
         svg.selectAll()
-            .data(data)
+            .data(dataFile[selectedYear], d => d.key)
             .enter()
-            .append("rect")
-            .attr("x", d => xScale(d.x))
-            .attr("y", d => yScale(d.y))
-            .attr("width", xScale.bandwidth())
-            .attr("height", yScale.bandwidth())
-            .style("fill", d => colorScale(d.value));
-    };
+            .append('g')
+            .attr('class', 'col')
+            .attr('transform', d => {
+                return `translate(${x(d.key)}, 0)`
+            })
+            .selectAll()
+            .data(d => d.data, d => d.key)
+            .enter()
+            .append('rect')
+            .attr('class', 'cell')
+            .attr('rx', 4)
+            .attr('ry', 4)
+            .attr('x', d => {
+                return x(d.key)
+            })
+            .attr('y', d => y(d.key))
+            .attr('width', x.bandwidth())
+            .attr('height', y.bandwidth())
+            .style('fill', d => getColor(d.data))
+            .style('stroke', 'black');
+
+            setLoading(false);
+    }, []);
+
+    useEffect(() => {
+        const svg = d3.select(ref.current).select('svg').select('g');
+
+        svg.selectAll('.col')
+            .data(dataFile[selectedYear], d => d.key)
+            .selectAll('.cell')
+            .data(d => d.data, d => d.key)
+            .on('mouseover', (event, d) => {
+                setTooltipContent(`${d.key} in ${mapstate(d3.select(event.currentTarget.parentNode).datum().key)} (${d3.select(event.currentTarget.parentNode).datum().key}): ${mapvalue(d.data)}`);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+                setTooltipVisible(true);
+            })
+            .on('mouseout', () => {
+                setTooltipVisible(false);
+            })
+            .transition()
+            .duration(500)
+            .style('fill', d => getColor(d.data));
+
+    }, [selectedYear]);
 
     return (
         <>
-            <select value={selectedYear} onChange={(e) => setSelectedYear(e.target.value)}>
-                {availableYears.map(year => (
-                    <option key={year} value={year}>{year}</option>
-                ))}
-            </select>
-            <svg ref={svgRef} width={700} height={500}></svg>
+            <div className='w-full flex justify-center items-center mb-6'>
+                <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+            </div>
+            <div className='flex justify-center items-center w-full h-full'>
+                <div ref={ref} className='w-fit'></div>
+                <ColorLegend
+                    orientation="vertical"
+                    startLabel="100%"
+                    endLabel="0%"
+                />
+            </div>
+            <Tooltip
+                content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
+                isVisible={tooltipVisible}
+                style={{
+                    left: tooltipPosition.x,
+                    top: tooltipPosition.y,
+                }}
+            />
+            <div className='w-full flex flex-col justify-center items-center'>
+                <AnimationControl
+                    start={2002}
+                    end={2023}
+                    year={selectedYear}
+                    onYearChange={(currentYear) => setSelectedYear(currentYear)}
+                    isActive={animation}
+                    setIsActive={setAnimation}
+                    text={'Start an animation from '+'2002'+' to '+'2023'}
+                />
+            </div>
         </>
     );
 }

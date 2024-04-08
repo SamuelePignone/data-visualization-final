@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Section1 from './components/section1/Section1'
 import Section2 from './components/section2/Test'
-import Section3 from './components/section3/Section3'
+import Heatmap from './components/section3/Heatmap'
 
 function App() {
 	return (
@@ -13,7 +13,7 @@ function App() {
 			<Intro />
 			<Section1 />
 			<Section2 />
-			<Section3 />
+			<Heatmap />
 		</>
 	)
 }

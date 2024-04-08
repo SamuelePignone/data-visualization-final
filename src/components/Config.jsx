@@ -11,6 +11,7 @@ const colorScheme = [
     "#cb181d",
     "#a50f15",
     "#67000d",
+    "#420009"
 ];
 
 // Function to create the extended color scheme
@@ -19,7 +20,8 @@ const createExtendedColorScheme = (colors, length = 1000) => {
         .domain(colors.map((_, i) => i / (colors.length - 1)))
         .range(colors)
         .interpolate(d3.interpolateRgb);
-    return Array.from({length}, (_, i) => scale(i / (length - 1)));
+    // reverse the scale to go from 0 to 1
+    return Array.from({ length }, (_, i) => scale(i / (length - 1)));
 };
 
 const extendedColorScheme = createExtendedColorScheme(colorScheme, 101);

@@ -4,16 +4,17 @@ import Tooltip from '../Tooltip';
 import { getColor } from '../Config';
 import ColorLegend from '../ColorLegend';
 import AnimationControl from '../AnimationControl';
+import YearSelector from '../YearSelector';
 import { BarList } from 'reaviz';
 import europemap from '../../map/europe_cleaned.json';
 import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
 
 function Section1() {
     const ref = useRef();
-    const [dimensions, setDimensions] = useState({ // Defaults
-        width: 960,
+    const [dimensions, setDimensions] = useState({
+        width: 900,
         height: 500,
-        margin: { top: 50, right: 30, bottom: 30, left: 60 },
+        margin: { top: 150, right: 25, bottom: 30, left: 100 },
     });
     const [accessData, setAccessData] = useState([]);
     const [selectedYear, setSelectedYear] = useState("2023");
@@ -23,26 +24,6 @@ function Section1() {
     const [tooltipContent, setTooltipContent] = useState('');
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
-
-    // Effect hook to handle window resize
-    useEffect(() => {
-        const updateDimensions = () => {
-            if (ref.current) {
-                setDimensions({
-                    width: ref.current.offsetWidth,
-                    height: ref.current.offsetHeight,
-                    margin: { top: 50, right: 30, bottom: 30, left: 60 },
-                });
-            }
-        };
-
-        window.addEventListener('resize', updateDimensions);
-        // Set initial dimensions
-        updateDimensions();
-
-        // Cleanup listener on component unmount
-        return () => window.removeEventListener('resize', updateDimensions);
-    }, []);
 
     // Fetch the internet access data
     useEffect(() => {
@@ -83,6 +64,20 @@ function Section1() {
             });
             setAccessData(processedData);
         });
+
+        // svg.append('defs')
+        //     .append("pattern")
+        //     .attr("id", "diagonalHatch")
+        //     .attr("width", 2)
+        //     .attr("height", 2)
+        //     .attr("patternUnits", "userSpaceOnUse")
+        //     .attr("patternTransform", "rotate(45)")
+        //     .append("rect")
+        //     .attr("width", 2)
+        //     .attr("height", 2)
+        //     .attr("transform", "rotate(45)")
+        //     .attr("fill", "white");
+
         setLoading(false);
     }, []);
 
@@ -112,6 +107,20 @@ function Section1() {
             .attr('fill', '#ccc')
             .attr('class', 'country')
             .style('cursor', 'help');
+
+        svg.append('defs')
+            .append("pattern")
+            .attr("id", "diagonalHatch")
+            .attr("width", 4)
+            .attr("height", 4)
+            .attr("patternUnits", "userSpaceOnUse")
+            .attr("patternTransform", "rotate(45)")
+            .append("rect")
+            .attr("width", 1)
+            .attr("height", 4)
+            .attr("transform", "translate(0,0)")
+            .attr("fill", "#ccc");
+
     }, [dimensions]);
 
     useEffect(() => {
@@ -152,9 +161,25 @@ function Section1() {
                                    <p>${access ? access.toString() + '%' : 'No data'}</p>`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
                 setTooltipVisible(true);
+                // reduce opacity of all countries except the one being hovered
+                d3.selectAll('.country')
+                    .transition()
+                    .duration(200)
+                    .style('opacity', 0.5);
+
+                // highlight the hovered country
+                d3.select(this)
+                    .transition()
+                    .duration(200)
+                    .style('opacity', 1);
             })
             .on('mouseout', function (event, d) {
                 setTooltipVisible(false);
+                // reset opacity of all countries
+                d3.selectAll('.country')
+                    .transition()
+                    .duration(200)
+                    .style('opacity', 1);
             })
 
             // update fill color with a transition to the new color
@@ -162,23 +187,20 @@ function Section1() {
             .duration(500)
             .attr('fill', d => {
                 const access = accessByCountry.get(d.properties.ISO2);
-                return access ? getColor(access) : '#ccc';
+                return access ? getColor(access) : 'url(#diagonalHatch)';
             })
-    }, [selectedYear, accessData, dimensions]);
 
-    const handleYearChange = (event) => setSelectedYear(event.target.value);
+    }, [selectedYear, accessData, dimensions]);
 
     return (
         <div className='w-screen'>
-            <select value={selectedYear} onChange={handleYearChange}>
-                {[...Array(22).keys()].map(i => {
-                    const year = 2002 + i;
-                    return <option key={year} value={year}>{year}</option>;
-                })}
-            </select>
+            <div className='w-full flex justify-center items-center mb-6'>
+                <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+            </div>
             {loading && <p>Loading...</p>}
-
-            <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
+            <div className='flex justify-center items-center w-full h-full'>
+                <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
+            </div>
             <ColorLegend
                 orientation="horizontal"
                 startLabel="0%"
@@ -196,10 +218,11 @@ function Section1() {
                 <AnimationControl
                     start={2002}
                     end={2023}
+                    year={selectedYear}
                     onYearChange={(currentYear) => setSelectedYear(currentYear)}
                     isActive={animation}
                     setIsActive={setAnimation}
-                    text={'Start an animation from '+'2022'+' to '+'2023'}
+                    text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                 />
             </div>
         </div>

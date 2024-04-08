@@ -8,7 +8,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: light;
   color: rgba(255, 255, 255, 0.87);
   background-color: #082c54;
 
@@ -37,6 +37,16 @@ html {
   border-radius: 5px;
 }
 .value {
+  display: none !important;
+  width: 0 !important;
+}
+
+.sus {
+  display: none !important;
+  width: 0 !important;
+}
+
+.sas {
   display: none !important;
   width: 0 !important;
 }
