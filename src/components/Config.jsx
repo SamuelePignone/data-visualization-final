@@ -2,16 +2,16 @@ import * as d3 from 'd3';
 
 // Original color scheme
 const colorScheme = [
-    "#fff5f0",
-    "#fee0d2",
-    "#fcbba1",
-    "#fc9272",
-    "#fb6a4a",
-    "#ef3b2c",
-    "#cb181d",
-    "#a50f15",
-    "#67000d",
-    "#420009"
+    "#db3d2f",
+    "#EF2917",
+    "#EF5A17",
+    "#EF8A17",
+    "#DBA515",
+    "#C6C013",
+    "#63A12E",
+    "#008148",
+    "#007541",
+    "#006A3B"
 ];
 
 // Function to create the extended color scheme
