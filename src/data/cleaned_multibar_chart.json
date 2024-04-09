@@ -1,0 +1,7574 @@
+[
+    {
+      "indic_is": "I_CCONF",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 2.71
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.04
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.61
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 36.61
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 37.57
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 8.91
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.76
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.26
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.82
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 19.04
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 9.03
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 7.26
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 8.56
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.37
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.96
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.37
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.22
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 27.68
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 30.37
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 28.11
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.97
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 19.18
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.03
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.53
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.96
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 41.65
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 42.03
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.64
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 49.42
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 45.96
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.18
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 36.8
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.8
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 37.72
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.47
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 42.53
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 16.2
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 16.91
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 17.12
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.49
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.08
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.74
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.93
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.42
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 50.77
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 52.68
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 53.57
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 52.29
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.86
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 18.98
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.46
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.43
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 41.33
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 46.49
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.36
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 46.79
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.34
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.9
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.72
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 26.51
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.89
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.71
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 30.62
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 35.04
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.5
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 59.76
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 17.12
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 16.81
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.66
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.14
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 24.95
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.08
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.52
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.99
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 49.03
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 45.15
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 15.04
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 19.87
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 16.57
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.21
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 20.59
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 20.66
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.76
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.65
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 11.53
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.18
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 26.99
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.22
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.66
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 25.84
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 38.08
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 41.05
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.88
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.54
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 33.53
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 34.35
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 35.82
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.76
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.47
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.49
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 31.74
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.62
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 20.39
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.98
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 15.79
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 13.98
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 7.83
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.61
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 9.89
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.64
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 28.36
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 25.65
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.77
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 43.21
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 42.68
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 39.78
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 36.51
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 18.98
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.22
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.48
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 18.89
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 17
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 18.34
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 19.41
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.34
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 9.58
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 13.31
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 20.14
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 21.65
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.99
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 40.13
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 42.61
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.69
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 9.7
+    },
+    {
+      "indic_is": "I_CCONF",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 16.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 16.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 47.09
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 60.46
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 64.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 69.62
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 68.83
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 75.37
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 73.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 73.17
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 67.07
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 65.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 68.39
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 66.99
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 50.53
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 57.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 59.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 56.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 68.33
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 64.81
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 68.39
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 59.69
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 61.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 60.37
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 57.07
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 16.65
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 28.16
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 30.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 35.4
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 40.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 41.27
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 50.62
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 43.89
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 38.37
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.29
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.08
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 65.45
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 66.62
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 34.47
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 38.75
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 42.46
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 45.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 50.52
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 53.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 54.64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 62.64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 50.66
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 49.83
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 49.8
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 47.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 49.17
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 52.94
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 52.58
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 60.2
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 65.77
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 67.11
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 58.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 56.99
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 55.86
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 54.99
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 59.23
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 60.75
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 68.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 69.11
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 72.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 67.8
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 76.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 68.28
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 68.24
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 69.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 70.73
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 68.91
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 69.23
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 78.33
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 78.59
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 73.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 74.45
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 79.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 78.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 77.08
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 76.96
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 74.32
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 69.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 68.05
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 49.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 46.32
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 48.56
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 52.77
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 58.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 58.93
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 66.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 56.44
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.4
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 61.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 22.11
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 22.27
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 27.56
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 42.96
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 40.38
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 37.19
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 46.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 46.91
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 53.61
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 54.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 56.1
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 60.77
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 49.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 53.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 55.13
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 56.85
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 63.29
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 62.91
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 57.09
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 56.02
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 57.04
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 59.17
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 62.53
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 62.53
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 64.04
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 65.01
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 63.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 68.13
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 77.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 76.27
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 79.62
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 66.58
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 66.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 68.16
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 69.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 50.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 58.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 64.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 66.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 69.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 70.37
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 56.69
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 55.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 57.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 38.47
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 45.09
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 53.06
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 51.6
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 59.32
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 60.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 46.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 58.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 27.24
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 38.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 51.61
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 54.1
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 58.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 62.32
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 66.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 65.18
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 55.18
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 55.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 53.7
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 52.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 30.48
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 48.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 52
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 52.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 59.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 61.99
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 57.35
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 41.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 39.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 41.6
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 48.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 66.7
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 66.31
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 74.89
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 76.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 79.13
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 74.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 81.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 82.18
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 72.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 71.31
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 73.17
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 37.74
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 38.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 42.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 48.77
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 53.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 53.19
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 55.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 49.5
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 48.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 32.07
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 34.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 39.04
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 45.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 48.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 53.13
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 55.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 57.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 66.83
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 56.73
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 56.2
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 57.98
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 58.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 57.32
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 60.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 68.19
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 67.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 72.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 79.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 80.05
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 78.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 79.4
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 76.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 78.56
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 78.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 58.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 32.24
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 41.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 45.47
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 51.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 46.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 60.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 61.08
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 65.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 72.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 64.46
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 65.73
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 48.02
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ME",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 51.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 69.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 72.8
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 34.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 39.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 44.05
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 49.54
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 52.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 40.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 41.47
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 36.65
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 41.76
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 39.82
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 43.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 48.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 58.61
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 56.47
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 58.77
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 51.15
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 48.63
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 54.2
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 52.58
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 72.1
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 71.38
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 76.3
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 80.01
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 80.94
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 79.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 77.39
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 69.18
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 72.01
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 75
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 73.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 57.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 47.85
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 58.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 61.62
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 64.93
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 65.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 67.85
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 83.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 77.64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 68.09
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 59.12
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 65.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 69.56
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 34.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 39.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 44.05
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 45.25
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 46.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 52.02
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 52.48
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 54.88
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 46.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 50.74
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 51.78
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 51.35
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 30.96
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 39.21
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 40.96
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 45.59
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 50.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 56.58
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 56.57
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 61.1
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 48.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 48.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 49.98
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 49.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 9.45
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 19.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 26.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 33.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 38.07
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 32.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 36.69
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 55.07
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 60.37
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 60.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 68.53
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RS",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 35.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RS",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 41.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.43
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 53.64
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 58.14
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 69.44
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 71.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 73.4
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 70.48
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 63.55
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 72.93
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 66.21
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 66.41
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 54.35
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 58.53
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 61.67
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 60.33
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 41.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 52.72
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 55.33
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 58.58
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 57.69
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 60.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 58.9
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 58.59
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 52.68
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 52.71
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 57.31
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 59.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 43.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 59.63
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 60.91
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 63.01
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 67.52
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 69.84
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 71.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 73.16
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 59.56
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 60.34
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 63.63
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 60.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 13.43
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 26.92
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 33.81
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 34.36
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 37.01
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 30.43
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 36.97
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 42.49
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 42.36
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2003,
+      "OBS_VALUE": 59.26
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2004,
+      "OBS_VALUE": 53.6
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2005,
+      "OBS_VALUE": 64.22
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2006,
+      "OBS_VALUE": 61.02
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2007,
+      "OBS_VALUE": 64.95
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2009,
+      "OBS_VALUE": 67.03
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 72.46
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2012,
+      "OBS_VALUE": 63.21
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2014,
+      "OBS_VALUE": 72.79
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 61.42
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 63.69
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 66.51
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 62.54
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.06
+    },
+    {
+      "indic_is": "I_CCPY",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 32.39
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 13.9
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 46.57
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 46.33
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 48.9
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 46.44
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.36
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.48
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 33.29
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 31.77
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.13
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 12.34
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.82
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.05
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 10.64
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 48.45
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 47.71
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 28.77
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 19.87
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 29.61
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 20.57
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 27.05
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 20.95
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.87
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.79
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 45.56
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.06
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 46.45
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 47.77
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 49.11
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 52.3
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 46.62
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 42.64
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.25
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.16
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 35.52
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 37.66
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 14.64
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 16.5
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 16.29
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.3
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 35.59
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.12
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 36.6
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 39.24
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 51
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 50.87
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 53.88
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 55.47
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.17
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 31.31
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.77
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.91
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 29.2
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 28.59
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 17.82
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.95
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 28.28
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 27.34
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.86
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 25.65
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.15
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 22.67
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 24.34
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.97
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.95
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 46
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.37
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.32
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.23
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 36.84
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 38.3
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 40.57
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.53
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 54.5
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 57.09
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.01
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.6
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.08
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 14.24
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 15.32
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 13.77
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.95
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.98
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.61
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 13.25
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.07
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 10.03
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.76
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.41
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.69
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.8
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 43.37
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 47.28
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 48.38
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 48.05
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 49.46
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 46.64
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 48.26
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 49.11
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.94
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.88
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 31.22
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 25.64
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 35.91
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 34.78
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 37.36
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 37.02
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 14.84
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 12.12
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.5
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.45
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 14.91
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.36
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.55
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 37.37
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 47.08
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 39.03
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.1
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 32.6
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 31.88
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.11
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.36
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.63
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.79
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 26.04
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 13.58
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 17.07
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 21.65
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 16.69
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 46.6
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 48.56
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 50.39
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 49.47
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 2.39
+    },
+    {
+      "indic_is": "I_CEPVA",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 16.25
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "AT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 50.74
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "BE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 46.78
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "BG",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 35.59
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "CY",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 21.04
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "CZ",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 41.84
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "DE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 36.83
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "DK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 68.61
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "EE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 54.23
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "EL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 26.38
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "ES",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 44.36
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "FI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 60.28
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "FR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 35.18
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "HR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 39.98
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "HU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 43.83
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "IE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 52.37
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "IS",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 62.19
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "IT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 29.1
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "LT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 31.16
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "LU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 61.3
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "LV",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 40.8
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "MT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 42.43
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "NL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 70.82
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "NO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 59.18
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "PL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 36.8
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "PT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 37.01
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "RO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 22.19
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "SE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 77.77
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "SI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 46.84
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "SK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 41.11
+    },
+    {
+      "indic_is": "I_CISK_SFJOB",
+      "geo": "UK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 69.91
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "AT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.21
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "BE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 7.54
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "BG",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 26.6
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "CY",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0.22
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "CZ",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 9.9
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "DE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 15.59
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "DK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.3
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "EE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.45
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "EL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 2.3
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "ES",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0.59
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "FI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "FR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 5.2
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "HR",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "HU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.29
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "IE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "IS",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "IT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "LT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 7.93
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "LU",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.64
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "LV",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.35
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "MT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.14
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "NL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 2.27
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "NO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "PL",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 2.71
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "PT",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0.6
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "RO",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "SE",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 0.69
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "SI",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 7.6
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "SK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 2.88
+    },
+    {
+      "indic_is": "I_CISK_SFVIRNA",
+      "geo": "UK",
+      "TIME_PERIOD": 2011,
+      "OBS_VALUE": 1.53
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 9.05
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.04
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.11
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.59
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 45.72
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.72
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 33.01
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 34.49
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.6
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.2
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 17.77
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 13.93
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 15
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 14.55
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 52.43
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 52.22
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.53
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.55
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 19.96
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.04
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.37
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.79
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.77
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 19.81
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 38.98
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 39.09
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 39.39
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 39.58
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 57.47
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 58.45
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 51.81
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 48.79
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 36.93
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 33.76
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.46
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.02
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.68
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.66
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.77
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.22
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 37.68
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.99
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.63
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 45.01
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 45.77
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 45.77
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 49.69
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.95
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.07
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 36.47
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 35.13
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 43.6
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 41.15
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 25.47
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.41
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.01
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.42
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.18
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.26
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 29.59
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 28.57
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.7
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 38.17
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 53.94
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 54.57
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.38
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.98
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.08
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.73
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 28.84
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 30.81
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.99
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 62.67
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 57.43
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.41
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 36.08
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 24.03
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 23.93
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 24.09
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.65
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.98
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 32.56
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.71
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.06
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 20.97
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.66
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.9
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.36
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 34.85
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 35.59
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.58
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.23
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.66
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 46.39
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 54.58
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 49.46
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 52.92
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 50.15
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 21.22
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.16
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.9
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.55
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.67
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 34.35
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 36.29
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.56
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 13.05
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 12.46
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.61
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 13.92
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 16.8
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 25.02
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 26.84
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 34.16
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.88
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 48.37
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 46.84
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.99
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.02
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.37
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 33.38
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.11
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 32.14
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 37.5
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.84
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 18.36
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 23.52
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.69
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.39
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 44.54
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 47.17
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 51.1
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 50.19
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.62
+    },
+    {
+      "indic_is": "I_CPRES1",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.97
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 1.56
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 7.92
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 6.1
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 7.27
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 8.76
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 2.23
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 5.14
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 5.08
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 5.23
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.47
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 1.05
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 1.23
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 1.09
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.1
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 10.44
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2.22
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 2.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 2.79
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 3.74
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 3.54
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 3.18
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.29
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.21
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 5.84
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 5.64
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 5.53
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 5.95
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 13.23
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 14
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 14.3
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 6.78
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 6.93
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 6.94
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.38
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 9.54
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 5.75
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.14
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 6.02
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 6.38
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 5.92
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 7.6
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 9.19
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.33
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 9.86
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 4.86
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 5.02
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 6.18
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.16
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.14
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 7.08
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.83
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 8.56
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 3.19
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 3.43
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.03
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.09
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 3.82
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 4.52
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.75
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.69
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 12.83
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.91
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 4.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 4.35
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 5.85
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 4.28
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 3.98
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.47
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.66
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 12.84
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 10.97
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.77
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.63
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 1.25
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 2.23
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 1.98
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 2.53
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 2.94
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.07
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2.05
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 2.88
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 3.67
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 2.84
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 7.47
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 6.64
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 5.65
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.58
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 7.1
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.41
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 8.64
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 9.55
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.15
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 10.47
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 12.31
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.66
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2.19
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 2.61
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 3.21
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 3.46
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 6.54
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 6.45
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 7.98
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 8.17
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 1.01
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 1.4
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 1.3
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 1.04
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2.67
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.13
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.5
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.38
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 11.44
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.9
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 4.18
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 5.43
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.05
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 5.22
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 2.62
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 3.11
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 4.14
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 3.7
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 1.94
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 2.53
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 2.84
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 3.16
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 6.68
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.5
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.47
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 9.77
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 7.01
+    },
+    {
+      "indic_is": "I_CPRG1",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 5.07
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 6.78
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 45.54
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.96
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 46.43
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.8
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.76
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.42
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.14
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 45.07
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.78
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 15.55
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 14.04
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 16.37
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.92
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 60.53
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 60.67
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 27.54
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.33
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.52
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 28.38
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 44.29
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 39.14
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.46
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 48.94
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 38.13
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 37.65
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 40.04
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.43
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 63.41
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 59.97
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.35
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 54.48
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 49.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 44.36
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 42.62
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 43.89
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 39.61
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 40.69
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.63
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 38.3
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 37.85
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 37.4
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 35.82
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 38.22
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 50.77
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 52.08
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 51.28
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 53.42
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 41.36
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 40.33
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 40.29
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.11
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 45.78
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 47.79
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.15
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 43.14
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 37.1
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.88
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 34.61
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 35.63
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 28.05
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 25.64
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 34.4
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 35.3
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 71.32
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 70.97
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 30.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.7
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.11
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 40.54
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 38.66
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 40.88
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 42.16
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 64.73
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 68.3
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 68.54
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.56
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.76
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.8
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 30.89
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 32.17
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.81
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.66
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.14
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.44
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.63
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.55
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 38.89
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.11
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 39.54
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 40.58
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 51.46
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 55.82
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 58.46
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 56.8
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 53.56
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 56.84
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 61.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.76
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 27.88
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 28.09
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 27.9
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 35.95
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.75
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 38.01
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 37.17
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 9.15
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 12.62
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.73
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.22
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.1
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 24.48
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 25.53
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 44.73
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 46.65
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 50.62
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 49.49
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.3
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 42.17
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 44.7
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 44.41
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 35.32
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 40.18
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 41.62
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 34.68
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 21.59
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 29.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.51
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 42.71
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 47.36
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 49.47
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 50.32
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 15.85
+    },
+    {
+      "indic_is": "I_CXLS",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.4
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "AL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 4.85
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "AT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.9
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "AT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.53
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "AT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.83
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "AT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.33
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BA",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 3.88
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 21.08
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 21.6
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 21.96
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 21.89
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BG",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.64
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BG",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.44
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BG",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 9.14
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "BG",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 7.5
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CH",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 41.34
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CH",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 41.41
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CY",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CY",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 8.24
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CY",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 12.4
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CY",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 15.24
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CZ",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 17.27
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CZ",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 15.82
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CZ",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.8
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "CZ",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 22.97
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.9
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 30.94
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.15
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 33.28
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 35.85
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.29
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 29.68
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "DK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 33.65
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 31.8
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 28.46
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.88
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.55
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 15.49
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 16.5
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 17.88
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "EL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.89
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ES",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.52
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ES",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 24.4
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ES",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 22.45
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ES",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.98
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 33.53
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.17
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.69
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 33.78
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 25.88
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 27.35
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 26.79
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "FR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 26.52
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 23.42
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.28
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 12.98
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 25.14
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.07
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 24
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 23.79
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "HU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 24.68
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 19.02
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 17.32
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 19.54
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.9
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 49.27
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 51.4
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 20.77
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 20.39
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": ""
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "IT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 21.43
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 27.08
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 24.41
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 25.64
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 23.63
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LU",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 47.81
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LU",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 47.53
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LU",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 49.67
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LU",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.47
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LV",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 18.91
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LV",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 20.42
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LV",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 20.83
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "LV",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 17.4
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ME",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 7.98
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "ME",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 10.32
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 14.83
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 13.88
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 8.58
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 9.26
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.66
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.48
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.08
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "MT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.48
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 33.36
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 35.05
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 35.91
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 36.17
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 29.77
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.5
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.56
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "NO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.23
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PL",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 9.49
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PL",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 12.75
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PL",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 13.13
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PL",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 12.99
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PT",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 30.52
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PT",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.28
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PT",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.07
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "PT",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 30.42
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RO",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 6.26
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RO",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 7.37
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RO",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 8.42
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RO",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 5.42
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RS",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 10.14
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RS",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 10.62
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "RS",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 11.74
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SE",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 22.01
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SE",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 26.76
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SE",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 27.64
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SE",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 29.01
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SI",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 32.06
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SI",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 31.59
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SI",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 32.39
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SI",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 31.48
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 18.34
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 18.61
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 21.5
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "SK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 14.73
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "TR",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 12.18
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "TR",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 15.5
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "TR",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 18.97
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "TR",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 21.61
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "UK",
+      "TIME_PERIOD": 2015,
+      "OBS_VALUE": 29.78
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "UK",
+      "TIME_PERIOD": 2016,
+      "OBS_VALUE": 29.65
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "UK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 33.53
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "UK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 39.05
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "XK",
+      "TIME_PERIOD": 2017,
+      "OBS_VALUE": 1.26
+    },
+    {
+      "indic_is": "I_CXLSADV",
+      "geo": "XK",
+      "TIME_PERIOD": 2019,
+      "OBS_VALUE": 14.07
+    }
+  ]

@@ -180,15 +180,15 @@ function Test() {
                 var myColor = function (t) {
                     if (indicator === "H_ITV") {
                         //return d3.interpolateBlues(t);
-                        return "#BEA6A1"
+                        return "#db3d2f"
                     }
                     if (indicator === "H_IPC") {
                         //return d3.interpolateGreens(t);
-                        return "#009EA4"
+                        return "#DBA515"
                     }
                     if (indicator === "H_IMPH") {
                         //return d3.interpolateOranges(t);
-                        return "#A50F15"
+                        return "#006A3B"
                     }
                 };
 
