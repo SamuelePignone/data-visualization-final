@@ -97,6 +97,33 @@ text {
  }
 }
 
+.plottitle {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.plotintro {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.plotexpl {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
 #sus {
   background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
 }

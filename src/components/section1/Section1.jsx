@@ -24,6 +24,10 @@ function Section1() {
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
+    const [showDataPreparation, setShowDataPreparation] = useState(false);
+
+    const explainHeight = document.getElementById('explain-1') ? document.getElementById('explain-1').clientHeight : 0;
+
     // Fetch the internet access data
     useEffect(() => {
         setLoading(true);
@@ -193,11 +197,12 @@ function Section1() {
 
     return (
         <div className='w-screen'>
-
+            <h1 className='plottitle'>The Digital Divide in European Households</h1>
+            <p className='plotintro'>The first tap of the trip start from this map showing the percentage of households with internet access across European countries.</p>
             <div className='w-full flex justify-center items-center mb-6'>
                 <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
             </div>
-            {loading && ( <Loader /> )}
+            {loading && (<Loader />)}
             <div className='flex justify-center items-center w-full h-full'>
                 <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
             </div>
@@ -224,6 +229,18 @@ function Section1() {
                     setIsActive={setAnimation}
                     text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                 />
+            </div>
+            <p className='plotexpl'>To visually depict the geographical spread and disparities in internet access across Europe</p>
+            <div className='w-full flex flex-col items-center justify-center'>
+                <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        djfbaofh aoifna efnaeifu nauifnl ejkfnaeji nfae bfae bfalebfaehfb aelhb efbea bf aebfaeb fliabe feb afba fblae bfaieb fiuaeb fuiaelbfaefbaeif bae fbaef bael<br />
+                        fnaeifhaeifnae fnaekf haekfhakjefia enfe naelif nal inile fnilafeil fi aeifhae iofjhaei fjhaeil aheilfjilae fhe <br />
+                        djfbaofh aoifna efnaeifu nauifnl ejkfnaeji nfae bfae bfalebfaehfb aelhb efbea bf aebfaeb fliabe feb afba fblae bfaieb fiuaeb fuiaelbfaefbaeif bae fbaef bael<br />
+                        fnaeifhaeifnae fnaekf haekfhakjefia enfe naelif nal inile fnilafeil fi aeifhae iofjhaei fjhaeil aheilfjilae fhe <br />
+                    </p>
+                </div>
+                <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
             </div>
         </div>
     );
