@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { getColor } from '../Config';
+import { colorScheme } from '../Config';
 import * as d3 from 'd3';
+import Loader from '../Loader';
 
 const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yNHbo1Is82RqIZBFbkBBUA1rs4OXft0ghhucgXY8Kh7CfutB0Ed_nx-JL5i1i2tyZUegUWdTPTZ0/pub?gid=2024710507&single=true&output=csv";
 
@@ -25,11 +26,12 @@ function kernelEpanechnikov(k) {
 
 function Test() {
     const ref = useRef();
-    const [dimensions, setDimensions] = useState({ // Defaults
-        width: 960,
+    const [dimensions, setDimensions] = useState({
+        width: 800,
         height: 400,
         margin: { top: 50, right: 30, bottom: 30, left: 60 },
     });
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
 
@@ -42,7 +44,7 @@ function Test() {
         // append the svg object to the body of the page
         var svg = d3.select(ref.current)
             .append("svg")
-            .attr("width", "100%")
+            .attr("width", "60%")
             .attr("height", "100%")
             .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`) // This makes the chart responsive
             .attr("preserveAspectRatio", "xMidYMid meet")
@@ -102,7 +104,7 @@ function Test() {
 
             svg.append("g")
                 .attr("class", "xAxis")
-                .style("font-size", "15px")
+                .style("font-size", "12px")
                 .attr("transform", "translate(0," + (height) + ")")
                 .call(d3.axisBottom(x).tickValues([0, 25, 50, 75, 100]).tickSize(-height))
                 .select(".domain").remove()
@@ -132,7 +134,7 @@ function Test() {
 
             svg.append("g")
                 .call(d3.axisLeft(yName).tickSize(0))
-                .style("font-size", "15px")
+                .style("font-size", "12px")
                 .select(".domain").remove()
 
 
@@ -180,15 +182,17 @@ function Test() {
                 var myColor = function (t) {
                     if (indicator === "H_ITV") {
                         //return d3.interpolateBlues(t);
-                        return "#db3d2f"
+                        return colorScheme[0];
                     }
                     if (indicator === "H_IPC") {
                         //return d3.interpolateGreens(t);
-                        return "#DBA515"
+                        // return color in the middle of the color scheme
+                        return colorScheme[Math.floor(colorScheme.length / 2)];
                     }
                     if (indicator === "H_IMPH") {
                         //return d3.interpolateOranges(t);
-                        return "#006A3B"
+                        // return last color of the color scheme
+                        return colorScheme[colorScheme.length - 1];
                     }
                 };
 
@@ -213,7 +217,7 @@ function Test() {
                         return myColor(value / 100);
                     })
                     .datum(function (d) { return d.density; })
-                    .attr("opacity", 0.8)
+                    .attr("opacity", 1)
                     .attr("stroke", "#fff")
                     .attr("stroke-width", 1)
                     .attr("d", d3.line()
@@ -257,19 +261,21 @@ function Test() {
                             .transition()
                             .duration(200)
                             .attr("opacity", 0.7)
-                            .attr("stroke-width", 0.1);
+                            .attr("stroke-width", 1);
 
                         tooltip.transition()
                             .duration(200)
                             .style("opacity", 0);
                     })
             });
+            setLoading(false);
         })
     }, []);
 
     return (
         <>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '80vw', margin: '0 auto' }} ref={ref}>
+            {loading && <Loader />}
+            <div style={{ display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '80vw', margin: '0 auto' }} ref={ref}>
                 <svg></svg>
             </div>
             <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>

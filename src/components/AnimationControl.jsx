@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
-import { getColor } from './Config';
+import { extendedColorScheme } from './Config';
 import { BarList, BarListSeries } from 'reaviz';
 
 const AnimationControl = ({ start, end, year, onYearChange, isActive, setIsActive, text }) => {
@@ -39,7 +39,7 @@ const AnimationControl = ({ start, end, year, onYearChange, isActive, setIsActiv
     }, []);
 
     return (
-        <div className='w-full flex flex-col justify-center items-center'>
+        <div className='w-full flex flex-col justify-center items-center mt-4'>
             {isActive ? (
                 <>
                     <p>Year: {currentYear}</p>
@@ -53,7 +53,7 @@ const AnimationControl = ({ start, end, year, onYearChange, isActive, setIsActiv
                             }]}
                             series={
                                 <BarListSeries
-                                    colorScheme={['#a50f15']}
+                                    colorScheme={[extendedColorScheme[0]]}
                                     barClassName="bar" 
                                     outerBarClassName="outer" 
                                     valueClassName="value" 

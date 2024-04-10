@@ -5,8 +5,9 @@ import { getColor } from '../Config';
 import ColorLegend from '../ColorLegend';
 import Tooltip from '../Tooltip';
 import AnimationControl from '../AnimationControl';
-import { mapstate, mapvalue } from './MapState';
+import { mapstate, mapvalue } from '../MapState';
 import YearSelector from '../YearSelector';
+import Loader from '../Loader';
 
 function Section3D3() {
     const [selectedYear, setSelectedYear] = useState("2023");
@@ -15,7 +16,7 @@ function Section3D3() {
     const [dimensions, setDimensions] = useState({
         width: 900,
         height: 500,
-        margin: { top: 5, right: 25, bottom: 30, left: 100 },
+        margin: { top: 5, right: 25, bottom: 30, left: 150 },
     });
 
     const [tooltipContent, setTooltipContent] = useState('');
@@ -29,19 +30,19 @@ function Section3D3() {
     useEffect(() => {
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
-        
+
         const states = dataFile[selectedYear].map(d => d.key);
         const activities = dataFile[selectedYear][0].data.map(d => d.key);
-        
+
         const padding = 0.1;
-        
+
         const x = d3.scaleBand()
             .range([0, dimensions.width])
             .domain(states)
             .padding(padding);
-        
+
         const real_height = (padding * 2 * activities.length) + activities.length * x.bandwidth();
-        
+
         const y = d3.scaleBand()
             .range([0, real_height])
             .domain(activities)
@@ -56,15 +57,23 @@ function Section3D3() {
             .attr('transform', `translate(${dimensions.margin.left},${dimensions.margin.top})`);
 
         svg.append('g')
-            .style('font-size', 10)
+            .attr("class", "x-axis")
             .attr('transform', `translate(0, ${real_height + 4})`)
             .call(d3.axisBottom(x).tickSize(0))
-            .select('.domain').remove();
+            .selectAll('text')
+            .style('font-weight', "500")
+            .style('font-size', "18px");
+
+        svg.select('.x-axis').select('.domain').remove();
 
         svg.append('g')
-            .style('font-size', 10)
+            .attr("class", "y-axis")
             .call(d3.axisLeft(y).tickSize(0))
-            .select('.domain').remove();
+            .selectAll('text')
+            .style('font-size', "18px")
+            .style('font-weight', "500");
+
+        svg.select('.y-axis').select('.domain').remove();
 
         svg.selectAll()
             .data(dataFile[selectedYear], d => d.key)
@@ -88,9 +97,10 @@ function Section3D3() {
             .attr('width', x.bandwidth())
             .attr('height', y.bandwidth())
             .style('fill', d => getColor(d.data))
-            .style('stroke', 'black');
+            .style('stroke-width', 0.8)
+            .style('stroke', 'white');
 
-            setLoading(false);
+        setLoading(false);
     }, []);
 
     useEffect(() => {
@@ -119,7 +129,8 @@ function Section3D3() {
             <div className='w-full flex justify-center items-center mb-6'>
                 <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
             </div>
-            <div className='flex justify-center items-center w-full h-full'>
+            {loading && (<Loader />)}
+            <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
                 <div ref={ref} className='w-fit'></div>
                 <ColorLegend
                     orientation="vertical"
@@ -143,7 +154,7 @@ function Section3D3() {
                     onYearChange={(currentYear) => setSelectedYear(currentYear)}
                     isActive={animation}
                     setIsActive={setAnimation}
-                    text={'Start an animation from '+'2002'+' to '+'2023'}
+                    text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                 />
             </div>
         </>

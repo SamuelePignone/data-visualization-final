@@ -1,3 +1,4 @@
+import React, { useState, useRef, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'

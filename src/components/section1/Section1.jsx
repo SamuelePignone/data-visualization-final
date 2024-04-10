@@ -5,9 +5,8 @@ import { getColor } from '../Config';
 import ColorLegend from '../ColorLegend';
 import AnimationControl from '../AnimationControl';
 import YearSelector from '../YearSelector';
-import { BarList } from 'reaviz';
 import europemap from '../../map/europe_cleaned.json';
-import { FaCirclePlay, FaCircleStop } from "react-icons/fa6";
+import Loader from '../Loader';
 
 function Section1() {
     const ref = useRef();
@@ -18,7 +17,7 @@ function Section1() {
     });
     const [accessData, setAccessData] = useState([]);
     const [selectedYear, setSelectedYear] = useState("2023");
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [animation, setAnimation] = useState(false);
 
     const [tooltipContent, setTooltipContent] = useState('');
@@ -194,10 +193,11 @@ function Section1() {
 
     return (
         <div className='w-screen'>
+
             <div className='w-full flex justify-center items-center mb-6'>
                 <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
             </div>
-            {loading && <p>Loading...</p>}
+            {loading && ( <Loader /> )}
             <div className='flex justify-center items-center w-full h-full'>
                 <div ref={ref} style={{ width: '100%', height: '100%', display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center' }}></div>
             </div>
