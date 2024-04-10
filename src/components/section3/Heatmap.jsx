@@ -18,6 +18,7 @@ function Section3D3() {
         height: 500,
         margin: { top: 5, right: 25, bottom: 30, left: 150 },
     });
+    const [showDataPreparation, setShowDataPreparation] = useState(false);
 
     const [tooltipContent, setTooltipContent] = useState('');
     const [tooltipVisible, setTooltipVisible] = useState(false);
@@ -126,6 +127,9 @@ function Section3D3() {
 
     return (
         <>
+        <div className='w-screen'>
+            <h1 className='plottitle'>Digital Participation of Individuals</h1>
+            <p className='plotintro'>So, what do people in different countries do with the internet. Many things, in this heatmap we see the most common ones.</p>
             <div className='w-full flex justify-center items-center mb-6'>
                 <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
             </div>
@@ -157,6 +161,17 @@ function Section3D3() {
                     text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                 />
             </div>
+            <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet.</p>
+            <div className='w-full flex flex-col items-center justify-center'>
+                <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                    For this chart, we used this <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> also produced by eurostat. We modified it to get a <code>.json</code> file.<br />
+                    Where we have the different years, as the outermost key, which contain the different countries which in turn contain the value for each activity done online.
+                    </p>
+                </div>
+                <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+            </div>
+        </div>
         </>
     );
 }
