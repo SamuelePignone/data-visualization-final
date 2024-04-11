@@ -21,6 +21,9 @@ function LineChart() {
     const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
     const ind_type_list = [...new Set(dataFile.map(d => d.ind_type))];
 
+    const [showDataPreparation, setShowDataPreparation] = useState(false);
+
+
     const [tooltipContent, setTooltipContent] = useState('');
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
@@ -257,11 +260,13 @@ function LineChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64'>
-                {loading && <Loader />}
+                <h1 className='plottitle'>E-commerce engagement</h1>
+                <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
                 </div>
+                {loading && <Loader />}
                 <Tooltip
                     content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
                     isVisible={tooltipVisible}
@@ -271,6 +276,15 @@ function LineChart() {
                     }}
                     className={'text-center'}
                 />
+                    <p className='plotexpl'>Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
+                    <div className='w-full flex flex-col items-center justify-center'>
+                        <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                            <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                            For this plot we used this <a href="https://doi.org/10.2908/ISOC_EC_IB20">dataset</a> from eurostat. We took the information regarding 3 age groups (16-24 years ,25-54 years, 55-74 years) and the average indicated in the dataset with <code>IND_TOTAL</code>. Aggregate data for the <code>"geo"</code> column such as <code>[EU27_2020]</code> were removed. <br />
+                            Finally, we converted the file from .csv to .json as a matter of convenience.                            </p>
+                        </div>
+                            <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                    </div>
             </div>
         </>
     )
