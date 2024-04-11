@@ -127,51 +127,51 @@ function Section3D3() {
 
     return (
         <>
-        <div className='w-screen'>
-            <h1 className='plottitle'>Digital Participation of Individuals</h1>
-            <p className='plotintro'>So, what do people in different countries do with the internet. Many things, in this heatmap we see the most common ones.</p>
-            <div className='w-full flex justify-center items-center mb-6'>
-                <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
-            </div>
-            {loading && (<Loader />)}
-            <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
-                <div ref={ref} className='w-fit'></div>
-                <ColorLegend
-                    orientation="vertical"
-                    startLabel="100%"
-                    endLabel="0%"
-                />
-            </div>
-            <Tooltip
-                content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
-                isVisible={tooltipVisible}
-                style={{
-                    left: tooltipPosition.x,
-                    top: tooltipPosition.y,
-                }}
-            />
-            <div className='w-full flex flex-col justify-center items-center'>
-                <AnimationControl
-                    start={2002}
-                    end={2023}
-                    year={selectedYear}
-                    onYearChange={(currentYear) => setSelectedYear(currentYear)}
-                    isActive={animation}
-                    setIsActive={setAnimation}
-                    text={'Start an animation from ' + '2002' + ' to ' + '2023'}
-                />
-            </div>
-            <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet.</p>
-            <div className='w-full flex flex-col items-center justify-center'>
-                <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
-                    For this chart, we used this <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> also produced by eurostat. We modified it to get a <code>.json</code> file.<br />
-                    Where we have the different years, as the outermost key, which contain the different countries which in turn contain the value for each activity done online.
-                    </p>
+            <div className='w-screen'>
+                <h1 className='plottitle'>Digital Participation of Individuals</h1>
+                <p className='plotintro'>So, what do people in different countries do with the internet. Many things, in this heatmap we see the most common ones.</p>
+                <div className='w-full flex justify-center items-center mb-6'>
+                    <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
                 </div>
-                <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                {loading && (<Loader />)}
+                <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
+                    <div ref={ref} className='w-fit'></div>
+                    <ColorLegend
+                        orientation="vertical"
+                        startLabel="100%"
+                        endLabel="0%"
+                    />
+                </div>
+                <Tooltip
+                    content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
+                    isVisible={tooltipVisible}
+                    style={{
+                        left: tooltipPosition.x,
+                        top: tooltipPosition.y,
+                    }}
+                />
+                <div className='w-full flex flex-col justify-center items-center'>
+                    <AnimationControl
+                        start={2002}
+                        end={2023}
+                        year={selectedYear}
+                        onYearChange={(currentYear) => setSelectedYear(currentYear)}
+                        isActive={animation}
+                        setIsActive={setAnimation}
+                        text={'Start an animation from ' + '2002' + ' to ' + '2023'}
+                    />
+                </div>
+                <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet.</p>
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                            For this chart, we used this <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> also produced by eurostat. We modified it to get a <code>.json</code> file.<br />
+                            Where we have the different years, as the outermost key, which contain the different countries which in turn contain the value for each activity done online.
+                        </p>
+                    </div>
+                    <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                </div>
             </div>
-        </div>
         </>
     );
 }
