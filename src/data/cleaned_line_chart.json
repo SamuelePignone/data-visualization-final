@@ -1,0 +1,3290 @@
+[
+  {
+    "geo": "AL",
+    "time_period": 2020,
+    "obs_value": 14.43,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2021,
+    "obs_value": 17.18,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2022,
+    "obs_value": 29.75,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2020,
+    "obs_value": 66.3,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2021,
+    "obs_value": 63.17,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2022,
+    "obs_value": 65.65,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2023,
+    "obs_value": 72.17,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2020,
+    "obs_value": 27.96,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2021,
+    "obs_value": 29.95,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2023,
+    "obs_value": 34.71,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2020,
+    "obs_value": 72.72,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2021,
+    "obs_value": 75.19,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2022,
+    "obs_value": 74.83,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2023,
+    "obs_value": 75.26,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2020,
+    "obs_value": 30.95,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2021,
+    "obs_value": 33.04,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2022,
+    "obs_value": 40.54,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2023,
+    "obs_value": 45.19,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2021,
+    "obs_value": 82.69,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2023,
+    "obs_value": 83.42,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2020,
+    "obs_value": 47.19,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2021,
+    "obs_value": 54.01,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2022,
+    "obs_value": 50.06,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2023,
+    "obs_value": 56.83,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2020,
+    "obs_value": 71.64,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2021,
+    "obs_value": 75.48,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2022,
+    "obs_value": 77,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2023,
+    "obs_value": 77.68,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2020,
+    "obs_value": 82.55,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2021,
+    "obs_value": 76.02,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2022,
+    "obs_value": 76.18,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2023,
+    "obs_value": 77.48,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2020,
+    "obs_value": 89.31,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2021,
+    "obs_value": 90.82,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2022,
+    "obs_value": 88.3,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2023,
+    "obs_value": 89.01,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2020,
+    "obs_value": 68.43,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2021,
+    "obs_value": 70.32,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2022,
+    "obs_value": 70.83,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2023,
+    "obs_value": 73.12,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2020,
+    "obs_value": 46.35,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2021,
+    "obs_value": 54.22,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2022,
+    "obs_value": 58.69,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2023,
+    "obs_value": 57.53,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2020,
+    "obs_value": 62.62,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2021,
+    "obs_value": 66.63,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2022,
+    "obs_value": 67.91,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2023,
+    "obs_value": 68.88,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2020,
+    "obs_value": 75.83,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2021,
+    "obs_value": 78.64,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2022,
+    "obs_value": 78.64,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2023,
+    "obs_value": 79.14,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2021,
+    "obs_value": 75.68,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2022,
+    "obs_value": 75.85,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2023,
+    "obs_value": 76.93,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2020,
+    "obs_value": 55.01,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2021,
+    "obs_value": 57.35,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2022,
+    "obs_value": 56.15,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2023,
+    "obs_value": 59.14,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2020,
+    "obs_value": 60.02,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2021,
+    "obs_value": 66.01,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2022,
+    "obs_value": 70.32,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2023,
+    "obs_value": 69.67,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2020,
+    "obs_value": 74.38,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2021,
+    "obs_value": 87.41,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2022,
+    "obs_value": 82,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2023,
+    "obs_value": 87.12,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2020,
+    "obs_value": 82.77,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2021,
+    "obs_value": 84.65,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2020,
+    "obs_value": 43.93,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2021,
+    "obs_value": 51.45,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2022,
+    "obs_value": 49.3,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2023,
+    "obs_value": 51.11,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2020,
+    "obs_value": 53.81,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2021,
+    "obs_value": 60,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2022,
+    "obs_value": 60.06,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2023,
+    "obs_value": 60.91,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2020,
+    "obs_value": 78.57,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2021,
+    "obs_value": 80.97,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2022,
+    "obs_value": 80.81,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2023,
+    "obs_value": 79.79,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2020,
+    "obs_value": 56.22,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2021,
+    "obs_value": 61.82,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2022,
+    "obs_value": 61.98,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2023,
+    "obs_value": 62.14,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2020,
+    "obs_value": 22.75,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2021,
+    "obs_value": 26.44,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2022,
+    "obs_value": 27.63,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2023,
+    "obs_value": 28.74,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2020,
+    "obs_value": 33.63,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2021,
+    "obs_value": 40.37,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2020,
+    "obs_value": 62.81,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2021,
+    "obs_value": 64.62,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2022,
+    "obs_value": 67.64,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2023,
+    "obs_value": 67.68,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2020,
+    "obs_value": 86.6,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2021,
+    "obs_value": 89.47,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2022,
+    "obs_value": 88.21,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2023,
+    "obs_value": 92.41,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2020,
+    "obs_value": 84.98,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2021,
+    "obs_value": 91.57,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2022,
+    "obs_value": 91.97,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2023,
+    "obs_value": 90.71,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2020,
+    "obs_value": 60.93,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2021,
+    "obs_value": 61.17,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2022,
+    "obs_value": 64.58,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2023,
+    "obs_value": 64.32,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2020,
+    "obs_value": 44.5,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2021,
+    "obs_value": 51.59,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2022,
+    "obs_value": 53.53,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2023,
+    "obs_value": 54.75,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2020,
+    "obs_value": 37.86,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2021,
+    "obs_value": 38.49,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2022,
+    "obs_value": 45.73,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2023,
+    "obs_value": 50.3,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2020,
+    "obs_value": 38.38,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2021,
+    "obs_value": 44.67,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2022,
+    "obs_value": 53.58,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2023,
+    "obs_value": 57.75,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2020,
+    "obs_value": 84.15,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2021,
+    "obs_value": 86.74,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2022,
+    "obs_value": 85.96,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2023,
+    "obs_value": 88.75,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2020,
+    "obs_value": 62.91,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2021,
+    "obs_value": 71.2,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2022,
+    "obs_value": 62.58,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2023,
+    "obs_value": 65.85,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2020,
+    "obs_value": 62.45,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2021,
+    "obs_value": 75.32,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2022,
+    "obs_value": 76.72,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2023,
+    "obs_value": 76.82,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2020,
+    "obs_value": 32.62,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2021,
+    "obs_value": 40,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2022,
+    "obs_value": 42.17,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2023,
+    "obs_value": 45.87,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "UK",
+    "time_period": 2020,
+    "obs_value": 90.22,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "XK",
+    "time_period": 2020,
+    "obs_value": 45.61,
+    "ind_type": "IND_TOTAL"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2020,
+    "obs_value": 27.14,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2021,
+    "obs_value": 36.08,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2022,
+    "obs_value": 45.27,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2020,
+    "obs_value": 87.43,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2021,
+    "obs_value": 77.82,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2022,
+    "obs_value": 81.19,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2023,
+    "obs_value": 84.39,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2020,
+    "obs_value": 38.99,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2021,
+    "obs_value": 43.84,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2023,
+    "obs_value": 59.19,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2020,
+    "obs_value": 80.85,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2021,
+    "obs_value": 87.87,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2022,
+    "obs_value": 82.68,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2023,
+    "obs_value": 83.93,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2020,
+    "obs_value": 47.72,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2021,
+    "obs_value": 45.04,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2022,
+    "obs_value": 56.49,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2023,
+    "obs_value": 63.05,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2021,
+    "obs_value": 88.63,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2023,
+    "obs_value": 91.9,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2020,
+    "obs_value": 59.89,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2021,
+    "obs_value": 70.94,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2022,
+    "obs_value": 63.3,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2023,
+    "obs_value": 68.14,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2020,
+    "obs_value": 85.45,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2021,
+    "obs_value": 86.51,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2022,
+    "obs_value": 90.28,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2023,
+    "obs_value": 90.59,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2020,
+    "obs_value": 85.55,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2021,
+    "obs_value": 84.23,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2022,
+    "obs_value": 80.31,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2023,
+    "obs_value": 81.21,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2020,
+    "obs_value": 97.15,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2021,
+    "obs_value": 96.08,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2022,
+    "obs_value": 93.15,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2023,
+    "obs_value": 93.22,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2020,
+    "obs_value": 86.8,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2021,
+    "obs_value": 87.01,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2022,
+    "obs_value": 86.94,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2023,
+    "obs_value": 87.45,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2020,
+    "obs_value": 66.69,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2021,
+    "obs_value": 80.52,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2022,
+    "obs_value": 80.57,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2023,
+    "obs_value": 78.41,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2020,
+    "obs_value": 74.37,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2021,
+    "obs_value": 78.3,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2022,
+    "obs_value": 78.99,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2023,
+    "obs_value": 80.21,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2020,
+    "obs_value": 85.85,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2021,
+    "obs_value": 90.19,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2022,
+    "obs_value": 84.8,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2023,
+    "obs_value": 84.82,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2021,
+    "obs_value": 85.81,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2022,
+    "obs_value": 89.2,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2023,
+    "obs_value": 85.84,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2020,
+    "obs_value": 87.49,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2021,
+    "obs_value": 83.44,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2022,
+    "obs_value": 84.42,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2023,
+    "obs_value": 85.36,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2020,
+    "obs_value": 77.54,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2021,
+    "obs_value": 78.58,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2022,
+    "obs_value": 81.13,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2023,
+    "obs_value": 77.99,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2020,
+    "obs_value": "",
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2021,
+    "obs_value": "",
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2022,
+    "obs_value": "",
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2023,
+    "obs_value": 100,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2020,
+    "obs_value": 91.36,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2021,
+    "obs_value": 87.44,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2020,
+    "obs_value": 59.21,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2021,
+    "obs_value": 67.38,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2022,
+    "obs_value": 64.97,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2023,
+    "obs_value": 65.98,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2020,
+    "obs_value": 72.24,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2021,
+    "obs_value": 83.97,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2022,
+    "obs_value": 81.12,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2023,
+    "obs_value": 84.3,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2020,
+    "obs_value": 77.86,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2021,
+    "obs_value": 76.72,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2022,
+    "obs_value": 83.65,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2023,
+    "obs_value": 81.86,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2020,
+    "obs_value": 78.45,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2021,
+    "obs_value": 85.48,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2022,
+    "obs_value": 85.33,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2023,
+    "obs_value": 78.54,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2020,
+    "obs_value": 41.6,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2021,
+    "obs_value": 50.91,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2022,
+    "obs_value": 52.12,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2023,
+    "obs_value": 57.62,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2020,
+    "obs_value": 49.33,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2021,
+    "obs_value": 53.76,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2020,
+    "obs_value": 84.71,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2021,
+    "obs_value": 90.68,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2022,
+    "obs_value": 93.49,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2023,
+    "obs_value": 91.25,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2020,
+    "obs_value": 92.68,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2021,
+    "obs_value": 91.82,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2022,
+    "obs_value": 89.03,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2023,
+    "obs_value": 97.41,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2020,
+    "obs_value": 93.58,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2021,
+    "obs_value": 95.48,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2022,
+    "obs_value": 95.41,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2023,
+    "obs_value": 91.09,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2020,
+    "obs_value": 77.82,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2021,
+    "obs_value": 79.25,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2022,
+    "obs_value": 79.93,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2023,
+    "obs_value": 76.65,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2020,
+    "obs_value": 68.96,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2021,
+    "obs_value": 76.49,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2022,
+    "obs_value": 78.71,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2023,
+    "obs_value": 79.95,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2020,
+    "obs_value": 53.6,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2021,
+    "obs_value": 51.51,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2022,
+    "obs_value": 63.11,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2023,
+    "obs_value": 69.72,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2020,
+    "obs_value": 53.26,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2021,
+    "obs_value": 72.63,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2022,
+    "obs_value": 76.18,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2023,
+    "obs_value": 86.01,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2020,
+    "obs_value": 79.68,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2021,
+    "obs_value": 88.21,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2022,
+    "obs_value": 82.03,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2023,
+    "obs_value": 83.23,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2020,
+    "obs_value": 84.11,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2021,
+    "obs_value": 86.62,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2022,
+    "obs_value": 81.54,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2023,
+    "obs_value": 84.46,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2020,
+    "obs_value": 78.78,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2021,
+    "obs_value": 88.39,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2022,
+    "obs_value": 94.78,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2023,
+    "obs_value": 92.7,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2020,
+    "obs_value": 46.36,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2021,
+    "obs_value": 62.11,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2022,
+    "obs_value": 62.33,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2023,
+    "obs_value": 68.05,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "UK",
+    "time_period": 2020,
+    "obs_value": 96.23,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "XK",
+    "time_period": 2020,
+    "obs_value": 61.54,
+    "ind_type": "Y16_24"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2020,
+    "obs_value": 17.4,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2021,
+    "obs_value": 19.11,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2022,
+    "obs_value": 35.18,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2020,
+    "obs_value": 76.76,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2021,
+    "obs_value": 74,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2022,
+    "obs_value": 74.38,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2023,
+    "obs_value": 82.11,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2020,
+    "obs_value": 38.28,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2021,
+    "obs_value": 42.66,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2023,
+    "obs_value": 52.19,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2020,
+    "obs_value": 82.35,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2021,
+    "obs_value": 83.28,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2022,
+    "obs_value": 83.69,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2023,
+    "obs_value": 83.78,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2020,
+    "obs_value": 41.19,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2021,
+    "obs_value": 43.69,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2022,
+    "obs_value": 53.28,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2023,
+    "obs_value": 59.48,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2021,
+    "obs_value": 89.25,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2023,
+    "obs_value": 90.37,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2020,
+    "obs_value": 57.83,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2021,
+    "obs_value": 65.97,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2022,
+    "obs_value": 61.42,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2023,
+    "obs_value": 70.82,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2020,
+    "obs_value": 84.77,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2021,
+    "obs_value": 88.12,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2022,
+    "obs_value": 88.77,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2023,
+    "obs_value": 89.96,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2020,
+    "obs_value": 92.42,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2021,
+    "obs_value": 85,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2022,
+    "obs_value": 84.48,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2023,
+    "obs_value": 85.54,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2020,
+    "obs_value": 93.59,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2021,
+    "obs_value": 94.47,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2022,
+    "obs_value": 92.37,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2023,
+    "obs_value": 92.88,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2020,
+    "obs_value": 83.17,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2021,
+    "obs_value": 84.22,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2022,
+    "obs_value": 83.73,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2023,
+    "obs_value": 86.06,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2020,
+    "obs_value": 59.47,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2021,
+    "obs_value": 69.3,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2022,
+    "obs_value": 69.99,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2023,
+    "obs_value": 70.18,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2020,
+    "obs_value": 74.08,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2021,
+    "obs_value": 77.8,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2022,
+    "obs_value": 78.92,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2023,
+    "obs_value": 79.85,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2020,
+    "obs_value": 89.14,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2021,
+    "obs_value": 88.62,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2022,
+    "obs_value": 90.29,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2023,
+    "obs_value": 90.81,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2021,
+    "obs_value": 84.64,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2022,
+    "obs_value": 86.17,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2023,
+    "obs_value": 86.52,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2020,
+    "obs_value": 68.82,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2021,
+    "obs_value": 74.23,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2022,
+    "obs_value": 74.41,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2023,
+    "obs_value": 74.68,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2020,
+    "obs_value": 71.5,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2021,
+    "obs_value": 77.52,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2022,
+    "obs_value": 82.56,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2023,
+    "obs_value": 81.47,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2020,
+    "obs_value": 83.85,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2021,
+    "obs_value": 94.42,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2022,
+    "obs_value": 92.29,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2023,
+    "obs_value": 97.49,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2020,
+    "obs_value": 89.9,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2021,
+    "obs_value": 92.62,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2020,
+    "obs_value": 53.61,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2021,
+    "obs_value": 61.66,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2022,
+    "obs_value": 58.4,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2023,
+    "obs_value": 60.82,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2020,
+    "obs_value": 69.99,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2021,
+    "obs_value": 75.33,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2022,
+    "obs_value": 76.53,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2023,
+    "obs_value": 77.31,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2020,
+    "obs_value": 84.13,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2021,
+    "obs_value": 86.3,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2022,
+    "obs_value": 87.7,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2023,
+    "obs_value": 87.74,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2020,
+    "obs_value": 69.87,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2021,
+    "obs_value": 76.34,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2022,
+    "obs_value": 77.94,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2023,
+    "obs_value": 78.06,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2020,
+    "obs_value": 31,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2021,
+    "obs_value": 30.5,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2022,
+    "obs_value": 34.39,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2023,
+    "obs_value": 35.71,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2020,
+    "obs_value": 39.63,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2021,
+    "obs_value": 48.83,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2020,
+    "obs_value": 76.43,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2021,
+    "obs_value": 77.55,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2022,
+    "obs_value": 80.59,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2023,
+    "obs_value": 79.18,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2020,
+    "obs_value": 91.17,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2021,
+    "obs_value": 93.11,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2022,
+    "obs_value": 92.45,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2023,
+    "obs_value": 96.58,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2020,
+    "obs_value": 93.56,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2021,
+    "obs_value": 96.54,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2022,
+    "obs_value": 95.29,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2023,
+    "obs_value": 96.35,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2020,
+    "obs_value": 76.69,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2021,
+    "obs_value": 76.44,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2022,
+    "obs_value": 80,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2023,
+    "obs_value": 81.47,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2020,
+    "obs_value": 56.9,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2021,
+    "obs_value": 65.5,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2022,
+    "obs_value": 67.42,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2023,
+    "obs_value": 68.92,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2020,
+    "obs_value": 46.68,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2021,
+    "obs_value": 48.51,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2022,
+    "obs_value": 55.66,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2023,
+    "obs_value": 61.06,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2020,
+    "obs_value": 51.56,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2021,
+    "obs_value": 55.68,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2022,
+    "obs_value": 68.2,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2023,
+    "obs_value": 71.93,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2020,
+    "obs_value": 92.81,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2021,
+    "obs_value": 92.96,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2022,
+    "obs_value": 92.39,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2023,
+    "obs_value": 93.91,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2020,
+    "obs_value": 77.02,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2021,
+    "obs_value": 84.04,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2022,
+    "obs_value": 76.58,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2023,
+    "obs_value": 77.71,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2020,
+    "obs_value": 70.96,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2021,
+    "obs_value": 86.51,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2022,
+    "obs_value": 87.8,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2023,
+    "obs_value": 88.23,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2020,
+    "obs_value": 38.11,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2021,
+    "obs_value": 45.31,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2022,
+    "obs_value": 48.77,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2023,
+    "obs_value": 53.09,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "UK",
+    "time_period": 2020,
+    "obs_value": 96.36,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "XK",
+    "time_period": 2020,
+    "obs_value": 49.79,
+    "ind_type": "Y25_54"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2020,
+    "obs_value": 2.45,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2021,
+    "obs_value": 2.74,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AL",
+    "time_period": 2022,
+    "obs_value": 10.99,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2020,
+    "obs_value": 39.46,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2021,
+    "obs_value": 39.19,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2022,
+    "obs_value": 45.24,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "AT",
+    "time_period": 2023,
+    "obs_value": 51.33,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2020,
+    "obs_value": 13.61,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2021,
+    "obs_value": 13.82,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BA",
+    "time_period": 2023,
+    "obs_value": 13.89,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2020,
+    "obs_value": 52.98,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2021,
+    "obs_value": 56.16,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2022,
+    "obs_value": 56.82,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BE",
+    "time_period": 2023,
+    "obs_value": 57.71,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2020,
+    "obs_value": 9.78,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2021,
+    "obs_value": 12.54,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2022,
+    "obs_value": 15.23,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "BG",
+    "time_period": 2023,
+    "obs_value": 19.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2021,
+    "obs_value": 68.75,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CH",
+    "time_period": 2023,
+    "obs_value": 68.05,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2020,
+    "obs_value": 18.36,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2021,
+    "obs_value": 20.43,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2022,
+    "obs_value": 20.48,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CY",
+    "time_period": 2023,
+    "obs_value": 22.9,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2020,
+    "obs_value": 43.82,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2021,
+    "obs_value": 49.4,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2022,
+    "obs_value": 52.04,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "CZ",
+    "time_period": 2023,
+    "obs_value": 51.84,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2020,
+    "obs_value": 65.31,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2021,
+    "obs_value": 60.64,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2022,
+    "obs_value": 62.99,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DE",
+    "time_period": 2023,
+    "obs_value": 64.57,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2020,
+    "obs_value": 78.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2021,
+    "obs_value": 82.5,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2022,
+    "obs_value": 79.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "DK",
+    "time_period": 2023,
+    "obs_value": 80.82,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2020,
+    "obs_value": 36.07,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2021,
+    "obs_value": 40.39,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2022,
+    "obs_value": 42.87,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EE",
+    "time_period": 2023,
+    "obs_value": 45.09,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2020,
+    "obs_value": 17.51,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2021,
+    "obs_value": 22.88,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2022,
+    "obs_value": 24.55,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "EL",
+    "time_period": 2023,
+    "obs_value": 30.2,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2020,
+    "obs_value": 37.13,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2021,
+    "obs_value": 42.39,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2022,
+    "obs_value": 44.68,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ES",
+    "time_period": 2023,
+    "obs_value": 45.91,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2020,
+    "obs_value": 53.2,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2021,
+    "obs_value": 59.72,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2022,
+    "obs_value": 59.12,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FI",
+    "time_period": 2023,
+    "obs_value": 59.5,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2021,
+    "obs_value": 57.65,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2022,
+    "obs_value": 54.44,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "FR",
+    "time_period": 2023,
+    "obs_value": 58.29,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2020,
+    "obs_value": 21.5,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2021,
+    "obs_value": 24.2,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2022,
+    "obs_value": 21.82,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HR",
+    "time_period": 2023,
+    "obs_value": 27.78,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2020,
+    "obs_value": 32.86,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2021,
+    "obs_value": 40.75,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2022,
+    "obs_value": 44.47,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "HU",
+    "time_period": 2023,
+    "obs_value": 45.65,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2020,
+    "obs_value": 61.52,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2021,
+    "obs_value": 74.85,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2022,
+    "obs_value": 53.35,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IE",
+    "time_period": 2023,
+    "obs_value": 61.85,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2020,
+    "obs_value": 63.02,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IS",
+    "time_period": 2021,
+    "obs_value": 66.66,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2020,
+    "obs_value": 24.13,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2021,
+    "obs_value": 31.2,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2022,
+    "obs_value": 30.77,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "IT",
+    "time_period": 2023,
+    "obs_value": 32.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2020,
+    "obs_value": 20.96,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2021,
+    "obs_value": 26.76,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2022,
+    "obs_value": 27.48,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LT",
+    "time_period": 2023,
+    "obs_value": 27.55,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2020,
+    "obs_value": 66.36,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2021,
+    "obs_value": 71.27,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2022,
+    "obs_value": 64.34,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LU",
+    "time_period": 2023,
+    "obs_value": 61.46,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2020,
+    "obs_value": 26.55,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2021,
+    "obs_value": 31.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2022,
+    "obs_value": 29.76,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "LV",
+    "time_period": 2023,
+    "obs_value": 32.3,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2020,
+    "obs_value": 4.53,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2021,
+    "obs_value": 9.85,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2022,
+    "obs_value": 11.15,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "ME",
+    "time_period": 2023,
+    "obs_value": 8.95,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2020,
+    "obs_value": 13.25,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MK",
+    "time_period": 2021,
+    "obs_value": 16.8,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2020,
+    "obs_value": 26.78,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2021,
+    "obs_value": 28.05,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2022,
+    "obs_value": 30.68,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "MT",
+    "time_period": 2023,
+    "obs_value": 33.52,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2020,
+    "obs_value": 76.69,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2021,
+    "obs_value": 82.81,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2022,
+    "obs_value": 81.28,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NL",
+    "time_period": 2023,
+    "obs_value": 83.68,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2020,
+    "obs_value": 64.58,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2021,
+    "obs_value": 80.41,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2022,
+    "obs_value": 84.17,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "NO",
+    "time_period": 2023,
+    "obs_value": 80.17,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2020,
+    "obs_value": 27.17,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2021,
+    "obs_value": 29.16,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2022,
+    "obs_value": 32.27,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PL",
+    "time_period": 2023,
+    "obs_value": 32.52,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2020,
+    "obs_value": 15.62,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2021,
+    "obs_value": 20.55,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2022,
+    "obs_value": 22.94,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "PT",
+    "time_period": 2023,
+    "obs_value": 24.02,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2020,
+    "obs_value": 14.01,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2021,
+    "obs_value": 14.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2022,
+    "obs_value": 19.19,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RO",
+    "time_period": 2023,
+    "obs_value": 24.56,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2020,
+    "obs_value": 13.32,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2021,
+    "obs_value": 16.63,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2022,
+    "obs_value": 22.45,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "RS",
+    "time_period": 2023,
+    "obs_value": 26.63,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2020,
+    "obs_value": 70.79,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2021,
+    "obs_value": 75.01,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2022,
+    "obs_value": 76.14,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SE",
+    "time_period": 2023,
+    "obs_value": 82.15,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2020,
+    "obs_value": 32.42,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2021,
+    "obs_value": 45.6,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2022,
+    "obs_value": 34.58,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SI",
+    "time_period": 2023,
+    "obs_value": 41.5,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2020,
+    "obs_value": 39.87,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2021,
+    "obs_value": 49.52,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2022,
+    "obs_value": 49.76,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "SK",
+    "time_period": 2023,
+    "obs_value": 50.41,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2020,
+    "obs_value": 6.43,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2021,
+    "obs_value": 8.32,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2022,
+    "obs_value": 9.09,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "TR",
+    "time_period": 2023,
+    "obs_value": 10.45,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "UK",
+    "time_period": 2020,
+    "obs_value": 76.68,
+    "ind_type": "Y55_74"
+  },
+  {
+    "geo": "XK",
+    "time_period": 2020,
+    "obs_value": 26.31,
+    "ind_type": "Y55_74"
+  }
+]

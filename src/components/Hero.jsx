@@ -9,15 +9,15 @@ function Hero() {
                 <div className='w-full h-full bg-black opacity-10 absolute'></div>
             </div>
             <div className='relative'>
-                <div className='w-screen h-screen z-[99999]' id="sus">
-                    <div className="ocean">
+                <div className='w-screen h-screen' id="sus">
+                    <div className="ocean z-[99999]">
                         <div className="wave"></div>
                         <div className="wave"></div>
                     </div>
                 </div>
-                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center pb-20'>
-                    <p className='text-8xl'>🏄🏻‍♂️</p>
-                    <p className='text-7xl font-extrabold text-blue-300 z-10 text-center'>Surfing the Digital Wave</p>
+                <div className='absolute w-[70%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center pb-20 z-[99]'>
+                    <p className='text-8xl animate-[bounce_3s__infinite]'>🏄🏻‍♂️</p>
+                    <p className='text-9xl font-extrabold text-blue-300 z-10 text-center w-90%'>Surfing the Digital Wave</p>
                 </div>
             </div>
             <div className='hidden w-screen z-[9999]'>

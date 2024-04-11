@@ -197,7 +197,7 @@ function MultipleBarChart() {
 
     return (
     <>
-        <div className='w-screen mt-24 mb-64'>
+        <div className='w-screen mt-24'>
             <h1 className='plottitle'>Individuals' Digital Skills Development</h1>
             <p className='plotintro'>With this small bar chart the different skills of people in different countries of Europe are shown.</p>
             {loading && <Loader />}

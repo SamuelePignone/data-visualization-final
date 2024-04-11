@@ -161,7 +161,7 @@ function Section1() {
             .on('mouseover', function (event, d) {
                 const access = accessByCountry.get(d.properties.ISO2);
                 setTooltipContent(`<p>${d.properties.NAME}</p>
-                                   <p>${access ? access.toString() + '%' : 'No data'}</p>`);
+                                   <p><b>${access ? access.toString() + '%' : 'No data'}</b></p>`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
                 setTooltipVisible(true);
                 // reduce opacity of all countries except the one being hovered

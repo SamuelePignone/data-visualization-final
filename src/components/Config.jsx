@@ -15,6 +15,8 @@ const colorScheme = [
     "#E99497"
 ];
 
+const primaryColor = "#68a6ed";
+
 // Function to create the extended color scheme
 const createExtendedColorScheme = (colors, length = 1000) => {
     const scale = d3.scaleLinear()
@@ -34,4 +36,4 @@ const getColor = (value, min = 0, max = 100) => {
     return extendedColorScheme[Math.min(index, extendedColorScheme.length - 1)];
 };
 
-export { colorScheme, getColor, extendedColorScheme };
+export { colorScheme, getColor, extendedColorScheme, primaryColor };

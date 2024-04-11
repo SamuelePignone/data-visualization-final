@@ -112,7 +112,7 @@ function Section3D3() {
             .selectAll('.cell')
             .data(d => d.data, d => d.key)
             .on('mouseover', (event, d) => {
-                setTooltipContent(`${d.key} in ${mapstate(d3.select(event.currentTarget.parentNode).datum().key)} (${d3.select(event.currentTarget.parentNode).datum().key}): ${mapvalue(d.data)}`);
+                setTooltipContent(`${d.key} in ${mapstate(d3.select(event.currentTarget.parentNode).datum().key)} (${d3.select(event.currentTarget.parentNode).datum().key}): <b>${mapvalue(d.data)}</b>`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
                 setTooltipVisible(true);
             })

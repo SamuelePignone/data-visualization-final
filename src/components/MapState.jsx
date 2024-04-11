@@ -107,3 +107,20 @@ export const mapvalue = (value) => {
     if (value === null) return 'No data';
     return value.toString() + '%';
 }
+
+export const mapindtype = (ind_type) => {
+    switch (ind_type) {
+        case 'IND_TOTAL':
+            return 'Average e-commerce usage';
+        case 'Y16_24':
+            return '16-24 years old e-commerce usage';
+        case 'Y25_54':
+            return '25-54 years old e-commerce usage';
+        case 'Y55_74':
+            return '55-74 years old e-commerce usage';
+        case 'Y75_MAX':
+            return '75 years and older e-commerce usage';
+        default:
+            return '';
+    }
+}
