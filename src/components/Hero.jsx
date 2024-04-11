@@ -16,7 +16,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className='absolute w-[70%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center pb-20 z-[99]'>
-                    <p className='text-8xl animate-[bounce_3s__infinite]'>🏄🏻‍♂️</p>
+                    <p className='text-8xl animate-[custom-small-bounce_2s_ease-in-out_infinite]'>🏄🏻‍♂️</p>
                     <p className='text-9xl font-extrabold text-blue-300 z-10 text-center w-90%'>Surfing the Digital Wave</p>
                 </div>
             </div>
