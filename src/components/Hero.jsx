@@ -8,7 +8,7 @@ function Hero() {
             <div className='hidden w-screen h-screen bg-cover bg-no-repeat bg-bottom flex items-center relative' style={{ backgroundImage: `url(${heroImg})` }}>
                 <div className='w-full h-full bg-black opacity-10 absolute'></div>
             </div>
-            <div className='relative'>
+            <div className='relative z-[9999]'>
                 <div className='w-screen h-screen' id="sus">
                     <div className="ocean">
                         <div className="wave"></div>
