@@ -15,7 +15,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="bg-[#edf4fb] fixed top-0 left-0 w-full z-50 shadow-sm">
+            <nav className="bg-[#edf4fb] fixed top-0 left-0 w-full z-[999999999999] shadow-sm">
                 <div className="container flex items-center justify-center p-6 mx-auto text-blue-300 capitalize">
                     <a href="#" className="transition-colors duration-300 transform border-b-2 border-[#95dc6f] text-blue-400 mx-1.5 sm:mx-6 font-bold text-xl">Home</a>
 

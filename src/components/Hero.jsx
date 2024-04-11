@@ -20,7 +20,7 @@ function Hero() {
                     <p className='text-7xl font-extrabold text-blue-300 z-10 text-center'>Surfing the Digital Wave</p>
                 </div>
             </div>
-            <div className='hidden w-screen'>
+            <div className='hidden w-screen z-[9999]'>
                 <div className='w-full h-[10%] bg-repeat-x' style={{ backgroundImage: `url(${heroBase})` }}></div>
                 <p className='text-7xl font-bold text-white z-10 text-center mt-20'>Surfing the Digital Wave</p>
             </div>
