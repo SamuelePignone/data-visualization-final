@@ -6,7 +6,8 @@ import Section1 from './components/section1/Section1'
 import Section2 from './components/section2/Test'
 import Heatmap from './components/section3/Heatmap'
 import MultipleBarChart from './components/multiplebarchart/MultipleBarChart'
-import LineChart from './components/linechart/LineChart'
+import LineChart from './components/linechart/Linechart'
+import PackedBubble from './components/packed_bubble/packed_bubble'
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<Heatmap />
 			<MultipleBarChart />
 			<LineChart />
+			<PackedBubble />
 		</>
 	)
 }
