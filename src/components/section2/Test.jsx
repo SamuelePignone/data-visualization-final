@@ -29,9 +29,12 @@ function Test() {
     const [dimensions, setDimensions] = useState({
         width: 800,
         height: 400,
-        margin: { top: 50, right: 30, bottom: 30, left: 60 },
+        margin: { top: 30, right: 30, bottom: 50, left: 60 },
     });
     const [loading, setLoading] = useState(true);
+
+    const [showDataPreparation, setShowDataPreparation] = useState(false);
+
 
     useEffect(() => {
 
@@ -44,13 +47,11 @@ function Test() {
         // append the svg object to the body of the page
         var svg = d3.select(ref.current)
             .append("svg")
-            .attr("width", "60%")
-            .attr("height", "100%")
-            .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`) // This makes the chart responsive
-            .attr("preserveAspectRatio", "xMidYMid meet")
+            .attr("width", dimensions.width + margin.left + margin.right)
+            .attr("height", dimensions.height + margin.top + margin.bottom)
             .append("g")
             .attr("transform",
-                "translate(" + margin.left + "," + margin.top + ")");
+                "translate(" + dimensions.margin.left + "," + dimensions.margin.top + ")");
 
         //read data
         d3.csv(dataUrl).then(function (data) {
@@ -274,11 +275,25 @@ function Test() {
 
     return (
         <>
+        <div className='w-screen mt-10'>
+            <h1 className='plottitle'> The Evolution of Internet Devices</h1>
+            <p className='plotintro'>Internet use is strongly related to the tool to do so. Below we can see the difference between 3 devices (TV, PC and mobile). Unfortunately, the data are not very up-to-date.</p>
             {loading && <Loader />}
-            <div style={{ display: loading ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', width: '80vw', margin: '0 auto' }} ref={ref}>
-                <svg></svg>
+            <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex'}}>
+                <div ref={ref} className='w-fit'></div>
             </div>
             <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>
+            <p className='plotexpl'>Using this ridgeline, we see how the most widely used method of accessing the Internet, shortly after its popularity (late 1990s) until the early 2010s of the new millennium, was the PC. To date, the doubt is that the most used method is via mobile, in the graph still a marginal method. Unfortunately, the data are not available.</p>
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        To create this chart we have this <a href="https://doi.org/10.2908/ISOC_CI_ID_H" className='underline underline-offset-4 cursor-pointer'>dataset</a> made available by eurostat. We selected 3 indicators (<code>H_IMPH , H_IPC, H_ITV</code>) keeping the ones with fewer missing values, comuments always abundant. We replaced the <code>:</code> character used by eurostat to indicate missing values with <code>NaN</code>. <br />
+                        For the rest we took all available countries and the same for years. 
+                        </p>
+                    </div>
+                    <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                </div>       
+        </div>
         </>
     )
 }

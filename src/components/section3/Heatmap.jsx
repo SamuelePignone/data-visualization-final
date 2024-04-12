@@ -127,7 +127,7 @@ function Section3D3() {
 
     return (
         <>
-            <div className='w-screen'>
+            <div className='w-screen mt-10'>
                 <h1 className='plottitle'>Digital Participation of Individuals</h1>
                 <p className='plotintro'>So, what do people in different countries do with the internet. Many things, in this heatmap we see the most common ones.</p>
                 <div className='w-full flex justify-center items-center mb-6'>
