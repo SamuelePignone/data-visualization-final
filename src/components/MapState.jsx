@@ -124,3 +124,32 @@ export const mapindtype = (ind_type) => {
             return '';
     }
 }
+export const map_size_emp = (size_emp) => {
+    switch (size_emp) {
+        case 'GE10':
+            return 'Micro';
+        case '10-49':
+            return 'Small';
+        case '50-249':
+            return 'Small and medium-sized';
+        case 'GE250':
+            return 'Large';
+        default:
+            return '';
+    }
+}
+
+export const map_size_emp_to_number = (size_emp) => {
+    switch (size_emp) {
+        case 'GE10':
+            return 25;
+        case '10-49':
+            return 50;
+        case '50-249':
+            return 75;
+        case 'GE250':
+            return 100;
+        default:
+            return 0;
+    }
+}
