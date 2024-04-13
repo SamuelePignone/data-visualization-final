@@ -4,13 +4,12 @@ import dataFile from '../../data/Packed_bubble_chart_data.json';
 import { getColor } from '../Config';
 import Loader from '../Loader';
 import NationSelector from '../NationSelector';
-import YearSelector from '../YearSelector';
-import {mapstate, map_size_emp, map_size_emp_to_number} from '../MapState';
+import { mapstate, map_size_emp, map_size_emp_to_number } from '../MapState';
 import Tooltip from '../Tooltip';
+
 
 function PackedBubble() {
     const [selectedYear, setSelectedYear] = useState(2023);
-    const [availableYears, setAvailableYears] = useState([...new Set(dataFile.map(d => d.TIME_PERIOD))])
     const ref = useRef();
     const [loading, setLoading] = useState(true);
     const [selectedGeo, setSelectedGeo] = useState("DE");
@@ -44,17 +43,15 @@ function PackedBubble() {
             .domain([0, max_value])
             .range([0, 100]);
 
-        console.log(dataFile.filter(d => d.TIME_PERIOD === selectedYear && d.OBS_VALUE > 0 && d.geo === selectedGeo));
-
         var node = svg.append("g")
             .selectAll("circle")
             .data(dataFile.filter(d => d.TIME_PERIOD === selectedYear && d.OBS_VALUE > 0 && d.geo === selectedGeo))
             .enter()
             .append("circle")
             .attr("class", "node")
-            .attr("r", function (d) { return size(d.OBS_VALUE * 2) })
-            .attr("cx", dimensions.width)
-            .attr("cy", dimensions.height)
+            .attr("r", function (d) { return size(d.OBS_VALUE)*2 })
+            .attr("cx", dimensions.width / 2)
+            .attr("cy", dimensions.height / 2)
             .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp), 0, 100) })//use the indicator value to determine the color
             .style("fill-opacity", 0.8)
             .attr("stroke", "white")
@@ -66,7 +63,7 @@ function PackedBubble() {
             }).on("mouseout", () => {
                 setTooltipVisible(false);
             })
-            .on("mousemove", (event, d) => {  
+            .on("mousemove", (event, d) => {
                 setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} digital intensity <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
             })
@@ -74,6 +71,7 @@ function PackedBubble() {
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 .on("end", dragended));
+
 
         var simulation = d3.forceSimulation()
             .force("center", d3.forceCenter().x(dimensions.width / 2).y(dimensions.height / 2)) // Attraction to the center of the svg area
@@ -87,7 +85,7 @@ function PackedBubble() {
             .on("tick", function (d) {
                 node
                     .attr("cx", function (d) { return d.x; })
-                    .attr("cy", function (d) { return d.y; })
+                    .attr("cy", function (d) { return d.y - 100 ; })
             });
 
         // What happens when a circle is dragged?
@@ -115,12 +113,11 @@ function PackedBubble() {
     }, [selectedGeo, selectedGeo]);
 
     return (
-        <div className='w-screen mb-64'>
+        <div className='w-screen'>
             {loading && <Loader />}
-            <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+            <div className='flex-col justify-center items-center w-full h-full mb-10' style={{ display: loading ? 'none' : 'flex' }}>
                 <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
-                <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                <div ref={ref} className='w-fit flex items-center justify-center'></div>
             </div>
             <Tooltip
                 content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
