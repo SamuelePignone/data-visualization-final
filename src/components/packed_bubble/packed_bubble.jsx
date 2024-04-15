@@ -48,8 +48,9 @@ function PackedBubble() {
             .data(dataFile.filter(d => d.TIME_PERIOD === selectedYear && d.OBS_VALUE > 0 && d.geo === selectedGeo))
             .enter()
             .append("circle")
+            .attr("cursor", "pointer")
             .attr("class", "node")
-            .attr("r", function (d) { return size(d.OBS_VALUE)*2 })
+            .attr("r", function (d) { return size(d.OBS_VALUE) * 2 })
             .attr("cx", dimensions.width / 2)
             .attr("cy", dimensions.height / 2)
             .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp), 0, 100) })//use the indicator value to determine the color
@@ -72,6 +73,52 @@ function PackedBubble() {
                 .on("drag", dragged)
                 .on("end", dragended));
 
+        svg.append("g")
+            .selectAll("circle")
+            .data(dataFile.filter(d => d.TIME_PERIOD === selectedYear && d.OBS_VALUE > 0 && d.geo === selectedGeo))
+            .enter()
+            .append("text")
+            .attr("class", "textnode")
+            .attr("x", function (d) { return d.x; })
+            .attr("y", function (d) { return d.y; })
+            .attr("font-size", "10px")
+            .attr("fill", "black")
+            .attr("font-weight", "bold")
+            .each(function (d) {
+                if (size(d.OBS_VALUE) > 40) {
+                    var text = d3.select(this);
+                    text.append("tspan")
+                        .attr("class", "tspan1")
+                        .attr("x", text.attr("x"))
+                        .attr("dy", "1.2em")
+                        .attr("text-anchor", "middle")
+                        .attr("font-weight", "bold")
+                        .attr("font-size", "19px")
+                        .text(d => d.size_emp);
+
+                    text.append("tspan")
+                        .attr("class", "tspan2")
+                        .attr("x", text.attr("x"))
+                        .attr("dy", "1.2em")
+                        .attr("text-anchor", "middle")
+                        .text(d => d.OBS_VALUE);
+                }
+            })
+            .on("mouseover", (event, d) => {
+                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+                setTooltipVisible(true);
+            }).on("mouseout", () => {
+                setTooltipVisible(false);
+            })
+            .on("mousemove", (event, d) => {
+                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} digital intensity <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+            })
+            .call(d3.drag() // call specific function when circle is dragged
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
 
         var simulation = d3.forceSimulation()
             .force("center", d3.forceCenter().x(dimensions.width / 2).y(dimensions.height / 2)) // Attraction to the center of the svg area
@@ -85,7 +132,27 @@ function PackedBubble() {
             .on("tick", function (d) {
                 node
                     .attr("cx", function (d) { return d.x; })
-                    .attr("cy", function (d) { return d.y - 100 ; })
+                    .attr("cy", function (d) { return d.y - 100; });
+
+                svg.selectAll(".textnode")
+                    .attr("x", function (d) { return d.x; })
+                    .attr("y", function (d) { return d.y - 115; })
+                    .each(function (d) {
+                        if (size(d.OBS_VALUE) > 40) {
+                            var text = d3.select(this);
+                            text.select(".tspan1")
+                                .attr("x", text.attr("x"))
+                                .attr("dy", "1.2em")
+                                .attr("text-anchor", "middle")
+                                .text(d => d.size_emp);
+
+                            text.select(".tspan2")
+                                .attr("x", text.attr("x"))
+                                .attr("dy", "1.2em")
+                                .attr("text-anchor", "middle")
+                                .text(d => d.OBS_VALUE);
+                        }
+                    });
             });
 
         // What happens when a circle is dragged?

@@ -8,7 +8,7 @@ import Heatmap from './components/section3/Heatmap'
 import MultipleBarChart from './components/multiplebarchart/MultipleBarChart'
 import LineChart from './components/linechart/Linechart'
 import PackedBubble from './components/packed_bubble/packed_bubble'
-import StackedAreaChart from './components/stacked_area_chart/stacked_area'
+import AreaChart from './components/areachart/Areachart'
 
 function App() {
 	return (
@@ -22,7 +22,7 @@ function App() {
 			<MultipleBarChart />
 			<LineChart />
 			<PackedBubble />
-			<StackedAreaChart />
+			<AreaChart />
 		</>
 	)
 }

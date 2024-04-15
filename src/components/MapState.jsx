@@ -141,6 +141,8 @@ export const map_size_emp = (size_emp) => {
 
 export const map_size_emp_to_number = (size_emp) => {
     switch (size_emp) {
+        case '1-9':
+            return 10;
         case 'GE10':
             return 25;
         case '10-49':

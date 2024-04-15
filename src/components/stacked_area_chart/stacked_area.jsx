@@ -2,22 +2,31 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import dataFile from '../../data/Area_chart.json';
 import { getColor } from '../Config';
-
-
+import { mapstate, map_size_emp, map_size_emp_to_number } from '../MapState';
 
 const processData = (data) => {
-    const grouped = d3.group(data, d => d.TIME_PERIOD); // Group data by TIME_PERIOD
     const processedData = [];
 
-    grouped.forEach((values, key) => {
-        const entry = { TIME_PERIOD: key };
-        values.forEach(d => {
-            entry[d.size_emp] = (entry[d.size_emp] || 0) + d.OBS_VALUE; // Sum OBS_VALUE for each size_emp
+    const time_period_set = new Set(data.map(d => d.TIME_PERIOD));
+    const geo_set = new Set(data.map(d => d.geo));
+    const indic_is = 'E_AESELL';
+
+    time_period_set.forEach(time_period => {
+        geo_set.forEach(geo => {
+            var obj = {
+                TIME_PERIOD: time_period,
+                indic_is: indic_is,
+                geo: geo
+            };
+            data.filter(d => d.TIME_PERIOD === time_period && d.indic_is === indic_is && d.geo === geo)
+                .forEach(d => {
+                    obj[d.size_emp] = d.OBS_VALUE;
+                });
+            processedData.push(obj);
         });
-        processedData.push(entry);
     });
 
-    return processedData.sort((a, b) => d3.ascending(a.TIME_PERIOD, b.TIME_PERIOD)); // Sort by TIME_PERIOD if needed
+    return processedData;
 };
 
 function StackedAreaChart() {
@@ -29,11 +38,37 @@ function StackedAreaChart() {
         margin: { top: 0, right: 25, bottom: 20, left: 100 },
     });
 
-    const [size_ent, setEntList] = useState([...new Set(dataFile.map(d => d.size_emp))]);
+    const [indic_is, setIndicIs] = useState('E_AESBHM');
+    const [geo, setGeo] = useState('DE');
+    var data = processData(dataFile);
 
     useEffect(() => {
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
+
+        console.log(data);
+        var tmp = data.filter(d => d.geo === geo);
+        // sort by time period
+        tmp.sort((a, b) => a.TIME_PERIOD - b.TIME_PERIOD);
+        console.log(tmp);
+        const size_ent = Object.keys(data[0]).slice(3);
+        console.log(size_ent);
+        const stackedData = d3.stack()
+            .keys(size_ent)
+            (tmp)
+        // replace NaN with 0 in stackedData
+        stackedData.forEach(d => {
+            d.forEach(e => {
+                if (isNaN(e[0])) {
+                    e[0] = 0;
+                }
+                if (isNaN(e[1])) {
+                    e[1] = 0;
+                }
+            });
+        });
+
+        console.log(stackedData);
 
         const svg = container
             .append('svg')
@@ -44,16 +79,14 @@ function StackedAreaChart() {
             .attr('transform', `translate(${dimensions.margin.left},${dimensions.margin.top})`);
 
         const x_domain = d3.extent(dataFile, d => d.TIME_PERIOD);
-        const y_domain = [0, d3.max(dataFile, d => d.OBS_VALUE)];
 
         const x = d3.scaleLinear()
             .domain(x_domain)
             .range([0, dimensions.width - dimensions.margin.right - dimensions.margin.left]);
 
         const y = d3.scaleLinear()
-            .domain(y_domain)
-            .range([dimensions.height - dimensions.margin.top - dimensions.margin.bottom, 0])
-            .nice();
+            .domain([0, 1000])
+            .range([dimensions.height - dimensions.margin.top - dimensions.margin.bottom, 0]);
 
         const xAxis = d3.axisBottom(x)
             .ticks(x_domain[1] - x_domain[0])
@@ -81,8 +114,78 @@ function StackedAreaChart() {
             .style('font-size', '12px')
             .style("font-weight", "700");
 
-        const processedData = processData(dataFile);
-    
+        var clip = svg.append("defs").append("svg:clipPath")
+            .attr("id", "clip")
+            .append("svg:rect")
+            .attr("width", dimensions.width)
+            .attr("height", dimensions.height)
+            .attr("x", 0)
+            .attr("y", 0);
+
+        var brush = d3.brushX()
+            .extent([[0, 0], [dimensions.width, dimensions.height]])
+            .on("end", updateChart)
+
+        var areaChart = svg.append('g')
+            .attr("clip-path", "url(#clip)")
+
+        var area = d3.area()
+            .x(function (d) { return x(d.data.TIME_PERIOD); })
+            .y0(function (d) { return y(d[0]); })
+            .y1(function (d) { return y(d[1]); })
+
+        areaChart
+            .selectAll("mylayers")
+            .data(stackedData)
+            .enter()
+            .append("path")
+            .attr("class", function (d) { return "myArea " + d.key })
+            .style("fill", function (d) { return getColor(map_size_emp_to_number(d.key), 0, 100); })
+            .attr("d", area)
+
+        areaChart
+            .append("g")
+            .attr("class", "brush")
+            .call(brush);
+
+        var idleTimeout
+        function idled() { idleTimeout = null; }
+
+        function updateChart() {
+
+            extent = d3.event.selection
+
+            // If no selection, back to initial coordinate. Otherwise, update X axis domain
+            if (!extent) {
+                if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+                x.domain(d3.extent(tmp, function (d) { return d.TIME_PERIOD; }))
+            } else {
+                x.domain([x.invert(extent[0]), x.invert(extent[1])])
+                areaChart.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
+            }
+
+            // Update axis and area position
+            xAxis.transition().duration(1000).call(d3.axisBottom(x).ticks(5))
+            areaChart
+                .selectAll("path")
+                .transition().duration(1000)
+                .attr("d", area)
+        }
+
+        var highlight = function (d) {
+            console.log(d)
+            // reduce opacity of all groups
+            d3.selectAll(".myArea").style("opacity", .1)
+            // expect the one that is hovered
+            d3.select("." + d).style("opacity", 1)
+        }
+
+        // And when it is not hovered anymore
+        var noHighlight = function (d) {
+            d3.selectAll(".myArea").style("opacity", 1)
+        }
+
+        /*
         const area = d3.area()
         .x(d => x(d.TIME_PERIOD))
         .y0(d => y(d[0]))
@@ -102,7 +205,7 @@ function StackedAreaChart() {
             .attr("class", "layer")
             .attr("d", area)
             .attr("fill", d => getColor(d.key));
-
+        */
     }, []);
     return (
         <div className="w-screen mb-64">
