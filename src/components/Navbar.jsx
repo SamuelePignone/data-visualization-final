@@ -21,7 +21,7 @@ function Navbar() {
 
                     <a href="#" className="border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl" onClick={() => scrollTo('project')}>Project</a>
 
-                    <a href="#" className="border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl">Resource</a>
+                    <a href="#" className="border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl">Resources</a>
 
                     <a href="#" className="border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl">Team</a>
                 </div>

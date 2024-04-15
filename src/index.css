@@ -97,6 +97,10 @@ text {
  }
 }
 
+.plotsection {
+  margin-bottom: 15%;
+}
+
 .plottitle {
   width: 80%;
   margin: 0 auto;
