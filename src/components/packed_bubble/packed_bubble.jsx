@@ -113,7 +113,7 @@ function PackedBubble() {
     }, [selectedGeo, selectedGeo]);
 
     return (
-        <div className='w-screen'>
+        <div className='w-screen mb-64 plotsection'>
             {loading && <Loader />}
             <div className='flex-col justify-center items-center w-full h-full mb-10' style={{ display: loading ? 'none' : 'flex' }}>
                 <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />

@@ -275,7 +275,7 @@ function Test() {
 
     return (
         <>
-        <div className='w-screen mt-10'>
+        <div className='w-screen mt-10 plotsection'>
             <h1 className='plottitle'> The Evolution of Internet Devices</h1>
             <p className='plotintro'>Internet use is strongly related to the tool to do so. Below we can see the difference between 3 devices (TV, PC and mobile). Unfortunately, the data are not very up-to-date.</p>
             {loading && <Loader />}

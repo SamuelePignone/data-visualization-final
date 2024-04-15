@@ -259,7 +259,7 @@ function LineChart() {
 
     return (
         <>
-            <div className='w-screen mt-24 mb-64'>
+            <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>E-commerce engagement</h1>
                 <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>

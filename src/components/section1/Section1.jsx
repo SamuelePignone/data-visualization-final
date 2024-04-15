@@ -196,7 +196,7 @@ function Section1() {
     }, [selectedYear, accessData, dimensions]);
 
     return (
-        <div className='w-screen'>
+        <div className='w-screen plotsection'>
             <h1 className='plottitle'>The Digital Divide in European Households</h1>
             <p className='plotintro'>The first tap of the trip start from this map showing the percentage of households with internet access across European countries in different years.</p>
             <div className='w-full flex justify-center items-center mb-6'>
