@@ -54,24 +54,25 @@ function PackedBubble() {
             .attr("cx", dimensions.width / 2)
             .attr("cy", dimensions.height / 2)
             .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp), 0, 100) })//use the indicator value to determine the color
-            .style("fill-opacity", 0.8)
+            .style("fill-opacity", 1)
             .attr("stroke", "white")
             .style("stroke-width", 0.8)
+            .style("filter", "drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3))") // Add shadow with opacity of 0.3
             .on("mouseover", (event, d) => {
-                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
-                setTooltipPosition({ x: event.pageX, y: event.pageY });
-                setTooltipVisible(true);
+            setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
+            setTooltipPosition({ x: event.pageX, y: event.pageY });
+            setTooltipVisible(true);
             }).on("mouseout", () => {
-                setTooltipVisible(false);
+            setTooltipVisible(false);
             })
             .on("mousemove", (event, d) => {
-                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} digital intensity <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
-                setTooltipPosition({ x: event.pageX, y: event.pageY });
+            setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} digital intensity <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)}`);
+            setTooltipPosition({ x: event.pageX, y: event.pageY });
             })
             .call(d3.drag() // call specific function when circle is dragged
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
 
         svg.append("g")
             .selectAll("circle")

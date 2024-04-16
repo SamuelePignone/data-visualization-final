@@ -83,6 +83,52 @@ function MultipleBarChart() {
                 .append("g")
                 .attr("transform", `translate(${(index === 0) ? 0 : dimensions.margin.left},${dimensions.margin.top})`);
 
+            // define shadow
+            var defs = svg.append("defs");
+
+        var filter = defs.append("filter")
+            .attr("id", "shadow")
+            .attr("height", "130%");
+
+        filter.append("feGaussianBlur")
+            .attr("in", "SourceAlpha")
+            .attr("stdDeviation", 3)
+            .attr("result", "blur");
+
+        var feOffset = filter.append("feOffset")
+            .attr("dx", 2)
+            .attr("dy", 2)
+            .attr("result", "offsetBlur");
+
+        var feMerge = filter.append("feMerge");
+
+        feMerge.append("feMergeNode")
+            .attr("in", "offsetBlur")
+        feMerge.append("feMergeNode")
+            .attr("in", "SourceGraphic");
+
+        var feFlood = filter.append("feFlood")
+            .attr("flood-color", "black")
+            .attr("flood-opacity", 0.2)
+            .attr("result", "flood");
+
+        var feComposite = filter.append("feComposite")
+            .attr("in", "flood")
+            .attr("in2", "offsetBlur")
+            .attr("operator", "in")
+            .attr("result", "shadow");
+
+        var feMerge2 = filter.append("feMerge");
+
+        feMerge2.append("feMergeNode")
+            .attr("in", "shadow")
+        feMerge2.append("feMergeNode")
+            .attr("in", "SourceGraphic");
+
+        // Remove shadows on left and right
+        svg.select(".grid")
+            .style("stroke-opacity", 0);
+
             let yearData = filteredData.filter(d => d.TIME_PERIOD === year);
 
             const categoryData = [...new Set(dataFile.map(d => d.indic_is))].map(indicIs => {
@@ -126,6 +172,7 @@ function MultipleBarChart() {
                     //console.log(i);
                     return getColor(d.value, 0, max_value);
                 })
+                .attr("filter", "url(#shadow)") // Add a shadow filter
                 .transition() // adding a transition
                 .duration(800)
                 .attr("width", d => xScale(normalizeValue(d.value))) // transition to the actual width

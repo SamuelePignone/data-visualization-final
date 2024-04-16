@@ -82,7 +82,7 @@ function Section3D3() {
             .append('g')
             .attr('class', 'col')
             .attr('transform', d => {
-                return `translate(${x(d.key)}, 0)`
+            return `translate(${x(d.key)}, 0)`
             })
             .selectAll()
             .data(d => d.data, d => d.key)
@@ -92,14 +92,15 @@ function Section3D3() {
             .attr('rx', 4)
             .attr('ry', 4)
             .attr('x', d => {
-                return x(d.key)
+            return x(d.key)
             })
             .attr('y', d => y(d.key))
             .attr('width', x.bandwidth())
             .attr('height', y.bandwidth())
             .style('fill', d => getColor(d.data))
             .style('stroke-width', 0.8)
-            .style('stroke', 'white');
+            .style('stroke', 'white')
+            .style('filter', 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3))');
 
         setLoading(false);
     }, []);

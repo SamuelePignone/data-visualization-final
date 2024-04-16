@@ -128,6 +128,8 @@ export const map_size_emp = (size_emp) => {
     switch (size_emp) {
         case 'GE10':
             return 'Micro';
+        case '1-9':
+            return 'Micro';
         case '10-49':
             return 'Small';
         case '50-249':
