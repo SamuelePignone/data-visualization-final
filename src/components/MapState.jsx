@@ -157,3 +157,32 @@ export const map_size_emp_to_number = (size_emp) => {
             return 0;
     }
 }
+
+export const map_code_to_description = (code) => {
+    switch (code) {
+        case 'E_AESELL':
+            return 'E-commerce sales';
+        case 'E_AESBHM':
+            return 'E-commerce sales or purchases domestically';
+        case 'E_AESEU':
+            return 'E-commerce sales to other EU countries';
+        case 'E_AESEUWW':
+            return 'E-commerce sales to EU and worldwide';
+        case 'E_AESWW':
+            return 'Worldwide e-commerce sales';
+        case 'E_AWSELL':
+            return 'Web sales (websites, apps, marketplaces)';
+        case 'E_AWS_B2BG':
+            return 'Web sales B2B and B2G';
+        case 'E_AXSELL':
+            return 'EDI-type sales';
+        case 'E_ESELL':
+            return 'E-commerce sales ≥1% turnover';
+        case 'E_AWS_CMP':
+            return 'Sales via e-commerce marketplaces';
+        case 'E_AWS_COWN':
+            return 'Sales via own websites/apps';
+        default:
+            return '';
+    }
+}
