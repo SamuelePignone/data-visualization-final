@@ -111,6 +111,7 @@ function AreaChart() {
             });
         });
 
+
         sources.forEach(function (s) {
             var new_values = [];
             var i = 0;
@@ -304,8 +305,8 @@ function AreaChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
-                <h1 className='plottitle'></h1>
-                <p className='plotintro'></p>
+                <h1 className='plottitle'>The Role of E-commerce in Business</h1>
+                <p className='plotintro'> This area chart illustrating the growth of e-commerce sales in enterprises over the past years.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
@@ -314,7 +315,7 @@ function AreaChart() {
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>
-                    <div class="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
+                    <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
                         {
                             indic_isList.map((indic_is_iterator, index) => (
                                 <button key={index} onClick={() => setIndicIs(indic_is_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${map_code_to_description(indic_is_iterator)}</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${indic_is_iterator === indic_is ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{indic_is_iterator}</button>
@@ -332,11 +333,12 @@ function AreaChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'></p>
+                <p className='plotexpl'>Each area rappresents a different size for a company (Micro, Small, Small and medium-sized, Large), we can also opt for a wide range of types of online sales. So we can see the trend of e-commerce sales for each size of company. It is clear that the largest companies own the largest share of the online market. But without such a clear gap from smaller companies, though. Obviously these data are about Europe and therefore do not take into account the large U.S. and Chinese companies</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
-
+                            For this chart, we used this <a href="https://doi.org/10.2908/ISOC_EC_ESELS" className='underline underline-offset-4 cursor-pointer'>dataset</a>  produced, as always, by eurostat. We modified it to get a <code>.json</code> file.<br />
+                            After do that, we have to prepare the data in order to have as the external key the size of the company and as the internal key the year, with the value of the percentage of e-commerce sales. Obviously we have to filter the data for the country we want to analyze and for the type of online sales.
                         </p>
                     </div>
                     <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>

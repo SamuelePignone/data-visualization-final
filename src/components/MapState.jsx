@@ -186,3 +186,19 @@ export const map_code_to_description = (code) => {
             return '';
     }
 }
+
+export const map_dii_to_description = (dii) => {
+    //['E_DI3_HI', 'E_DI3_LO', 'E_DI3_VHI', 'E_DI3_VLO']
+    switch (dii) {
+        case 'E_DI3_HI':
+            return 'High digital intensity';
+        case 'E_DI3_LO':
+            return 'Low digital intensity';
+        case 'E_DI3_VHI':
+            return 'Very high digital intensity';
+        case 'E_DI3_VLO':
+            return 'Very low digital intensity';
+        default:
+            return '';
+    }
+}
