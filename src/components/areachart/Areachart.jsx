@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import dataFile from '../../data/Area_chart.json';
 import { getColor } from '../Config';
-import { mapstate, map_size_emp, map_size_emp_to_number } from '../MapState';
+import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
 import NationSelector from "../NationSelector";
 import Loader from "../Loader";
 import Tooltip from "../Tooltip";
@@ -87,7 +87,6 @@ function AreaChart() {
 
         var data = dataFile.filter(d => d.geo === selectedGeo)
         var indic_is_set_list = [...new Set(data.map(d => d.indic_is))];
-        console.log(indic_is_set_list);
         setIndicIsList(indic_is_set_list);
         data = data.filter(d => d.indic_is === indic_is);
 
@@ -299,14 +298,6 @@ function AreaChart() {
                 setTooltipVisible(false)
             });
 
-            // add a title to the plot
-            svg.append("text")
-                .attr("x", (dimensions.width / 2))
-                .attr("y", 0 - (dimensions.margin.top / 2))
-                .attr("text-anchor", "middle")
-                .style("font-size", "19px")
-                .text(`Percentage of enterprises that sell online by size of enterprise in ${mapstate(selectedGeo)}`);
-
         setLoading(false);
     }, [selectedGeo, indic_is]);
 
@@ -317,11 +308,16 @@ function AreaChart() {
                 <p className='plotintro'></p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                    <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                    <div className="mt-4">
+                        <h2 className="text-xl">
+                            Percentage of <span className="underline underline-offset-4">{map_code_to_description(indic_is)}</span> by size of enterprise in <span className="underline underline-offset-4">{mapstate(selectedGeo)}</span>
+                        </h2>
+                    </div>
+                    <div ref={ref} className='w-fit flex items-center justify-center'></div>
                     <div class="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
                         {
                             indic_isList.map((indic_is_iterator, index) => (
-                                <button key={index} onClick={() => setIndicIs(indic_is_iterator)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${indic_is_iterator === indic_is ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{indic_is_iterator}</button>
+                                <button key={index} onClick={() => setIndicIs(indic_is_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${map_code_to_description(indic_is_iterator)}</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${indic_is_iterator === indic_is ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{indic_is_iterator}</button>
                             ))
                         }
                     </div>
