@@ -111,7 +111,6 @@ function AreaChart() {
             });
         });
 
-
         sources.forEach(function (s) {
             var new_values = [];
             var i = 0;
@@ -310,8 +309,8 @@ function AreaChart() {
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
-                        <h2 className="text-xl">
-                            Percentage of <span className="underline underline-offset-4">{map_code_to_description(indic_is)}</span> by size of enterprise in <span className="underline underline-offset-4">{mapstate(selectedGeo)}</span>
+                        <h2 className="text-xl font-semibold">
+                            Percentage of <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span> by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>

@@ -9,6 +9,7 @@ import MultipleBarChart from './components/multiplebarchart/MultipleBarChart'
 import LineChart from './components/linechart/Linechart'
 import PackedBubble from './components/packed_bubble/packed_bubble'
 import AreaChart from './components/areachart/Areachart'
+import StackedBarChart from './components/stackedbarchart/Stackedbarchart'
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			<LineChart />
 			<PackedBubble />
 			<AreaChart />
+			<StackedBarChart />
 		</>
 	)
 }
