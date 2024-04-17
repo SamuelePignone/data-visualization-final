@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import dataFile from '../../data/spider_chart.json';
+import dataFile from '../../data/transformed_data_by_geo.json';
 import { getColor } from '../Config';
 import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
 import NationSelector from "../NationSelector";
@@ -44,7 +44,9 @@ function SpiderChart() {
         for (var i = 0; i < features.length; i++) {
             let ft_name = features[i];
             let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
-            coordinates.push(angleToCoordinate(angle, data_point[ft_name]));
+            var coord = angleToCoordinate(angle, data_point.values[ft_name]);
+            coord.size_emp = data_point.key;
+            coordinates.push(coord);
         }
         return coordinates;
     }
@@ -62,10 +64,8 @@ function SpiderChart() {
             //.attr('transform', `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
             .attr("transform", "translate(" + dimensions.width / 2 + "," + dimensions.height / 2 + ")");
 
-        var features = dataFile['variables'].map(d => d.label);
-        var data = dataFile['sets'].map(d => d.values);
-
-        console.log(data);
+        var features = dataFile[selectedGeo]['variables'].map(d => d.label);
+        var data = dataFile[selectedGeo]['sets'];
 
         let ticks = [25, 50, 75, 100];
 
@@ -74,7 +74,7 @@ function SpiderChart() {
                 .attr("cx", 0)
                 .attr("cy", 0)
                 .attr("fill", "none")
-                .attr("stroke", "#e8e8e8")
+                .attr("stroke", "white")
                 .attr("stroke-width", "2")
                 .attr("r", radialScale(t))
         );
@@ -83,46 +83,44 @@ function SpiderChart() {
             svg.append("text")
                 .attr("x", -15)
                 .attr("y", - radialScale(t) - 5)
-                .attr("fill", "#bbbbbb")
+                .attr("fill", "white")
                 .attr("font-size", "10px")
                 .text(t.toString())
         );
 
+        // sort data by the area of the radar chart
+        data.sort((a, b) => {
+            return map_size_emp_to_number(b.key) - map_size_emp_to_number(a.key);
+        });
+
+        for (var i = 0; i < features.length; i++) {
+            let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+            let line_coordinate = angleToCoordinate(angle, 100);
+            let label_coordinate = angleToCoordinate(angle, 120);
+
+            //draw axis label
+            svg.append("text")
+                .attr("text-anchor", "middle")
+                .attr("alignment-baseline", "central")
+                .attr("x", label_coordinate.x)
+                .attr("y", label_coordinate.y)
+                .attr("font-size", "11px")
+                .attr("fill", "#333333")
+                .text(features[i]);
+
+            //draw axis line
+            svg.append("line")
+                .attr("x1", 0)
+                .attr("y1", 0)
+                .attr("x2", line_coordinate.x)
+                .attr("y2", line_coordinate.y)
+                .attr("stroke", "#e8e8e8")
+                .attr("stroke-width", "2");
+        }
+
         data.forEach(singledata => {
-            for (var i = 0; i < features.length; i++) {
-                let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
-                let line_coordinate = angleToCoordinate(angle, 100);
-                let label_coordinate = angleToCoordinate(angle, 120);
-
-                //draw axis label
-                svg.append("text")
-                    .attr("text-anchor", "middle")
-                    .attr("alignment-baseline", "central")
-                    .attr("x", label_coordinate.x)
-                    .attr("y", label_coordinate.y)
-                    .attr("font-size", "11px")
-                    .attr("fill", "#333333")
-                    .text(features[i]);
-
-                //draw axis line
-                svg.append("line")
-                    .attr("x1", 0)
-                    .attr("y1", 0)
-                    .attr("x2", line_coordinate.x)
-                    .attr("y2", line_coordinate.y)
-                    .attr("stroke", "#e8e8e8")
-                    .attr("stroke-width", "2");
-            }
 
             const coords = getPathCoordinates(singledata, features);
-
-            coords.forEach(d => {
-                svg.append("circle")
-                    .attr("r", 4)
-                    .attr("fill", "#af2d2d")
-                    .attr("cx", d.x)
-                    .attr("cy", d.y);
-            });
 
             /*
             var lg = svg.append("defs").append("linearGradient")
@@ -152,10 +150,71 @@ function SpiderChart() {
                     .y(d => d.y)
                 )
                 .attr("stroke-width", 4)
-                .attr("stroke", "#f05454")
-                .attr("fill", getColor(map_size_emp_to_number(singledata['size_emp']), 0, 100))
+                .attr("stroke", d => getColor(map_size_emp_to_number(d[0].size_emp), 0, 100))
+                .attr("fill", function (d) {
+                    return getColor(map_size_emp_to_number(d[0].size_emp), 0, 100);
+                })
                 .attr("stroke-opacity", 1)
-                .attr("opacity", 0.5);
+                .attr("opacity", 1);
+
+            coords.forEach(d => {
+                svg.append("circle")
+                    .attr("r", 4)
+                    .attr("fill", "#000")
+                    .attr("cx", d.x)
+                    .attr("cy", d.y);
+            });
+
+            let ticks = [25, 50, 75, 100];
+
+            ticks.forEach(t =>
+                svg.append("circle")
+                    .attr("cx", 0)
+                    .attr("cy", 0)
+                    .attr("fill", "none")
+                    .attr("stroke", "white")
+                    .attr("stroke-width", "2")
+                    .attr("r", radialScale(t))
+            );
+
+            ticks.forEach(t =>
+                svg.append("text")
+                    .attr("x", -15)
+                    .attr("y", - radialScale(t) - 5)
+                    .attr("fill", "white")
+                    .attr("font-size", "10px")
+                    .text(t.toString())
+            );
+
+            // sort data by the area of the radar chart
+            data.sort((a, b) => {
+                return map_size_emp_to_number(b.key) - map_size_emp_to_number(a.key);
+            });
+
+            for (var i = 0; i < features.length; i++) {
+                let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+                let line_coordinate = angleToCoordinate(angle, 100);
+                let label_coordinate = angleToCoordinate(angle, 120);
+
+                //draw axis label
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("alignment-baseline", "central")
+                    .attr("x", label_coordinate.x)
+                    .attr("y", label_coordinate.y)
+                    .attr("font-size", "11px")
+                    .attr("fill", "#333333")
+                    .text(features[i]);
+
+                //draw axis line
+                svg.append("line")
+                    .attr("x1", 0)
+                    .attr("y1", 0)
+                    .attr("x2", line_coordinate.x)
+                    .attr("y2", line_coordinate.y)
+                    .attr("stroke", "#e8e8e8")
+                    .attr("stroke-width", "2");
+            }
         });
 
         setLoading(false);
