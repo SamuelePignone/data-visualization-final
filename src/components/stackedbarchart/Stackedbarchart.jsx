@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import Loader from '../Loader';
-import dataFile from '../../data/Stacked_barchart.json';
+import dataFile from '../../data/stackedBar2.json';
 import { colorScheme } from '../Config';
 import Tooltip from '../Tooltip';
 import { mapstate, mapvalue, mapindtype } from '../MapState';
