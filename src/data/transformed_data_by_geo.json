@@ -1,0 +1,2786 @@
+{
+    "AT": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 43.2,
+                    "E_SECMKSUD": 79.4,
+                    "E_SECMLOG": 43.2,
+                    "E_SECMNAC": 51.6,
+                    "E_SECMOSBU": 85.9,
+                    "E_SECMRASS": 24.2,
+                    "E_SECMSPSW": 62.6,
+                    "E_SECMTST": 27.6,
+                    "E_SECMVPN": 35.0
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 60.5,
+                    "E_SECMKSUD": 92.3,
+                    "E_SECMLOG": 68.0,
+                    "E_SECMNAC": 68.4,
+                    "E_SECMOSBU": 95.5,
+                    "E_SECMRASS": 47.0,
+                    "E_SECMSPSW": 79.6,
+                    "E_SECMTST": 50.5,
+                    "E_SECMVPN": 67.4
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 78.8,
+                    "E_SECMKSUD": 96.2,
+                    "E_SECMLOG": 85.2,
+                    "E_SECMNAC": 74.1,
+                    "E_SECMOSBU": 97.8,
+                    "E_SECMRASS": 67.8,
+                    "E_SECMSPSW": 92.9,
+                    "E_SECMTST": 72.5,
+                    "E_SECMVPN": 88.8
+                }
+            }
+        ]
+    },
+    "BA": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 25.4,
+                    "E_SECMKSUD": 75.2,
+                    "E_SECMLOG": 17.4,
+                    "E_SECMNAC": 37.5,
+                    "E_SECMOSBU": 48.9,
+                    "E_SECMRASS": 9.4,
+                    "E_SECMSPSW": 64.0,
+                    "E_SECMTST": 11.5,
+                    "E_SECMVPN": 18.9
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 33.2,
+                    "E_SECMKSUD": 81.0,
+                    "E_SECMLOG": 26.8,
+                    "E_SECMNAC": 54.1,
+                    "E_SECMOSBU": 62.6,
+                    "E_SECMRASS": 15.9,
+                    "E_SECMSPSW": 74.7,
+                    "E_SECMTST": 18.6,
+                    "E_SECMVPN": 35.1
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 51.6,
+                    "E_SECMKSUD": 92.2,
+                    "E_SECMLOG": 45.3,
+                    "E_SECMNAC": 71.4,
+                    "E_SECMOSBU": 71.8,
+                    "E_SECMRASS": 32.8,
+                    "E_SECMSPSW": 90.5,
+                    "E_SECMTST": 37.2,
+                    "E_SECMVPN": 65.4
+                }
+            }
+        ]
+    },
+    "BE": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 24.7,
+                    "E_SECMKSUD": 85.9,
+                    "E_SECMLOG": 50.9,
+                    "E_SECMNAC": 72.2,
+                    "E_SECMOSBU": 78.6,
+                    "E_SECMRASS": 38.8,
+                    "E_SECMSPSW": 70.9,
+                    "E_SECMTST": 43.2,
+                    "E_SECMVPN": 48.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 44.0,
+                    "E_SECMKSUD": 94.0,
+                    "E_SECMLOG": 73.3,
+                    "E_SECMNAC": 87.2,
+                    "E_SECMOSBU": 88.2,
+                    "E_SECMRASS": 61.8,
+                    "E_SECMSPSW": 85.0,
+                    "E_SECMTST": 59.7,
+                    "E_SECMVPN": 75.1
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 68.5,
+                    "E_SECMKSUD": 97.9,
+                    "E_SECMLOG": 88.8,
+                    "E_SECMNAC": 93.0,
+                    "E_SECMOSBU": 90.1,
+                    "E_SECMRASS": 81.2,
+                    "E_SECMSPSW": 94.4,
+                    "E_SECMTST": 82.6,
+                    "E_SECMVPN": 91.9
+                }
+            }
+        ]
+    },
+    "BG": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 29.6,
+                    "E_SECMKSUD": 71.2,
+                    "E_SECMLOG": 18.1,
+                    "E_SECMNAC": 46.6,
+                    "E_SECMOSBU": 46.6,
+                    "E_SECMRASS": 19.7,
+                    "E_SECMSPSW": 69.7,
+                    "E_SECMTST": 19.2,
+                    "E_SECMVPN": 17.2
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 46.4,
+                    "E_SECMKSUD": 86.6,
+                    "E_SECMLOG": 40.5,
+                    "E_SECMNAC": 69.8,
+                    "E_SECMOSBU": 68.3,
+                    "E_SECMRASS": 36.3,
+                    "E_SECMSPSW": 83.7,
+                    "E_SECMTST": 36.2,
+                    "E_SECMVPN": 39.1
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 67.3,
+                    "E_SECMKSUD": 95.1,
+                    "E_SECMLOG": 68.4,
+                    "E_SECMNAC": 87.6,
+                    "E_SECMOSBU": 83.2,
+                    "E_SECMRASS": 57.3,
+                    "E_SECMSPSW": 92.0,
+                    "E_SECMTST": 57.2,
+                    "E_SECMVPN": 70.7
+                }
+            }
+        ]
+    },
+    "CY": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 30.7,
+                    "E_SECMKSUD": 76.2,
+                    "E_SECMLOG": 38.4,
+                    "E_SECMNAC": 51.4,
+                    "E_SECMOSBU": 65.6,
+                    "E_SECMRASS": 31.0,
+                    "E_SECMSPSW": 64.5,
+                    "E_SECMTST": 32.5,
+                    "E_SECMVPN": 31.3
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 56.5,
+                    "E_SECMKSUD": 94.8,
+                    "E_SECMLOG": 66.2,
+                    "E_SECMNAC": 78.6,
+                    "E_SECMOSBU": 87.4,
+                    "E_SECMRASS": 53.6,
+                    "E_SECMSPSW": 85.3,
+                    "E_SECMTST": 58.8,
+                    "E_SECMVPN": 65.4
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 67.5,
+                    "E_SECMKSUD": 100.0,
+                    "E_SECMLOG": 87.5,
+                    "E_SECMNAC": 90.6,
+                    "E_SECMOSBU": 92.9,
+                    "E_SECMRASS": 81.2,
+                    "E_SECMSPSW": 96.7,
+                    "E_SECMTST": 78.7,
+                    "E_SECMVPN": 89.7
+                }
+            }
+        ]
+    },
+    "CZ": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 30.5,
+                    "E_SECMKSUD": 86.4,
+                    "E_SECMLOG": 32.4,
+                    "E_SECMNAC": 54.3,
+                    "E_SECMOSBU": 78.2,
+                    "E_SECMRASS": 30.5,
+                    "E_SECMSPSW": 83.4,
+                    "E_SECMTST": 35.1,
+                    "E_SECMVPN": 41.0
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 51.6,
+                    "E_SECMKSUD": 96.3,
+                    "E_SECMLOG": 66.2,
+                    "E_SECMNAC": 85.4,
+                    "E_SECMOSBU": 94.8,
+                    "E_SECMRASS": 55.1,
+                    "E_SECMSPSW": 93.7,
+                    "E_SECMTST": 48.7,
+                    "E_SECMVPN": 75.6
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 71.6,
+                    "E_SECMKSUD": 98.3,
+                    "E_SECMLOG": 81.4,
+                    "E_SECMNAC": 96.0,
+                    "E_SECMOSBU": 95.9,
+                    "E_SECMRASS": 73.3,
+                    "E_SECMSPSW": 96.5,
+                    "E_SECMTST": 63.5,
+                    "E_SECMVPN": 93.2
+                }
+            }
+        ]
+    },
+    "DE": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 56.5,
+                    "E_SECMKSUD": 94.7,
+                    "E_SECMLOG": 54.6,
+                    "E_SECMNAC": 67.9,
+                    "E_SECMOSBU": 87.7,
+                    "E_SECMRASS": 28.1,
+                    "E_SECMSPSW": 82.7,
+                    "E_SECMTST": 33.4,
+                    "E_SECMVPN": 50.2
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 69.9,
+                    "E_SECMKSUD": 96.8,
+                    "E_SECMLOG": 75.9,
+                    "E_SECMNAC": 81.8,
+                    "E_SECMOSBU": 92.9,
+                    "E_SECMRASS": 54.0,
+                    "E_SECMSPSW": 87.9,
+                    "E_SECMTST": 58.1,
+                    "E_SECMVPN": 77.1
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 81.4,
+                    "E_SECMKSUD": 98.7,
+                    "E_SECMLOG": 87.0,
+                    "E_SECMNAC": 83.5,
+                    "E_SECMOSBU": 96.4,
+                    "E_SECMRASS": 68.7,
+                    "E_SECMSPSW": 94.1,
+                    "E_SECMTST": 75.0,
+                    "E_SECMVPN": 93.3
+                }
+            }
+        ]
+    },
+    "DK": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 49.8,
+                    "E_SECMKSUD": 85.9,
+                    "E_SECMLOG": 55.2,
+                    "E_SECMNAC": 83.2,
+                    "E_SECMOSBU": 83.7,
+                    "E_SECMRASS": 44.4,
+                    "E_SECMSPSW": 81.2,
+                    "E_SECMTST": 45.1,
+                    "E_SECMVPN": 56.7
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 68.5,
+                    "E_SECMKSUD": 94.2,
+                    "E_SECMLOG": 79.0,
+                    "E_SECMNAC": 94.4,
+                    "E_SECMOSBU": 92.3,
+                    "E_SECMRASS": 68.2,
+                    "E_SECMSPSW": 88.7,
+                    "E_SECMTST": 64.9,
+                    "E_SECMVPN": 84.8
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 91.6,
+                    "E_SECMKSUD": 98.8,
+                    "E_SECMLOG": 91.5,
+                    "E_SECMNAC": 97.1,
+                    "E_SECMOSBU": 95.7,
+                    "E_SECMRASS": 85.5,
+                    "E_SECMSPSW": 95.7,
+                    "E_SECMTST": 84.2,
+                    "E_SECMVPN": 95.8
+                }
+            }
+        ]
+    },
+    "EE": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 26.9,
+                    "E_SECMKSUD": 67.9,
+                    "E_SECMLOG": 29.9,
+                    "E_SECMNAC": 54.0,
+                    "E_SECMOSBU": 59.9,
+                    "E_SECMRASS": 18.3,
+                    "E_SECMSPSW": 57.7,
+                    "E_SECMTST": 22.8,
+                    "E_SECMVPN": 33.7
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 35.8,
+                    "E_SECMKSUD": 81.5,
+                    "E_SECMLOG": 54.0,
+                    "E_SECMNAC": 81.5,
+                    "E_SECMOSBU": 78.8,
+                    "E_SECMRASS": 42.9,
+                    "E_SECMSPSW": 74.4,
+                    "E_SECMTST": 48.3,
+                    "E_SECMVPN": 63.0
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 59.8,
+                    "E_SECMKSUD": 91.4,
+                    "E_SECMLOG": 72.7,
+                    "E_SECMNAC": 90.7,
+                    "E_SECMOSBU": 89.5,
+                    "E_SECMRASS": 62.9,
+                    "E_SECMSPSW": 90.1,
+                    "E_SECMTST": 69.7,
+                    "E_SECMVPN": 89.5
+                }
+            }
+        ]
+    },
+    "EL": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 26.8,
+                    "E_SECMKSUD": 58.2,
+                    "E_SECMLOG": 27.0,
+                    "E_SECMNAC": 44.5,
+                    "E_SECMOSBU": 49.9,
+                    "E_SECMRASS": 20.8,
+                    "E_SECMSPSW": 52.0,
+                    "E_SECMTST": 33.5,
+                    "E_SECMVPN": 19.7
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 52.1,
+                    "E_SECMKSUD": 84.6,
+                    "E_SECMLOG": 63.6,
+                    "E_SECMNAC": 69.9,
+                    "E_SECMOSBU": 75.3,
+                    "E_SECMRASS": 54.0,
+                    "E_SECMSPSW": 73.5,
+                    "E_SECMTST": 63.7,
+                    "E_SECMVPN": 55.9
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 64.8,
+                    "E_SECMKSUD": 89.4,
+                    "E_SECMLOG": 74.9,
+                    "E_SECMNAC": 79.8,
+                    "E_SECMOSBU": 81.6,
+                    "E_SECMRASS": 69.8,
+                    "E_SECMSPSW": 85.0,
+                    "E_SECMTST": 78.4,
+                    "E_SECMVPN": 75.5
+                }
+            }
+        ]
+    },
+    "ES": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 30.3,
+                    "E_SECMKSUD": 85.2,
+                    "E_SECMLOG": 35.3,
+                    "E_SECMNAC": 63.0,
+                    "E_SECMOSBU": 80.0,
+                    "E_SECMRASS": 23.8,
+                    "E_SECMSPSW": 66.4,
+                    "E_SECMTST": 27.9,
+                    "E_SECMVPN": 31.5
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 48.6,
+                    "E_SECMKSUD": 91.6,
+                    "E_SECMLOG": 60.6,
+                    "E_SECMNAC": 82.3,
+                    "E_SECMOSBU": 89.9,
+                    "E_SECMRASS": 46.5,
+                    "E_SECMSPSW": 81.2,
+                    "E_SECMTST": 49.2,
+                    "E_SECMVPN": 63.6
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 67.0,
+                    "E_SECMKSUD": 96.6,
+                    "E_SECMLOG": 79.4,
+                    "E_SECMNAC": 91.4,
+                    "E_SECMOSBU": 93.4,
+                    "E_SECMRASS": 69.9,
+                    "E_SECMSPSW": 90.7,
+                    "E_SECMTST": 69.5,
+                    "E_SECMVPN": 83.8
+                }
+            }
+        ]
+    },
+    "FI": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 53.4,
+                    "E_SECMKSUD": 92.6,
+                    "E_SECMLOG": 43.5,
+                    "E_SECMNAC": 73.8,
+                    "E_SECMOSBU": 80.3,
+                    "E_SECMRASS": 55.9,
+                    "E_SECMSPSW": 89.8,
+                    "E_SECMTST": 40.1,
+                    "E_SECMVPN": 47.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 68.7,
+                    "E_SECMKSUD": 98.0,
+                    "E_SECMLOG": 73.2,
+                    "E_SECMNAC": 92.5,
+                    "E_SECMOSBU": 93.1,
+                    "E_SECMRASS": 75.2,
+                    "E_SECMSPSW": 94.4,
+                    "E_SECMTST": 57.3,
+                    "E_SECMVPN": 80.9
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 86.1,
+                    "E_SECMKSUD": 98.9,
+                    "E_SECMLOG": 88.6,
+                    "E_SECMNAC": 98.2,
+                    "E_SECMOSBU": 96.9,
+                    "E_SECMRASS": 89.0,
+                    "E_SECMSPSW": 97.9,
+                    "E_SECMTST": 79.0,
+                    "E_SECMVPN": 97.2
+                }
+            }
+        ]
+    },
+    "FR": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 19.0,
+                    "E_SECMKSUD": 84.5,
+                    "E_SECMLOG": 37.9,
+                    "E_SECMNAC": 65.2,
+                    "E_SECMOSBU": 66.2,
+                    "E_SECMRASS": 28.1,
+                    "E_SECMSPSW": 68.0,
+                    "E_SECMTST": 30.4,
+                    "E_SECMVPN": 38.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 32.4,
+                    "E_SECMKSUD": 94.4,
+                    "E_SECMLOG": 70.3,
+                    "E_SECMNAC": 90.1,
+                    "E_SECMOSBU": 74.1,
+                    "E_SECMRASS": 56.6,
+                    "E_SECMSPSW": 81.2,
+                    "E_SECMTST": 56.6,
+                    "E_SECMVPN": 74.6
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 54.7,
+                    "E_SECMKSUD": 96.4,
+                    "E_SECMLOG": 87.6,
+                    "E_SECMNAC": 94.9,
+                    "E_SECMOSBU": 76.7,
+                    "E_SECMRASS": 77.1,
+                    "E_SECMSPSW": 89.9,
+                    "E_SECMTST": 78.0,
+                    "E_SECMVPN": 94.1
+                }
+            }
+        ]
+    },
+    "HR": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 30.3,
+                    "E_SECMKSUD": 82.1,
+                    "E_SECMLOG": 28.7,
+                    "E_SECMNAC": 55.9,
+                    "E_SECMOSBU": 76.1,
+                    "E_SECMRASS": 21.4,
+                    "E_SECMSPSW": 65.0,
+                    "E_SECMTST": 23.5,
+                    "E_SECMVPN": 33.0
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 45.4,
+                    "E_SECMKSUD": 92.6,
+                    "E_SECMLOG": 51.8,
+                    "E_SECMNAC": 78.2,
+                    "E_SECMOSBU": 86.8,
+                    "E_SECMRASS": 35.1,
+                    "E_SECMSPSW": 74.6,
+                    "E_SECMTST": 38.6,
+                    "E_SECMVPN": 62.6
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 63.7,
+                    "E_SECMKSUD": 96.5,
+                    "E_SECMLOG": 73.5,
+                    "E_SECMNAC": 92.1,
+                    "E_SECMOSBU": 85.5,
+                    "E_SECMRASS": 50.2,
+                    "E_SECMSPSW": 85.1,
+                    "E_SECMTST": 55.3,
+                    "E_SECMVPN": 90.7
+                }
+            }
+        ]
+    },
+    "HU": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 37.3,
+                    "E_SECMKSUD": 80.3,
+                    "E_SECMLOG": 36.8,
+                    "E_SECMNAC": 52.5,
+                    "E_SECMOSBU": 54.9,
+                    "E_SECMRASS": 11.2,
+                    "E_SECMSPSW": 65.4,
+                    "E_SECMTST": 16.3,
+                    "E_SECMVPN": 20.4
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 54.2,
+                    "E_SECMKSUD": 91.4,
+                    "E_SECMLOG": 61.0,
+                    "E_SECMNAC": 79.4,
+                    "E_SECMOSBU": 75.8,
+                    "E_SECMRASS": 25.9,
+                    "E_SECMSPSW": 78.9,
+                    "E_SECMTST": 35.1,
+                    "E_SECMVPN": 50.5
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 70.0,
+                    "E_SECMKSUD": 97.0,
+                    "E_SECMLOG": 83.9,
+                    "E_SECMNAC": 93.7,
+                    "E_SECMOSBU": 92.8,
+                    "E_SECMRASS": 50.7,
+                    "E_SECMSPSW": 90.9,
+                    "E_SECMTST": 57.5,
+                    "E_SECMVPN": 81.0
+                }
+            }
+        ]
+    },
+    "IE": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 43.7,
+                    "E_SECMKSUD": 87.7,
+                    "E_SECMLOG": 53.3,
+                    "E_SECMNAC": 69.8,
+                    "E_SECMOSBU": 83.2,
+                    "E_SECMRASS": 49.0,
+                    "E_SECMSPSW": 83.3,
+                    "E_SECMTST": 47.5,
+                    "E_SECMVPN": 38.1
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 65.8,
+                    "E_SECMKSUD": 96.6,
+                    "E_SECMLOG": 76.2,
+                    "E_SECMNAC": 87.7,
+                    "E_SECMOSBU": 93.9,
+                    "E_SECMRASS": 73.2,
+                    "E_SECMSPSW": 92.6,
+                    "E_SECMTST": 69.9,
+                    "E_SECMVPN": 66.3
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 88.5,
+                    "E_SECMKSUD": 99.2,
+                    "E_SECMLOG": 92.3,
+                    "E_SECMNAC": 94.4,
+                    "E_SECMOSBU": 98.0,
+                    "E_SECMRASS": 90.3,
+                    "E_SECMSPSW": 98.5,
+                    "E_SECMTST": 90.3,
+                    "E_SECMVPN": 92.6
+                }
+            }
+        ]
+    },
+    "IT": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 18.0,
+                    "E_SECMKSUD": 88.5,
+                    "E_SECMLOG": 37.7,
+                    "E_SECMNAC": 62.6,
+                    "E_SECMOSBU": 77.5,
+                    "E_SECMRASS": 30.7,
+                    "E_SECMSPSW": 80.8,
+                    "E_SECMTST": 30.6,
+                    "E_SECMVPN": 27.6
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 35.4,
+                    "E_SECMKSUD": 96.3,
+                    "E_SECMLOG": 60.2,
+                    "E_SECMNAC": 85.7,
+                    "E_SECMOSBU": 91.6,
+                    "E_SECMRASS": 55.1,
+                    "E_SECMSPSW": 92.1,
+                    "E_SECMTST": 52.3,
+                    "E_SECMVPN": 62.4
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 56.1,
+                    "E_SECMKSUD": 97.7,
+                    "E_SECMLOG": 74.4,
+                    "E_SECMNAC": 90.4,
+                    "E_SECMOSBU": 93.9,
+                    "E_SECMRASS": 71.3,
+                    "E_SECMSPSW": 96.0,
+                    "E_SECMTST": 72.4,
+                    "E_SECMVPN": 83.0
+                }
+            }
+        ]
+    },
+    "LT": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 22.3,
+                    "E_SECMKSUD": 76.7,
+                    "E_SECMLOG": 17.6,
+                    "E_SECMNAC": 47.7,
+                    "E_SECMOSBU": 64.7,
+                    "E_SECMRASS": 19.2,
+                    "E_SECMSPSW": 62.4,
+                    "E_SECMTST": 24.2,
+                    "E_SECMVPN": 20.9
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 34.2,
+                    "E_SECMKSUD": 91.2,
+                    "E_SECMLOG": 37.4,
+                    "E_SECMNAC": 73.7,
+                    "E_SECMOSBU": 81.2,
+                    "E_SECMRASS": 37.2,
+                    "E_SECMSPSW": 75.7,
+                    "E_SECMTST": 42.0,
+                    "E_SECMVPN": 44.8
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 59.8,
+                    "E_SECMKSUD": 97.3,
+                    "E_SECMLOG": 69.1,
+                    "E_SECMNAC": 92.0,
+                    "E_SECMOSBU": 93.6,
+                    "E_SECMRASS": 63.8,
+                    "E_SECMSPSW": 91.5,
+                    "E_SECMTST": 58.2,
+                    "E_SECMVPN": 81.6
+                }
+            }
+        ]
+    },
+    "LU": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 35.0,
+                    "E_SECMKSUD": 84.9,
+                    "E_SECMLOG": 44.1,
+                    "E_SECMNAC": 68.1,
+                    "E_SECMOSBU": 76.5,
+                    "E_SECMRASS": 26.4,
+                    "E_SECMSPSW": 73.8,
+                    "E_SECMTST": 30.6,
+                    "E_SECMVPN": 41.3
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 51.5,
+                    "E_SECMKSUD": null,
+                    "E_SECMLOG": 69.3,
+                    "E_SECMNAC": 85.2,
+                    "E_SECMOSBU": 88.6,
+                    "E_SECMRASS": 48.5,
+                    "E_SECMSPSW": 84.3,
+                    "E_SECMTST": 53.0,
+                    "E_SECMVPN": 69.2
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 56.6,
+                    "E_SECMKSUD": null,
+                    "E_SECMLOG": 80.5,
+                    "E_SECMNAC": 92.8,
+                    "E_SECMOSBU": 92.7,
+                    "E_SECMRASS": 64.4,
+                    "E_SECMSPSW": 92.6,
+                    "E_SECMTST": 69.3,
+                    "E_SECMVPN": 85.9
+                }
+            }
+        ]
+    },
+    "LV": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 24.9,
+                    "E_SECMKSUD": 72.1,
+                    "E_SECMLOG": 17.7,
+                    "E_SECMNAC": 52.3,
+                    "E_SECMOSBU": 57.2,
+                    "E_SECMRASS": 25.3,
+                    "E_SECMSPSW": 86.0,
+                    "E_SECMTST": 28.1,
+                    "E_SECMVPN": 21.1
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 35.8,
+                    "E_SECMKSUD": 87.5,
+                    "E_SECMLOG": 37.9,
+                    "E_SECMNAC": 71.1,
+                    "E_SECMOSBU": 73.8,
+                    "E_SECMRASS": 47.6,
+                    "E_SECMSPSW": 90.6,
+                    "E_SECMTST": 49.2,
+                    "E_SECMVPN": 43.0
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 54.8,
+                    "E_SECMKSUD": 95.1,
+                    "E_SECMLOG": 74.4,
+                    "E_SECMNAC": 89.0,
+                    "E_SECMOSBU": 91.4,
+                    "E_SECMRASS": 76.9,
+                    "E_SECMSPSW": 94.6,
+                    "E_SECMTST": 67.7,
+                    "E_SECMVPN": 77.8
+                }
+            }
+        ]
+    },
+    "ME": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 20.0,
+                    "E_SECMKSUD": 57.3,
+                    "E_SECMLOG": 17.5,
+                    "E_SECMNAC": 31.0,
+                    "E_SECMOSBU": 46.3,
+                    "E_SECMRASS": 11.0,
+                    "E_SECMSPSW": 45.9,
+                    "E_SECMTST": 17.9,
+                    "E_SECMVPN": 15.1
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 28.2,
+                    "E_SECMKSUD": 76.7,
+                    "E_SECMLOG": 39.8,
+                    "E_SECMNAC": 65.2,
+                    "E_SECMOSBU": 70.0,
+                    "E_SECMRASS": 27.2,
+                    "E_SECMSPSW": 68.6,
+                    "E_SECMTST": 39.7,
+                    "E_SECMVPN": 32.3
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 58.9,
+                    "E_SECMKSUD": 93.9,
+                    "E_SECMLOG": 69.2,
+                    "E_SECMNAC": 87.9,
+                    "E_SECMOSBU": 79.7,
+                    "E_SECMRASS": 62.0,
+                    "E_SECMSPSW": 84.2,
+                    "E_SECMTST": 66.6,
+                    "E_SECMVPN": 61.3
+                }
+            }
+        ]
+    },
+    "MT": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 40.0,
+                    "E_SECMKSUD": 85.4,
+                    "E_SECMLOG": 46.2,
+                    "E_SECMNAC": 64.9,
+                    "E_SECMOSBU": 73.2,
+                    "E_SECMRASS": 35.6,
+                    "E_SECMSPSW": 81.0,
+                    "E_SECMTST": 38.5,
+                    "E_SECMVPN": 46.6
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 58.2,
+                    "E_SECMKSUD": 95.2,
+                    "E_SECMLOG": 64.8,
+                    "E_SECMNAC": 83.5,
+                    "E_SECMOSBU": 87.4,
+                    "E_SECMRASS": 56.4,
+                    "E_SECMSPSW": 91.7,
+                    "E_SECMTST": 59.3,
+                    "E_SECMVPN": 77.8
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 82.8,
+                    "E_SECMKSUD": 89.3,
+                    "E_SECMLOG": 84.6,
+                    "E_SECMNAC": 86.1,
+                    "E_SECMOSBU": 88.3,
+                    "E_SECMRASS": 82.9,
+                    "E_SECMSPSW": 93.6,
+                    "E_SECMTST": 82.9,
+                    "E_SECMVPN": 87.7
+                }
+            }
+        ]
+    },
+    "NL": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 42.1,
+                    "E_SECMKSUD": 91.2,
+                    "E_SECMLOG": 58.4,
+                    "E_SECMNAC": 49.6,
+                    "E_SECMOSBU": 84.5,
+                    "E_SECMRASS": 48.0,
+                    "E_SECMSPSW": 73.0,
+                    "E_SECMTST": 46.1,
+                    "E_SECMVPN": 54.0
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 59.9,
+                    "E_SECMKSUD": 97.1,
+                    "E_SECMLOG": 82.1,
+                    "E_SECMNAC": 63.6,
+                    "E_SECMOSBU": 92.6,
+                    "E_SECMRASS": 67.2,
+                    "E_SECMSPSW": 85.7,
+                    "E_SECMTST": 64.5,
+                    "E_SECMVPN": 77.8
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 76.5,
+                    "E_SECMKSUD": 98.0,
+                    "E_SECMLOG": 90.5,
+                    "E_SECMNAC": 72.7,
+                    "E_SECMOSBU": 96.1,
+                    "E_SECMRASS": 80.0,
+                    "E_SECMSPSW": 93.9,
+                    "E_SECMTST": 79.9,
+                    "E_SECMVPN": 85.9
+                }
+            }
+        ]
+    },
+    "NO": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 36.3,
+                    "E_SECMKSUD": 90.0,
+                    "E_SECMLOG": 44.1,
+                    "E_SECMNAC": 68.9,
+                    "E_SECMOSBU": 78.5,
+                    "E_SECMRASS": 39.5,
+                    "E_SECMSPSW": 69.6,
+                    "E_SECMTST": 31.5,
+                    "E_SECMVPN": 36.2
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 58.4,
+                    "E_SECMKSUD": 97.6,
+                    "E_SECMLOG": 72.6,
+                    "E_SECMNAC": 89.9,
+                    "E_SECMOSBU": 94.3,
+                    "E_SECMRASS": 68.7,
+                    "E_SECMSPSW": 84.1,
+                    "E_SECMTST": 58.6,
+                    "E_SECMVPN": 69.7
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 78.8,
+                    "E_SECMKSUD": 98.7,
+                    "E_SECMLOG": 85.8,
+                    "E_SECMNAC": 94.0,
+                    "E_SECMOSBU": 98.1,
+                    "E_SECMRASS": 81.8,
+                    "E_SECMSPSW": 95.0,
+                    "E_SECMTST": 74.4,
+                    "E_SECMVPN": 89.2
+                }
+            }
+        ]
+    },
+    "PL": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 32.2,
+                    "E_SECMKSUD": 77.8,
+                    "E_SECMLOG": 22.4,
+                    "E_SECMNAC": 55.7,
+                    "E_SECMOSBU": 52.7,
+                    "E_SECMRASS": 19.5,
+                    "E_SECMSPSW": 73.4,
+                    "E_SECMTST": 21.4,
+                    "E_SECMVPN": 23.9
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 53.7,
+                    "E_SECMKSUD": 92.6,
+                    "E_SECMLOG": 51.1,
+                    "E_SECMNAC": 81.6,
+                    "E_SECMOSBU": 73.9,
+                    "E_SECMRASS": 40.9,
+                    "E_SECMSPSW": 87.6,
+                    "E_SECMTST": 47.0,
+                    "E_SECMVPN": 53.3
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 74.7,
+                    "E_SECMKSUD": 97.3,
+                    "E_SECMLOG": 78.7,
+                    "E_SECMNAC": 94.1,
+                    "E_SECMOSBU": 85.8,
+                    "E_SECMRASS": 64.2,
+                    "E_SECMSPSW": 95.4,
+                    "E_SECMTST": 70.3,
+                    "E_SECMVPN": 85.7
+                }
+            }
+        ]
+    },
+    "PT": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 36.5,
+                    "E_SECMKSUD": 88.8,
+                    "E_SECMLOG": 54.8,
+                    "E_SECMNAC": 66.7,
+                    "E_SECMOSBU": 71.1,
+                    "E_SECMRASS": 37.2,
+                    "E_SECMSPSW": 83.5,
+                    "E_SECMTST": 38.1,
+                    "E_SECMVPN": 36.5
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": null,
+                    "E_SECMKSUD": 95.4,
+                    "E_SECMLOG": null,
+                    "E_SECMNAC": 89.6,
+                    "E_SECMOSBU": 88.7,
+                    "E_SECMRASS": null,
+                    "E_SECMSPSW": 91.4,
+                    "E_SECMTST": null,
+                    "E_SECMVPN": null
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 72.7,
+                    "E_SECMKSUD": 97.2,
+                    "E_SECMLOG": 84.8,
+                    "E_SECMNAC": 95.5,
+                    "E_SECMOSBU": 92.5,
+                    "E_SECMRASS": 76.4,
+                    "E_SECMSPSW": 95.8,
+                    "E_SECMTST": 77.7,
+                    "E_SECMVPN": 91.3
+                }
+            }
+        ]
+    },
+    "RO": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 16.1,
+                    "E_SECMKSUD": 61.5,
+                    "E_SECMLOG": 13.6,
+                    "E_SECMNAC": 34.9,
+                    "E_SECMOSBU": 35.8,
+                    "E_SECMRASS": 13.0,
+                    "E_SECMSPSW": 49.5,
+                    "E_SECMTST": 12.5,
+                    "E_SECMVPN": 11.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 29.6,
+                    "E_SECMKSUD": 74.2,
+                    "E_SECMLOG": 27.1,
+                    "E_SECMNAC": 46.6,
+                    "E_SECMOSBU": 53.6,
+                    "E_SECMRASS": 25.5,
+                    "E_SECMSPSW": 67.8,
+                    "E_SECMTST": 24.5,
+                    "E_SECMVPN": 24.5
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 47.5,
+                    "E_SECMKSUD": 91.9,
+                    "E_SECMLOG": 51.6,
+                    "E_SECMNAC": 76.2,
+                    "E_SECMOSBU": 70.3,
+                    "E_SECMRASS": 47.5,
+                    "E_SECMSPSW": 79.2,
+                    "E_SECMTST": 44.9,
+                    "E_SECMVPN": 50.3
+                }
+            }
+        ]
+    },
+    "RS": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 26.9,
+                    "E_SECMKSUD": 79.4,
+                    "E_SECMLOG": 31.3,
+                    "E_SECMNAC": 58.8,
+                    "E_SECMOSBU": 70.0,
+                    "E_SECMRASS": 18.7,
+                    "E_SECMSPSW": 71.3,
+                    "E_SECMTST": 18.8,
+                    "E_SECMVPN": 28.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 47.2,
+                    "E_SECMKSUD": 92.0,
+                    "E_SECMLOG": 48.5,
+                    "E_SECMNAC": 76.0,
+                    "E_SECMOSBU": 77.8,
+                    "E_SECMRASS": 34.7,
+                    "E_SECMSPSW": 80.0,
+                    "E_SECMTST": 28.7,
+                    "E_SECMVPN": 48.6
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 52.3,
+                    "E_SECMKSUD": 94.5,
+                    "E_SECMLOG": 66.3,
+                    "E_SECMNAC": 89.6,
+                    "E_SECMOSBU": 84.9,
+                    "E_SECMRASS": 50.7,
+                    "E_SECMSPSW": 89.1,
+                    "E_SECMTST": 43.6,
+                    "E_SECMVPN": 76.7
+                }
+            }
+        ]
+    },
+    "SE": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 37.4,
+                    "E_SECMKSUD": 89.4,
+                    "E_SECMLOG": 53.2,
+                    "E_SECMNAC": 69.1,
+                    "E_SECMOSBU": 81.3,
+                    "E_SECMRASS": 47.5,
+                    "E_SECMSPSW": 71.1,
+                    "E_SECMTST": 46.8,
+                    "E_SECMVPN": 49.8
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 58.0,
+                    "E_SECMKSUD": 96.0,
+                    "E_SECMLOG": 82.7,
+                    "E_SECMNAC": 88.0,
+                    "E_SECMOSBU": 90.3,
+                    "E_SECMRASS": 74.0,
+                    "E_SECMSPSW": 82.7,
+                    "E_SECMTST": 74.0,
+                    "E_SECMVPN": 85.0
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 81.9,
+                    "E_SECMKSUD": 98.4,
+                    "E_SECMLOG": 92.9,
+                    "E_SECMNAC": 95.4,
+                    "E_SECMOSBU": 96.0,
+                    "E_SECMRASS": 87.2,
+                    "E_SECMSPSW": 93.5,
+                    "E_SECMTST": 85.6,
+                    "E_SECMVPN": 93.4
+                }
+            }
+        ]
+    },
+    "SI": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 24.1,
+                    "E_SECMKSUD": 74.3,
+                    "E_SECMLOG": 29.0,
+                    "E_SECMNAC": 52.1,
+                    "E_SECMOSBU": 59.4,
+                    "E_SECMRASS": 16.8,
+                    "E_SECMSPSW": 52.3,
+                    "E_SECMTST": 21.3,
+                    "E_SECMVPN": 30.6
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 45.4,
+                    "E_SECMKSUD": 90.1,
+                    "E_SECMLOG": 52.2,
+                    "E_SECMNAC": 74.7,
+                    "E_SECMOSBU": 73.3,
+                    "E_SECMRASS": 32.5,
+                    "E_SECMSPSW": 73.8,
+                    "E_SECMTST": 43.4,
+                    "E_SECMVPN": 61.7
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 63.1,
+                    "E_SECMKSUD": 96.6,
+                    "E_SECMLOG": 75.5,
+                    "E_SECMNAC": 91.4,
+                    "E_SECMOSBU": 88.4,
+                    "E_SECMRASS": 65.2,
+                    "E_SECMSPSW": 85.0,
+                    "E_SECMTST": 62.7,
+                    "E_SECMVPN": 94.0
+                }
+            }
+        ]
+    },
+    "SK": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 34.6,
+                    "E_SECMKSUD": 82.7,
+                    "E_SECMLOG": 29.0,
+                    "E_SECMNAC": 55.1,
+                    "E_SECMOSBU": 68.2,
+                    "E_SECMRASS": 24.2,
+                    "E_SECMSPSW": 74.5,
+                    "E_SECMTST": 22.9,
+                    "E_SECMVPN": 27.9
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 56.9,
+                    "E_SECMKSUD": 92.4,
+                    "E_SECMLOG": 57.8,
+                    "E_SECMNAC": 80.0,
+                    "E_SECMOSBU": 85.5,
+                    "E_SECMRASS": 49.6,
+                    "E_SECMSPSW": 85.7,
+                    "E_SECMTST": 47.3,
+                    "E_SECMVPN": 58.1
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 74.0,
+                    "E_SECMKSUD": 98.1,
+                    "E_SECMLOG": 78.5,
+                    "E_SECMNAC": 95.2,
+                    "E_SECMOSBU": 93.8,
+                    "E_SECMRASS": 70.2,
+                    "E_SECMSPSW": 95.0,
+                    "E_SECMTST": 64.0,
+                    "E_SECMVPN": 86.4
+                }
+            }
+        ]
+    },
+    "UK": {
+        "variables": [
+            {
+                "key": "E_SECMDENC",
+                "label": "E_SECMDENC"
+            },
+            {
+                "key": "E_SECMKSUD",
+                "label": "E_SECMKSUD"
+            },
+            {
+                "key": "E_SECMLOG",
+                "label": "E_SECMLOG"
+            },
+            {
+                "key": "E_SECMNAC",
+                "label": "E_SECMNAC"
+            },
+            {
+                "key": "E_SECMOSBU",
+                "label": "E_SECMOSBU"
+            },
+            {
+                "key": "E_SECMRASS",
+                "label": "E_SECMRASS"
+            },
+            {
+                "key": "E_SECMSPSW",
+                "label": "E_SECMSPSW"
+            },
+            {
+                "key": "E_SECMTST",
+                "label": "E_SECMTST"
+            },
+            {
+                "key": "E_SECMVPN",
+                "label": "E_SECMVPN"
+            }
+        ],
+        "sets": [
+            {
+                "key": "10-49",
+                "label": "size_emp_10-49",
+                "values": {
+                    "E_SECMDENC": 31.5,
+                    "E_SECMKSUD": 88.3,
+                    "E_SECMLOG": 32.8,
+                    "E_SECMNAC": 49.2,
+                    "E_SECMOSBU": 71.4,
+                    "E_SECMRASS": 36.9,
+                    "E_SECMSPSW": 84.9,
+                    "E_SECMTST": 33.9,
+                    "E_SECMVPN": 29.4
+                }
+            },
+            {
+                "key": "50-249",
+                "label": "size_emp_50-249",
+                "values": {
+                    "E_SECMDENC": 59.3,
+                    "E_SECMKSUD": 96.5,
+                    "E_SECMLOG": 66.4,
+                    "E_SECMNAC": 82.8,
+                    "E_SECMOSBU": 89.9,
+                    "E_SECMRASS": 68.5,
+                    "E_SECMSPSW": 90.9,
+                    "E_SECMTST": 63.6,
+                    "E_SECMVPN": 64.8
+                }
+            },
+            {
+                "key": "GE250",
+                "label": "size_emp_GE250",
+                "values": {
+                    "E_SECMDENC": 78.9,
+                    "E_SECMKSUD": 96.0,
+                    "E_SECMLOG": 81.5,
+                    "E_SECMNAC": 90.8,
+                    "E_SECMOSBU": 94.5,
+                    "E_SECMRASS": 83.7,
+                    "E_SECMSPSW": 96.1,
+                    "E_SECMTST": 83.6,
+                    "E_SECMVPN": 83.0
+                }
+            }
+        ]
+    }
+}
