@@ -1,28 +1,33 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import Loader from '../Loader';
-import dataFile from '../../data/Stacked_barchart.json';
-import { colorScheme } from '../Config';
+import dataFile from '../../data/stackedBar3.json';
+import { colorScheme, getColor } from '../Config';
 import Tooltip from '../Tooltip';
-import { mapstate, mapvalue, mapindtype } from '../MapState';
+import { mapstate, mapvalue, mapindtype, map_size_emp, map_size_indic_is_ai_to_number, map_size_indic_is_ai } from '../MapState';
 import NationSelector from '../NationSelector';
 
-function processData(data) {
+function processData(data, indic_list) {
     var processedData = [];
     var time_period_set = new Set(data.map(d => d.TIME_PERIOD));
     time_period_set.forEach(time_period => {
         var obj = {
             TIME_PERIOD: time_period
         };
-        data.filter(d => d.TIME_PERIOD === time_period)
-            .forEach(d => {
-                obj[d.indic_is] = d.OBS_VALUE;
-            });
+        // sum OBS_VALUE
+        var sum = 100;
+        indic_list.forEach(indic => {
+            var value = data.filter(d => d.TIME_PERIOD === time_period && d.indic_is === indic);
+            if (value.length === 0) {
+                obj[indic] = 0;
+                return;
+            }
+            obj[indic] = value[0].OBS_VALUE / sum * 100;
+        });
         processedData.push(obj);
     });
     return processedData;
 }
-
 
 function StackedBarChart() {
 
@@ -31,7 +36,7 @@ function StackedBarChart() {
     const [dimensions, setDimensions] = useState({
         width: 1000,
         height: 500,
-        margin: { top: 50, right: 250, bottom: 50, left: 100 },
+        margin: { top: 50, right: 150, bottom: 50, left: 150 },
     });
 
     const [size_emp, setSize_emp] = useState('0-9');
@@ -46,8 +51,11 @@ function StackedBarChart() {
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
+    const max_value = 100;
+
     useEffect(() => {
-        const container = d3.select(ref.current)
+        const container = d3.select(ref.current);
+        container.selectAll('svg').remove();
         const svg = container
             .append('svg')
             .style('margin', '0 auto')
@@ -56,13 +64,146 @@ function StackedBarChart() {
             .append('g')
             .attr('transform', `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
 
-        console.log(dataFile)
+        var defs = svg.append("defs");
+
+        var filter = defs.append("filter")
+            .attr("id", "barsshadow")
+            .attr("height", "130%");
+
+        filter.append("feGaussianBlur")
+            .attr("in", "SourceAlpha")
+            .attr("stdDeviation", 3)
+            .attr("result", "blur");
+
+        var feOffset = filter.append("feOffset")
+            .attr("dx", 2)
+            .attr("dy", -2)
+            .attr("result", "offsetBlur");
+
+        var feMerge = filter.append("feMerge");
+
+        feMerge.append("feMergeNode")
+            .attr("in", "offsetBlur")
+        feMerge.append("feMergeNode")
+            .attr("in", "SourceGraphic");
+
+        var feFlood = filter.append("feFlood")
+            .attr("flood-color", "black")
+            .attr("flood-opacity", 0.2)
+            .attr("result", "flood");
+
+        var feComposite = filter.append("feComposite")
+            .attr("in", "flood")
+            .attr("in2", "offsetBlur")
+            .attr("operator", "in")
+            .attr("result", "shadow");
+
+        var feMerge2 = filter.append("feMerge");
+
+        feMerge2.append("feMergeNode")
+            .attr("in", "shadow")
+        feMerge2.append("feMergeNode")
+            .attr("in", "SourceGraphic");
 
         var data = dataFile.filter(d => d.geo === selectedGeo);
+        setSizeEmpList([...new Set(data.map(d => d.size_emp))]);
         data = data.filter(d => d.size_emp === size_emp);
 
-        var processedData = processData(data);
-        console.log(processedData)
+        var indic_is_set_list = [...new Set(data.map(d => d.indic_is))];
+
+        var processedData = processData(data, indic_is_set_list);
+
+        const x = d3.scaleBand()
+            .domain(dataFile.map(d => d.TIME_PERIOD).sort())
+            .range([0, dimensions.width - dimensions.margin.left - dimensions.margin.right])
+            .padding(0.1);
+
+        var max_value = 0;
+        processedData.forEach(d => {
+            console.log(d);
+            var sum = 0;
+            indic_is_set_list.forEach(indic => {
+                sum += d[indic];
+            });
+            if (sum > max_value) {
+                max_value = sum;
+            }
+        });
+
+        // add a bar that reach the max value called "no_data"
+        processedData.forEach(d => {
+            var sum = 0;
+            indic_is_set_list.forEach(indic => {
+                sum += d[indic];
+            });
+            d.no_data = max_value - sum;
+        });
+
+        indic_is_set_list.push('no_data');
+
+        const y = d3.scaleLinear()
+            .domain([0, max_value])
+            .range([dimensions.height - dimensions.margin.top - dimensions.margin.bottom, 0]);
+
+        const xAxis = d3.axisBottom(x)
+            .tickFormat(d3.format("d"))
+            .tickSizeOuter(0);
+
+        const yAxis = d3.axisLeft(y)
+            .ticks(10);
+
+        svg.append('g')
+            .attr('transform', `translate(0, ${dimensions.height - dimensions.margin.top - dimensions.margin.bottom})`)
+            // rotate x-axis labels by 45 degrees
+            .call(xAxis)
+            .selectAll('text')
+            .style('font-size', '14px')
+            .style("font-weight", "700")
+            .attr('transform', 'rotate(-45)')
+            .attr('x', -10)
+            .attr('y', 5)
+            .style('text-anchor', 'end');
+
+        svg.append('g')
+            .call(yAxis)
+            .selectAll('text')
+            // add % sign to y-axis labels
+            .text(d => d + '%')
+            .style('font-size', '12px')
+            .style("font-weight", "700");
+
+        console.log(processedData);
+
+        console.log(indic_is_set_list);
+
+        const stackedData = d3.stack()
+            .keys(indic_is_set_list)
+            (processedData)
+
+        console.log(stackedData);
+
+        svg.append("g")
+            .selectAll("g")
+            .data(stackedData)
+            .join("g")
+            .attr("fill", (d) => map_size_indic_is_ai_to_number(d.key) != -1 ? getColor(map_size_indic_is_ai_to_number(d.key)) : "#ccc")
+            .selectAll("rect")
+            .data((d, key) => d.map(item => ({ key: d.key, ...item })))
+            .join("rect")
+            .attr("x", d => x(d.data.TIME_PERIOD))
+            .attr("y", d => y(d[1]))
+            .attr("height", d => y(d[0]) - y(d[1]))
+            .attr("width", x.bandwidth())
+            .attr("filter", "url(#barsshadow)") // Add shadow filter
+            .on('mouseover', function (event, d) {
+                setTooltipContent(`<div><p>${d.key != "no_data" ? "AI task: " + map_size_indic_is_ai(d.key) : "No data"}</p><p>${d.data[d.key].toFixed(2)}%</p></div>`);
+                setTooltipVisible(true);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+            })
+            .on('mouseout', function () {
+                setTooltipVisible(false);
+            })
+
 
         setLoading(false)
     }, [selectedGeo, size_emp])
@@ -75,6 +216,13 @@ function StackedBarChart() {
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                    <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
+                        {
+                            size_empList.map((size_emp_iterator, index) => (
+                                <button key={index} onClick={() => setSize_emp(size_emp_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${map_size_emp(size_emp_iterator)} (${size_emp_iterator})</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${size_emp_iterator === size_emp ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{map_size_emp(size_emp_iterator)}</button>
+                            ))
+                        }
+                    </div>
                 </div>
                 {loading && <Loader />}
                 <Tooltip

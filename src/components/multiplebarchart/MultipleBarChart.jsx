@@ -83,8 +83,8 @@ function MultipleBarChart() {
                 .append("g")
                 .attr("transform", `translate(${(index === 0) ? 0 : dimensions.margin.left},${dimensions.margin.top})`);
 
-            // define shadow
-            var defs = svg.append("defs");
+        // define shadow
+        var defs = svg.append("defs");
 
         var filter = defs.append("filter")
             .attr("id", "shadow")
