@@ -120,7 +120,6 @@ function StackedBarChart() {
 
         var max_value = 0;
         processedData.forEach(d => {
-            console.log(d);
             var sum = 0;
             indic_is_set_list.forEach(indic => {
                 sum += d[indic];
@@ -172,15 +171,9 @@ function StackedBarChart() {
             .style('font-size', '12px')
             .style("font-weight", "700");
 
-        console.log(processedData);
-
-        console.log(indic_is_set_list);
-
         const stackedData = d3.stack()
             .keys(indic_is_set_list)
             (processedData)
-
-        console.log(stackedData);
 
         svg.append("g")
             .selectAll("g")
@@ -215,7 +208,12 @@ function StackedBarChart() {
                 <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                    <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                    <div className="mt-7">
+                        <h2 className="text-xl font-semibold">
+                            Different AI task in <span className="underline underline-offset-4 font-bold">{map_size_emp(size_emp)}</span> enterprises in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span> over the years
+                        </h2>
+                    </div>
+                    <div ref={ref} className='w-fit flex items-center justify-center'></div>
                     <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
                         {
                             size_empList.map((size_emp_iterator, index) => (

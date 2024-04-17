@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import dataFile from '../../data/Area_chart.json';
+import dataFile from '../../data/spider_chart.json';
 import { getColor } from '../Config';
 import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
 import NationSelector from "../NationSelector";
@@ -13,11 +13,11 @@ function SpiderChart() {
     const [dimensions, setDimensions] = useState({
         width: 1000,
         height: 600,
-        margin: { top: 50, right: 20, bottom: 50, left: 80 },
+        margin: { top: 200, right: 20, bottom: 0, left: 80 },
     });
 
     const [indic_is, setIndicIs] = useState('E_AESELL');
-    const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
+    const [nationList, setNationList] = useState([]);
     const [indic_isList, setIndicIsList] = useState([]);
     const [selectedGeo, setSelectedGeo] = useState("DE");
 
@@ -26,6 +26,28 @@ function SpiderChart() {
     const [tooltipContent, setTooltipContent] = useState('');
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
+
+    var maxPoint = 100;
+
+    const radialScale = d3.scaleLinear()
+        .domain([0, maxPoint])
+        .range([0, (dimensions.height - dimensions.margin.top - dimensions.margin.bottom) / 2]);
+
+    function angleToCoordinate(angle, value) {
+        let x = Math.cos(angle) * radialScale(value);
+        let y = Math.sin(angle) * radialScale(value);
+        return { "x": x, "y": y };
+    }
+
+    function getPathCoordinates(data_point, features) {
+        let coordinates = [];
+        for (var i = 0; i < features.length; i++) {
+            let ft_name = features[i];
+            let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+            coordinates.push(angleToCoordinate(angle, data_point[ft_name]));
+        }
+        return coordinates;
+    }
 
     useEffect(() => {
         const container = d3.select(ref.current);
@@ -37,266 +59,104 @@ function SpiderChart() {
             .attr('width', dimensions.width)
             .attr('height', dimensions.height)
             .append('g')
-            .attr('transform', `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
+            //.attr('transform', `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
+            .attr("transform", "translate(" + dimensions.width / 2 + "," + dimensions.height / 2 + ")");
 
-        // implement #drop-shadow
-        var defs = svg.append("defs");
+        var features = dataFile['variables'].map(d => d.label);
+        var data = dataFile['sets'].map(d => d.values);
 
-        var filter = defs.append("filter")
-            .attr("id", "drop-shadow")
-            .attr("height", "130%");
+        console.log(data);
 
-        filter.append("feGaussianBlur")
-            .attr("in", "SourceAlpha")
-            .attr("stdDeviation", 3)
-            .attr("result", "blur");
+        let ticks = [25, 50, 75, 100];
 
-        var feOffset = filter.append("feOffset")
-            .attr("dx", 0)
-            .attr("dy", -1)
-            .attr("result", "offsetBlur");
+        ticks.forEach(t =>
+            svg.append("circle")
+                .attr("cx", 0)
+                .attr("cy", 0)
+                .attr("fill", "none")
+                .attr("stroke", "#e8e8e8")
+                .attr("stroke-width", "2")
+                .attr("r", radialScale(t))
+        );
 
-        var feMerge = filter.append("feMerge");
+        ticks.forEach(t =>
+            svg.append("text")
+                .attr("x", -15)
+                .attr("y", - radialScale(t) - 5)
+                .attr("fill", "#bbbbbb")
+                .attr("font-size", "10px")
+                .text(t.toString())
+        );
 
-        feMerge.append("feMergeNode")
-            .attr("in", "offsetBlur")
-        feMerge.append("feMergeNode")
-            .attr("in", "SourceGraphic");
+        data.forEach(singledata => {
+            for (var i = 0; i < features.length; i++) {
+                let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
+                let line_coordinate = angleToCoordinate(angle, 100);
+                let label_coordinate = angleToCoordinate(angle, 120);
 
-        var feFlood = filter.append("feFlood")
-            .attr("flood-color", "black")
-            .attr("flood-opacity", 0.2)
-            .attr("result", "flood");
+                //draw axis label
+                svg.append("text")
+                    .attr("text-anchor", "middle")
+                    .attr("alignment-baseline", "central")
+                    .attr("x", label_coordinate.x)
+                    .attr("y", label_coordinate.y)
+                    .attr("font-size", "11px")
+                    .attr("fill", "#333333")
+                    .text(features[i]);
 
-        var feComposite = filter.append("feComposite")
-            .attr("in", "flood")
-            .attr("in2", "offsetBlur")
-            .attr("operator", "in")
-            .attr("result", "shadow");
-
-        var feMerge2 = filter.append("feMerge");
-
-        feMerge2.append("feMergeNode")
-            .attr("in", "shadow")
-        feMerge2.append("feMergeNode")
-            .attr("in", "SourceGraphic");
-
-        // Remove shadows on left and right
-        svg.select(".grid")
-            .style("stroke-opacity", 0);
-
-        var data = dataFile.filter(d => d.geo === selectedGeo)
-        var indic_is_set_list = [...new Set(data.map(d => d.indic_is))];
-        setIndicIsList(indic_is_set_list);
-        data = data.filter(d => d.indic_is === indic_is);
-
-        const size_emp_set_list = [...new Set(data.map(d => d.size_emp))];
-
-        var sources = size_emp_set_list.map(function (size_emp) {
-            var tmp = data.filter(function (d) {
-                return d.size_emp === size_emp;
-            });
-            return {
-                size_emp: size_emp,
-                values: tmp.map(function (d) {
-                    return { TIME_PERIOD: d.TIME_PERIOD, OBS_VALUE: d.OBS_VALUE };
-                })
-            };
-        });
-
-        // sort sources by TIME_PERIOD
-        sources.forEach(function (s) {
-            s.values.sort(function (a, b) {
-                return a.TIME_PERIOD - b.TIME_PERIOD;
-            });
-        });
-
-        sources.forEach(function (s) {
-            var new_values = [];
-            var i = 0;
-            while (i < s.values.length) {
-                var sum = s.values[i].OBS_VALUE;
-                var count = 1;
-                while (i + count < s.values.length && s.values[i + count].TIME_PERIOD === s.values[i].TIME_PERIOD) {
-                    sum += s.values[i + count].OBS_VALUE;
-                    count++;
-                }
-                new_values.push({ TIME_PERIOD: s.values[i].TIME_PERIOD, OBS_VALUE: sum / count });
-                i += count;
+                //draw axis line
+                svg.append("line")
+                    .attr("x1", 0)
+                    .attr("y1", 0)
+                    .attr("x2", line_coordinate.x)
+                    .attr("y2", line_coordinate.y)
+                    .attr("stroke", "#e8e8e8")
+                    .attr("stroke-width", "2");
             }
-            s.values = new_values;
+
+            const coords = getPathCoordinates(singledata, features);
+
+            coords.forEach(d => {
+                svg.append("circle")
+                    .attr("r", 4)
+                    .attr("fill", "#af2d2d")
+                    .attr("cx", d.x)
+                    .attr("cy", d.y);
+            });
+
+            /*
+            var lg = svg.append("defs").append("linearGradient")
+                .attr("id", "mygrad")
+                .attr("x1", "0%")
+                .attr("x2", "0%")
+                .attr("y1", "0%")
+                .attr("y2", "100%");
+
+            lg.append("stop")
+                .attr("offset", "0%")
+                .style("stop-color", "#ce6262")
+                .style("stop-opacity", 0);
+
+            lg.append("stop")
+                .attr("offset", "100%")
+                .style("stop-color", "#ce6262")
+                .style("stop-opacity", 0.5);
+
+            */
+
+            svg.append("path")
+                .datum([...coords])
+                .attr("d", d3.line()
+                    .curve(d3.curveCatmullRomClosed)
+                    .x(d => d.x)
+                    .y(d => d.y)
+                )
+                .attr("stroke-width", 4)
+                .attr("stroke", "#f05454")
+                .attr("fill", getColor(map_size_emp_to_number(singledata['size_emp']), 0, 100))
+                .attr("stroke-opacity", 1)
+                .attr("opacity", 0.5);
         });
-
-        // sort sources by the smallest area to the largest given by the sum of OBS_VALUE
-        sources.sort(function (a, b) {
-            return d3.sum(b.values, function (d) { return d.OBS_VALUE; }) - d3.sum(a.values, function (d) { return d.OBS_VALUE; });
-        });
-
-        const x_domain = d3.extent(dataFile, d => d.TIME_PERIOD)
-
-        const x = d3.scaleLinear()
-            .domain(x_domain)
-            .range([0, dimensions.width - dimensions.margin.left - dimensions.margin.right]);
-
-        const y = d3.scaleLinear()
-            .domain([0, 100])
-            .range([dimensions.height - dimensions.margin.top - dimensions.margin.bottom, 0]);
-
-        const xAxis = d3.axisBottom(x)
-            .ticks(x_domain[1] - x_domain[0])
-            .tickFormat(d3.format("d"));
-
-        const yAxis = d3.axisLeft(y)
-            .ticks(10);
-
-        svg.append('g')
-            .attr('transform', `translate(0, ${dimensions.height - dimensions.margin.top - dimensions.margin.bottom})`)
-            // rotate x-axis labels by 45 degrees
-            .call(xAxis)
-            .selectAll('text')
-            .style('font-size', '14px')
-            .style("font-weight", "700")
-            .attr('transform', 'rotate(-45)')
-            .attr('x', -10)
-            .attr('y', 5)
-            .style('text-anchor', 'end');
-
-        svg.append('g')
-            .call(yAxis)
-            .selectAll('text')
-            // add % sign to y-axis labels
-            .text(d => d + '%')
-            .style('font-size', '12px')
-            .style("font-weight", "700");
-
-        // gridlines in x axis function
-        function make_x_gridlines() {
-            return d3.axisBottom(x)
-                .ticks(x_domain[1] - x_domain[0])
-        }
-
-        // gridlines in y axis function
-        function make_y_gridlines() {
-            return d3.axisLeft(y)
-                .ticks(10)
-        }
-
-        // add the X gridlines
-        svg.append('g')
-            .attr('class', 'grid')
-            .attr('transform', `translate(0, ${dimensions.height - dimensions.margin.top - dimensions.margin.bottom})`)
-            .call(make_x_gridlines()
-                .tickSize(-dimensions.height + dimensions.margin.top + dimensions.margin.bottom)
-                .tickFormat('')
-            )
-            .style('stroke-opacity', 0.1)
-            .style('stroke-dasharray', '5,5')
-
-        // add the Y gridlines
-        svg.append('g')
-            .attr('class', 'grid')
-            .call(make_y_gridlines()
-                .tickSize(-dimensions.width + dimensions.margin.left + dimensions.margin.right)
-                .tickFormat('')
-            )
-            .style('stroke-opacity', 0.1)
-            .style('stroke-dasharray', '5,5')
-
-        var area = d3.area()
-            .curve(d3.curveMonotoneX)
-            .x(function (d) { return x(d.TIME_PERIOD); })
-            .y0(y(0))
-            .y1(function (d) { return y(d.OBS_VALUE); });
-
-        var source = svg.selectAll(".area")
-            .data(sources)
-            .enter().append("g")
-            .style("opacity", 1)
-            .attr("class", function (d) { return `area ${d.size_emp}`; })
-
-        source.append("path")
-            .attr("d", function (d) { return area(d.values); })
-            .attr("class", function (d) { return "areapath " + map_size_emp(d.size_emp).toLowerCase().replace(/\s/g, '') })
-            .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp)); })
-            .style("fill-opacity", 1)
-            .style("filter", "url(#drop-shadow)")
-            .on('mouseover', (event, d) => {
-                setTooltipContent(`<p>${map_size_emp(d.size_emp)}</p>`);
-                setTooltipPosition({ x: event.pageX, y: event.pageY })
-                setTooltipVisible(true)
-                d3.selectAll('.areapath').style('fill-opacity', 0);
-                d3.selectAll('.dot').style('fill-opacity', 0);
-                d3.selectAll('.dot').style('stroke-opacity', 0);
-                d3.selectAll(`.${map_size_emp(d.size_emp).toLowerCase().replace(/\s/g, '')}`).style('fill-opacity', 1);
-            })
-            .on('mouseout', () => {
-                setTooltipVisible(false)
-                d3.selectAll('.areapath').style('fill-opacity', 1);
-                d3.selectAll('.dot').style('fill-opacity', 1);
-                d3.selectAll('.dot').style('stroke-opacity', 0.5);
-            });
-
-        // add legend
-        var legend = svg.selectAll(".legend")
-            .data(sources)
-            .enter().append("g")
-            .attr("class", "legend")
-            .style("cursor", "pointer")
-            .attr("transform", function (d, i) { return `translate(0,${i * 20})`; })
-            .on('mouseover', (event, d) => {
-                d3.selectAll('.areapath').style('fill-opacity', 0);
-                d3.selectAll('.dot').style('fill-opacity', 0);
-                d3.selectAll('.dot').style('stroke-opacity', 0);
-                d3.selectAll(`.${map_size_emp(d.size_emp).toLowerCase().replace(/\s/g, '')}`).style('fill-opacity', 1);
-            })
-            .on('mouseout', () => {
-                d3.selectAll('.areapath').style('fill-opacity', 1);
-                d3.selectAll('.dot').style('fill-opacity', 1);
-                d3.selectAll('.dot').style('stroke-opacity', 0.5);
-            });
-
-        legend.append("rect")
-            .attr("x", dimensions.width - dimensions.margin.left - dimensions.margin.right - 18)
-            .attr("width", 18)
-            .attr("height", 18)
-            .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp)); });
-
-        legend.append("text")
-            .attr("x", dimensions.width - dimensions.margin.left - dimensions.margin.right - 24)
-            .attr("y", 9)
-            .attr("dy", ".35em")
-            .style("text-anchor", "end")
-            .text(function (d) { return map_size_emp(d.size_emp) + " enterprises"; });
-
-        // add dots on the areas
-        source.selectAll(".dot")
-            .data(function (d) { return d.values.map(function (d) { d.size_emp = this.size_emp; return d; }, d); })
-            .enter().append("circle")
-            .attr("class", function (d) { return "dot " + map_size_emp(d.size_emp).toLowerCase().replace(/\s/g, '') })
-            .attr("cx", function (d) { return x(d.TIME_PERIOD); })
-            .attr("cy", function (d) { return y(d.OBS_VALUE); })
-            .attr("r", 2)
-            .style("fill", function (d) { return getColor(map_size_emp_to_number(d.size_emp)); })
-            .style("stroke", "white")
-            .style("stroke-width", 0.5)
-            .style("stroke-opacity", 0.5)
-            .style("fill-opacity", 1)
-            .on("mouseover", function (event, d) {
-                d3.select(this)
-                    .transition()
-                    .duration(200)
-                    .attr("r", 5);
-                setTooltipContent(`<p>Enterprises size: <b>${map_size_emp(d.size_emp)}</b><br />Percentage: <b>${d.OBS_VALUE}%</b></p>`);
-                setTooltipPosition({ x: event.pageX, y: event.pageY })
-                setTooltipVisible(true)
-            })
-            .on("mouseout", function (event, d) {
-                d3.select(this)
-                    .transition()
-                    .duration(200)
-                    .attr("r", 2);
-                setTooltipVisible(false)
-            });
 
         setLoading(false);
     }, [selectedGeo, indic_is]);
@@ -304,13 +164,13 @@ function SpiderChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
-                <h1 className='plottitle'>The Role of E-commerce in Business</h1>
-                <p className='plotintro'> This area chart illustrating the growth of e-commerce sales in enterprises over the past years.</p>
+                <h1 className='plottitle'></h1>
+                <p className='plotintro'></p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
                         <h2 className="text-xl font-semibold">
-                            Percentage of <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span> by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                            <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span>  <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>

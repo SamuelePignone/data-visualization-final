@@ -4,6 +4,7 @@ import dataFile from '../../data/cleaned_multibar_chart.json';
 import { getColor } from '../Config';
 import NationSelector from '../NationSelector';
 import Loader from '../Loader';
+import { map_size_emp } from '../MapState';
 
 function getCodeDefinition(code) {
     const codeMap = {
@@ -83,51 +84,51 @@ function MultipleBarChart() {
                 .append("g")
                 .attr("transform", `translate(${(index === 0) ? 0 : dimensions.margin.left},${dimensions.margin.top})`);
 
-        // define shadow
-        var defs = svg.append("defs");
+            // define shadow
+            var defs = svg.append("defs");
 
-        var filter = defs.append("filter")
-            .attr("id", "shadow")
-            .attr("height", "130%");
+            var filter = defs.append("filter")
+                .attr("id", "shadow")
+                .attr("height", "130%");
 
-        filter.append("feGaussianBlur")
-            .attr("in", "SourceAlpha")
-            .attr("stdDeviation", 3)
-            .attr("result", "blur");
+            filter.append("feGaussianBlur")
+                .attr("in", "SourceAlpha")
+                .attr("stdDeviation", 3)
+                .attr("result", "blur");
 
-        var feOffset = filter.append("feOffset")
-            .attr("dx", 2)
-            .attr("dy", 2)
-            .attr("result", "offsetBlur");
+            var feOffset = filter.append("feOffset")
+                .attr("dx", 2)
+                .attr("dy", 2)
+                .attr("result", "offsetBlur");
 
-        var feMerge = filter.append("feMerge");
+            var feMerge = filter.append("feMerge");
 
-        feMerge.append("feMergeNode")
-            .attr("in", "offsetBlur")
-        feMerge.append("feMergeNode")
-            .attr("in", "SourceGraphic");
+            feMerge.append("feMergeNode")
+                .attr("in", "offsetBlur")
+            feMerge.append("feMergeNode")
+                .attr("in", "SourceGraphic");
 
-        var feFlood = filter.append("feFlood")
-            .attr("flood-color", "black")
-            .attr("flood-opacity", 0.2)
-            .attr("result", "flood");
+            var feFlood = filter.append("feFlood")
+                .attr("flood-color", "black")
+                .attr("flood-opacity", 0.2)
+                .attr("result", "flood");
 
-        var feComposite = filter.append("feComposite")
-            .attr("in", "flood")
-            .attr("in2", "offsetBlur")
-            .attr("operator", "in")
-            .attr("result", "shadow");
+            var feComposite = filter.append("feComposite")
+                .attr("in", "flood")
+                .attr("in2", "offsetBlur")
+                .attr("operator", "in")
+                .attr("result", "shadow");
 
-        var feMerge2 = filter.append("feMerge");
+            var feMerge2 = filter.append("feMerge");
 
-        feMerge2.append("feMergeNode")
-            .attr("in", "shadow")
-        feMerge2.append("feMergeNode")
-            .attr("in", "SourceGraphic");
+            feMerge2.append("feMergeNode")
+                .attr("in", "shadow")
+            feMerge2.append("feMergeNode")
+                .attr("in", "SourceGraphic");
 
-        // Remove shadows on left and right
-        svg.select(".grid")
-            .style("stroke-opacity", 0);
+            // Remove shadows on left and right
+            svg.select(".grid")
+                .style("stroke-opacity", 0);
 
             let yearData = filteredData.filter(d => d.TIME_PERIOD === year);
 
@@ -243,27 +244,27 @@ function MultipleBarChart() {
     }, [selectedGeo]);
 
     return (
-    <>
-        <div className='w-screen mt-24 plotsection'>
-            <h1 className='plottitle'>Individuals' Digital Skills Development</h1>
-            <p className='plotintro'>With this small bar chart the different skills of people in different countries of Europe are shown.</p>
-            {loading && <Loader />}
-            <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
-                <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                <div ref={ref} className='w-fit flex items-center justify-center -translate-x-[100px] mt-4'></div>
-            </div>
-            <p className='plotexpl'>The multiple small bar chart allows you to see how different IT skills have evolved over the past few years for each nation in Europe. </p>
-            <div className='w-full flex flex-col items-center justify-center'>
-                <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
-                    The <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> was taken from Eurostat. As in the previous chart, it has been modified so that it can be converted to .json. <br />
-                     Each element has 4 values together representing digital skill <code>"indic_is"</code>, year <code>"TIME_PERIOD"</code>, country <code>"geo"</code> and observed value <code>"OBS_VALUE"</code>.
-                    </p>
+        <>
+            <div className='w-screen mt-24 plotsection'>
+                <h1 className='plottitle'></h1>
+                <p className='plotintro'></p>
+                {loading && <Loader />}
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                    <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
+                    <div ref={ref} className='w-fit flex items-center justify-center -translate-x-[100px] mt-4'></div>
                 </div>
-                <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                <p className='plotexpl'>The multiple small bar chart allows you to see how different IT skills have evolved over the past few years for each nation in Europe. </p>
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                            The <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> was taken from Eurostat. As in the previous chart, it has been modified so that it can be converted to .json. <br />
+                            Each element has 4 values together representing digital skill <code>"indic_is"</code>, year <code>"TIME_PERIOD"</code>, country <code>"geo"</code> and observed value <code>"OBS_VALUE"</code>.
+                        </p>
+                    </div>
+                    <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                </div>
             </div>
-        </div>
-    </>
+        </>
     );
 }
 
