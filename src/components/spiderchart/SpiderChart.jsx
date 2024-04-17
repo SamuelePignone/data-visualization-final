@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import dataFile from '../../data/transformed_data_by_geo.json';
 import { getColor } from '../Config';
-import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
+import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description, map_size_indic_is_sec } from '../MapState';
 import NationSelector from "../NationSelector";
 import Loader from "../Loader";
 import Tooltip from "../Tooltip";
@@ -64,6 +64,9 @@ function SpiderChart() {
             //.attr('transform', `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
             .attr("transform", "translate(" + dimensions.width / 2 + "," + dimensions.height / 2 + ")");
 
+
+        setNationList(Object.keys(dataFile));
+
         var features = dataFile[selectedGeo]['variables'].map(d => d.label);
         var data = dataFile[selectedGeo]['sets'];
 
@@ -103,10 +106,10 @@ function SpiderChart() {
                 .attr("text-anchor", "middle")
                 .attr("alignment-baseline", "central")
                 .attr("x", label_coordinate.x)
-                .attr("y", label_coordinate.y)
+                .attr("y", label_coordinate.y) // Adjust the y position to move the text up
                 .attr("font-size", "11px")
                 .attr("fill", "#333333")
-                .text(features[i]);
+                .text(map_size_indic_is_sec(features[i]));
 
             //draw axis line
             svg.append("line")
@@ -154,67 +157,30 @@ function SpiderChart() {
                 .attr("fill", function (d) {
                     return getColor(map_size_emp_to_number(d[0].size_emp), 0, 100);
                 })
-                .attr("stroke-opacity", 1)
-                .attr("opacity", 1);
+                .attr("stroke-opacity", 0.9)
+                .attr("opacity", 0.5)
+                .on("mouseover", (event, d) => {
+                    setTooltipContent(`<p>${map_size_emp(d[0].size_emp)}</p>`);   
+                    setTooltipPosition({ x: event.pageX, y: event.pageY });
+                    setTooltipVisible(true);
+                })
+                .on("mouseout", () => {
+                    setTooltipVisible(false);
+                });
 
             coords.forEach(d => {
                 svg.append("circle")
-                    .attr("r", 4)
+                    .attr("r", 3)
                     .attr("fill", "#000")
                     .attr("cx", d.x)
                     .attr("cy", d.y);
             });
-
-            let ticks = [25, 50, 75, 100];
-
-            ticks.forEach(t =>
-                svg.append("circle")
-                    .attr("cx", 0)
-                    .attr("cy", 0)
-                    .attr("fill", "none")
-                    .attr("stroke", "white")
-                    .attr("stroke-width", "2")
-                    .attr("r", radialScale(t))
-            );
-
-            ticks.forEach(t =>
-                svg.append("text")
-                    .attr("x", -15)
-                    .attr("y", - radialScale(t) - 5)
-                    .attr("fill", "white")
-                    .attr("font-size", "10px")
-                    .text(t.toString())
-            );
 
             // sort data by the area of the radar chart
             data.sort((a, b) => {
                 return map_size_emp_to_number(b.key) - map_size_emp_to_number(a.key);
             });
 
-            for (var i = 0; i < features.length; i++) {
-                let angle = (Math.PI / 2) + (2 * Math.PI * i / features.length);
-                let line_coordinate = angleToCoordinate(angle, 100);
-                let label_coordinate = angleToCoordinate(angle, 120);
-
-                //draw axis label
-                svg.append("text")
-                    .attr("text-anchor", "middle")
-                    .attr("alignment-baseline", "central")
-                    .attr("x", label_coordinate.x)
-                    .attr("y", label_coordinate.y)
-                    .attr("font-size", "11px")
-                    .attr("fill", "#333333")
-                    .text(features[i]);
-
-                //draw axis line
-                svg.append("line")
-                    .attr("x1", 0)
-                    .attr("y1", 0)
-                    .attr("x2", line_coordinate.x)
-                    .attr("y2", line_coordinate.y)
-                    .attr("stroke", "#e8e8e8")
-                    .attr("stroke-width", "2");
-            }
         });
 
         setLoading(false);
@@ -223,7 +189,7 @@ function SpiderChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
-                <h1 className='plottitle'></h1>
+                <h1 className='plottitle'>The year of this chart is the 2019</h1>
                 <p className='plotintro'></p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
@@ -233,13 +199,6 @@ function SpiderChart() {
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>
-                    <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
-                        {
-                            indic_isList.map((indic_is_iterator, index) => (
-                                <button key={index} onClick={() => setIndicIs(indic_is_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${map_code_to_description(indic_is_iterator)}</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${indic_is_iterator === indic_is ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{indic_is_iterator}</button>
-                            ))
-                        }
-                    </div>
                 </div>
                 {loading && <Loader />}
                 <Tooltip
@@ -251,12 +210,10 @@ function SpiderChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Each area rappresents a different size for a company (Micro, Small, Small and medium-sized, Large), we can also opt for a wide range of types of online sales. So we can see the trend of e-commerce sales for each size of company. It is clear that the largest companies own the largest share of the online market. But without such a clear gap from smaller companies, though. Obviously these data are about Europe and therefore do not take into account the large U.S. and Chinese companies</p>
+                <p className='plotexpl'></p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
-                            For this chart, we used this <a href="https://doi.org/10.2908/ISOC_EC_ESELS" className='underline underline-offset-4 cursor-pointer'>dataset</a>  produced, as always, by eurostat. We modified it to get a <code>.json</code> file.<br />
-                            After do that, we have to prepare the data in order to have as the external key the size of the company and as the internal key the year, with the value of the percentage of e-commerce sales. Obviously we have to filter the data for the country we want to analyze and for the type of online sales.
                         </p>
                     </div>
                     <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>

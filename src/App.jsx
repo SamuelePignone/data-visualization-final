@@ -11,6 +11,7 @@ import PackedBubble from './components/packed_bubble/packed_bubble'
 import AreaChart from './components/areachart/Areachart'
 import StackedBarChart from './components/stackedbarchart/Stackedbarchart'
 import SpiderChart from './components/spiderchart/SpiderChart'
+import BarChart from './components/barchart/Barchart'
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 			<AreaChart />
 			<StackedBarChart />
 			<SpiderChart />
+			<BarChart />
 		</>
 	)
 }

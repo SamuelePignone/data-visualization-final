@@ -206,6 +206,32 @@ export const map_size_indic_is_ai_to_number = (indic_is) => {
     }
 }
 
+export const map_size_indic_is_sec = (indic_is) => {
+    switch (indic_is) {
+        case 'E_SECMSPSW':
+            return 'Strong password authentication';
+        case 'E_SECMKSUD':
+            return 'Software updates';
+        case 'E_SECMDENC':
+            return 'Data encryption';
+        case 'E_SECMOSBU':
+            return 'Off-site data backup';
+        case 'E_SECMNAC':
+            return 'Network access control';
+        case 'E_SECMVPN':
+            return 'VPN usage';
+        case 'E_SECMLOG':
+            return 'Log file maintenance';
+        case 'E_SECMRASS':
+            return 'Risk assessment';
+        case 'E_SECMTST':
+            return 'Security testing';
+        default:
+            return '';
+    }
+}
+
+
 export const map_code_to_description = (code) => {
     switch (code) {
         case 'E_AESELL':
