@@ -1,0 +1,87 @@
+{
+    "variables": [
+        {
+            "key": "E_SECMDENC",
+            "label": "E_SECMDENC"
+        },
+        {
+            "key": "E_SECMKSUD",
+            "label": "E_SECMKSUD"
+        },
+        {
+            "key": "E_SECMLOG",
+            "label": "E_SECMLOG"
+        },
+        {
+            "key": "E_SECMNAC",
+            "label": "E_SECMNAC"
+        },
+        {
+            "key": "E_SECMOSBU",
+            "label": "E_SECMOSBU"
+        },
+        {
+            "key": "E_SECMRASS",
+            "label": "E_SECMRASS"
+        },
+        {
+            "key": "E_SECMSPSW",
+            "label": "E_SECMSPSW"
+        },
+        {
+            "key": "E_SECMTST",
+            "label": "E_SECMTST"
+        },
+        {
+            "key": "E_SECMVPN",
+            "label": "E_SECMVPN"
+        }
+    ],
+    "sets": [
+        {
+            "key": "10-49",
+            "label": "size_emp_10-49",
+            "values": {
+                "E_SECMDENC": 31.5,
+                "E_SECMKSUD": 88.3,
+                "E_SECMLOG": 32.8,
+                "E_SECMNAC": 49.2,
+                "E_SECMOSBU": 71.4,
+                "E_SECMRASS": 36.9,
+                "E_SECMSPSW": 84.9,
+                "E_SECMTST": 33.9,
+                "E_SECMVPN": 29.4
+            }
+        },
+        {
+            "key": "50-249",
+            "label": "size_emp_50-249",
+            "values": {
+                "E_SECMDENC": 59.3,
+                "E_SECMKSUD": 96.5,
+                "E_SECMLOG": 66.4,
+                "E_SECMNAC": 82.8,
+                "E_SECMOSBU": 89.9,
+                "E_SECMRASS": 68.5,
+                "E_SECMSPSW": 90.9,
+                "E_SECMTST": 63.6,
+                "E_SECMVPN": 64.8
+            }
+        },
+        {
+            "key": "GE250",
+            "label": "size_emp_GE250",
+            "values": {
+                "E_SECMDENC": 78.9,
+                "E_SECMKSUD": 96.0,
+                "E_SECMLOG": 81.5,
+                "E_SECMNAC": 90.8,
+                "E_SECMOSBU": 94.5,
+                "E_SECMRASS": 83.7,
+                "E_SECMSPSW": 96.1,
+                "E_SECMTST": 83.6,
+                "E_SECMVPN": 83.0
+            }
+        }
+    ]
+}
