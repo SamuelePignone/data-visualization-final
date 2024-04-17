@@ -1,0 +1,9004 @@
+[
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_BDAML",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_BDAML",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_BDAML",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_CHTB",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_CHTB",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_CHTB",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "E_RBTS",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 10.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_BDAML",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_CHTB",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "AL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "E_RBTS",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 11.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 14.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 15
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_BDAML",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_CHTB",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "AL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 6.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 0.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 7.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "E_RBTS",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 11.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 18.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 16.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 14.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 14.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 14
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 16
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 11.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 24.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 41.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TIR",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 18.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 25.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 27.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 34.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 30.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 17.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 29
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 32.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 15.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 11.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 17.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 17.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 21.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 23.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 22.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 17.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 23.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 21.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TML",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 18.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 21
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 22.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 14.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 13.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 25.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 21.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 16.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 20.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 26.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 13.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 21.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 14.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 15.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 14.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_AI_TTM",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 14.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 18.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 23
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 16.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 23.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 20.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 17
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 17.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 14.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 23.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_BDAML",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 18.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 11.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 15.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 6.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 3.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_CHTB",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "AL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 6.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "AT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 8.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BA",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 15.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "BG",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CY",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "CZ",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 9.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 12.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 8.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 16.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 23.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "DK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 19.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "EL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 9.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "ES",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 16.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 18.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 12.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 11.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "FR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "HR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 21.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 7.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "HU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 11.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "IE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 15.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 14.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "IT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 18.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 7.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 12.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LU",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 13.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 5.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "LV",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 11.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "ME",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "MK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": ""
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 11.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "MT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 13
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 4.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 7.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 10.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 11.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "NO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 10
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 8.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PL",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 9.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 12.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "PT",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 13.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "RO",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "RS",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 12.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SE",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 15.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 7.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 9.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SI",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 13
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2018,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 13.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "SK",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 12.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "TR",
+    "TIME_PERIOD": 2022,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "E_RBTS",
+    "geo": "UK",
+    "TIME_PERIOD": 2020,
+    "OBS_VALUE": 4.4
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.2
+  },
+  {
+    "size_emp": "0-9",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 27.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 10.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.1999999999999997
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.6999999999999997
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.6
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.4000000000000004
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.8
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 13.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 17.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.7
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 2.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0.9999999999999999
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0.5
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 9.4
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.300000000000001
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 15
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.9
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 4.3
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.2
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.1
+  },
+  {
+    "size_emp": "10-49",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 20.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 2.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 18.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 62.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 21.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 5.800000000000001
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 17.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 32.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 24.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 4.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 15.1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 11.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.6
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 10
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.199999999999999
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 1
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.5
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 20.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.799999999999997
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 38.199999999999996
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 19.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 28.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 7.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.2
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 1.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 27.4
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.899999999999999
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 33.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 22.8
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 5.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 6.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 7.9
+  },
+  {
+    "size_emp": "50-249",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 9.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 48.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "AT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 44.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 3.9000000000000004
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BA",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 86.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 82.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 16.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "BG",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 13.700000000000001
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "CY",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 21.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 38.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "CZ",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 36.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 29.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "DE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 28
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 147.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "DK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 72.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 35.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "EE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 37.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 17.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "EL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 59
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "ES",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 56.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 94.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "FI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 86.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 45.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "FR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 25.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "HR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 15.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 21.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "HU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 20.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 62.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "IE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 39.8
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 44.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "IT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 34
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 31.900000000000002
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 28.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 66.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LU",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 40.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 28.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "LV",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 17.799999999999997
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "ME",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 0
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "MK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 18.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 25.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "MT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 55.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 77.3
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "NL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 57.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 76.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "NO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 42.699999999999996
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 29.799999999999997
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "PL",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 35.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 54.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "PT",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 52.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 12.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "RO",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 12.2
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 6.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "RS",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 3.7
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 73.9
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SE",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 51.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 62.5
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SI",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 92.4
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 26.6
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "SK",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 25.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2021,
+    "OBS_VALUE": 22.1
+  },
+  {
+    "size_emp": "GE250",
+    "indic_is": "other",
+    "geo": "TR",
+    "TIME_PERIOD": 2023,
+    "OBS_VALUE": 28.5
+  }
+]
