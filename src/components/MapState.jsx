@@ -126,6 +126,8 @@ export const mapindtype = (ind_type) => {
 }
 export const map_size_emp = (size_emp) => {
     switch (size_emp) {
+        case '0-9':
+            return 'Micro';
         case 'GE10':
             return 'Micro';
         case '1-9':
@@ -153,6 +155,52 @@ export const map_size_emp_to_number = (size_emp) => {
             return 75;
         case 'GE250':
             return 100;
+        default:
+            return 0;
+    }
+}
+
+export const map_size_indic_is_ai = (indic_is) => {
+    switch (indic_is) {
+        case 'other':
+            return 'Other';
+        case 'E_AI_TIR':
+            return 'AI and robotics';
+        case 'E_AI_TML':
+            return 'Machine learning';
+        case 'E_AI_TTM':
+            return 'Text and data mining';
+        case 'E_BDAML':
+            return 'Big data analytics';
+        case 'E_CHTB':
+            return 'Cloud technology';
+        case 'E_RBTS':
+            return 'Robotics';
+        case 'no_data':
+            return 'No data';
+        default:
+            return '';
+    }
+}
+
+export const map_size_indic_is_ai_to_number = (indic_is) => {
+    switch (indic_is) {
+        case 'other':
+            return 15;
+        case 'E_AI_TIR':
+            return 30;
+        case 'E_AI_TML':
+            return 45;
+        case 'E_AI_TTM':
+            return 60;
+        case 'E_BDAML':
+            return 75;
+        case 'E_CHTB':
+            return 90;
+        case 'E_RBTS':
+            return 100;
+        case 'no_data':
+            return -1;
         default:
             return 0;
     }
