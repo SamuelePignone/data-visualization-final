@@ -26,16 +26,13 @@ function PackedBubble() {
 
     const [dimensions, setDimensions] = useState({
         width: 1000,
-        height: 1000,
-        margin: { top: 0, right: 25, bottom: 20, left: 100 },
+        height: 600,
+        margin: { top: 200, right: 25, bottom: 20, left: 100 },
     });
 
     useEffect(() => {
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
-
-        //print out the different valuesof indic_is column in the dataset
-        console.log([...new Set(dataFile.map(d => d.indic_is))]);
 
         const svg = container
             .append('svg')
