@@ -1,76 +1,183 @@
-import React, { useEffect, useRef, useState } from 'react';
-import * as d3 from 'd3';
+import { useEffect, useRef, useState } from "react";
+import * as d3 from "d3";
 import dataFile from '../../data/Last_barchart.json';
-
+import { getColor } from '../Config';
+import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
+import NationSelector from "../NationSelector";
+import Loader from "../Loader";
+import Tooltip from "../Tooltip";
 
 function BarChart() {
     const ref = useRef();
-    const [selectedYear, setSelectedYear] = useState(2022);
-    const [selectedGeo, setSelectedGeo] = useState("AT");
-    const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
-    const [size_emp, setSize_emp] = useState('GE250');
-    const [size_empList, setSizeEmpList] = useState([]);
-    const [indic_is_List, setIndicIs_List] = useState([...new Set(dataFile.map(d => d.indic_is))]);
+    const [loading, setLoading] = useState(true);
     const [dimensions, setDimensions] = useState({
         width: 1000,
         height: 600,
-        margin: { top: 200, right: 25, bottom: 20, left: 100 },
+        margin: { top: 100, right: 50, bottom: 100, left: 50 },
     });
+
+    const [selectedYear, setSelectedYear] = useState(2022);
+    const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
+    const [year_list, setYear_list] = useState([]);
+    const [selectedGeo, setSelectedGeo] = useState("DE");
+
+    const [showDataPreparation, setShowDataPreparation] = useState(false);
+
+    const [tooltipContent, setTooltipContent] = useState('');
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
 
     useEffect(() => {
-        const svg = d3.select(ref.current);
-        svg.selectAll("*").remove(); // Clear svg content before adding new elements
+        const container = d3.select(ref.current);
+        container.selectAll('svg').remove();
 
-        setSizeEmpList([...new Set(dataFile.map(d => d.size_emp))]);
+        const svg = container
+            .append('svg')
+            .style('margin', '0 auto')
+            .attr('width', dimensions.width)
+            .attr('height', dimensions.height)
+            .attr("viewBox", [0, 0, dimensions.width, dimensions.height])
+            .attr("style", "max-width: 100%; height: auto;");
 
+        var data = dataFile.filter(d => d.geo === selectedGeo && d.TIME_PERIOD === selectedYear);
 
-        console.log("_____________________________")
-        console.log(dataFile);
+        const fx = d3.scaleBand()
+            .domain(new Set(data.map(d => d.indic_is)))
+            .rangeRound([dimensions.margin.left, dimensions.width - dimensions.margin.right])
+            .paddingInner(0.1);
 
-        //select the data with geo == SelectedGeo
-        var data = dataFile.filter(d => d.geo === selectedGeo && d.TIME_PERIOD === selectedYear && d.size_emp === size_emp);
+        const size_emps = new Set(data.map(d => d.size_emp));
+
         const x = d3.scaleBand()
-            .rangeRound([0, dimensions.width])
-            .padding(0.1)
-            .domain(data.map(d => d.indic_is));
+            .domain(size_emps)
+            .rangeRound([0, fx.bandwidth()])
+            .padding(0.05);
 
         const y = d3.scaleLinear()
-            .rangeRound([dimensions.height, 0])
-            .domain([0, d3.max(data, d => d.OBS_VALUE)]);
-
-        /*svg.append("g")
-            .attr("transform", `translate(0,${dimensions.height})`)
-            .call(d3.axisBottom(x))
-            .selectAll("text")
-            .attr("transform", "rotate(-45)")
-            .style("text-anchor", "end");
+            .domain([0, 100]).nice()
+            .rangeRound([dimensions.height - dimensions.margin.bottom, dimensions.margin.top]);
 
         svg.append("g")
-            .call(d3.axisLeft(y).ticks(10))
-            .append("text")
-            .attr("fill", "#000")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 6)
-            .attr("dy", "0.71em")
-            .attr("text-anchor", "end")
-            .text("Value");
+            .attr("transform", `translate(0,${dimensions.height - dimensions.margin.bottom})`)
+            .call(d3.axisBottom(fx).tickSizeOuter(0))
+            .selectAll("text")
+            .style("font-size", "14px")
+            .style("font-weight", "700")
+        //.call(g => g.selectAll(".domain").remove());
 
-        svg.selectAll(".bar")
-            .data(data)
-            .enter().append("rect")
-            .attr("class", "bar")
-            .attr("x", d => x(d.indic_is))
+        svg.append("g")
+            .attr("transform", `translate(${dimensions.margin.left},0)`)
+            .call(d3.axisLeft(y).ticks(null, "s").tickFormat(d => d + "%"))
+            .selectAll("text")
+            .style("font-size", "14px")
+            .style("font-weight", "700")
+        //.call(g => g.selectAll(".domain").remove());
+
+        // gridlines in y axis function
+        function make_y_gridlines() {
+            return d3.axisLeft(y)
+                .ticks(10)
+        }
+
+        // add the Y gridlines
+        svg.append('g')
+            .attr('transform', `translate(${dimensions.margin.left},0)`)
+            .attr('class', 'grid')
+            .call(make_y_gridlines()
+                .tickSize(-dimensions.width + dimensions.margin.left + dimensions.margin.right)
+                .tickFormat('')
+            )
+            .style('stroke-opacity', 0.1)
+            .style('stroke-dasharray', '5,5')
+
+        svg.append("g")
+            .selectAll()
+            .data(d3.group(data, d => d.indic_is))
+            .join("g")
+            .attr("transform", ([indic_is]) => `translate(${fx(indic_is)},0)`)
+            .selectAll()
+            .data(([, d]) => d)
+            .join("rect")
+            .attr("x", d => x(d.size_emp))
             .attr("y", d => y(d.OBS_VALUE))
             .attr("width", x.bandwidth())
-            .attr("height", d => dimensions.height - y(d.OBS_VALUE))
-            .attr("fill", "steelblue");
-            */
+            .attr("height", d => y(0) - y(d.OBS_VALUE))
+            .attr("fill", d => getColor(map_size_emp_to_number(d.size_emp)))
+            .style("filter", "url(#barsshadow)")
 
-    }, []); // Redraw chart if data changes
+        // add a legend
+        var legend = svg.selectAll(".legend")
+            .data(size_emps)
+            .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function (d, i) { return "translate(0," + (dimensions.margin.top + (i * 20)) + ")"; });
+
+        // draw legend colored rectangles
+        legend.append("rect")
+            .attr("x", dimensions.width - dimensions.margin.right - 18) 
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", d => getColor(map_size_emp_to_number(d)))
+            .style("filter", "url(#barsshadow)");
+
+        // draw legend text
+        legend.append("text")
+            .attr("x", dimensions.width - dimensions.margin.right - 24)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "end")
+            .text(d => map_size_emp(d))
+            .style("font-size", "16px")
+            .style("font-weight", "bold")
+
+        setYear_list([...new Set(dataFile.map(d => d.TIME_PERIOD))].sort((a, b) => a - b));
+
+        setLoading(false);
+    }, [selectedGeo, selectedYear]);
 
     return (
-        <div ref={ref} className='w-fit flex items-center justify-center'></div>
+        <>
+            <div className='w-screen mt-24 mb-64 plotsection'>
+                <h1 className='plottitle'></h1>
+                <p className='plotintro'></p>
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                    <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
+                    <div className="mt-4">
+                        <h2 className="text-xl font-semibold">
+                            Percentage of <span className="underline underline-offset-4 font-bold">{ }</span> by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                        </h2>
+                    </div>
+                    <div ref={ref} className='w-fit flex items-center justify-center'></div>
+                    <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
+                        {
+                            year_list.map((year_iterator, index) => (
+                                <button key={index} onClick={() => setSelectedYear(year_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${year_iterator}</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${year_iterator === selectedYear ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{year_iterator}</button>
+                            ))
+                        }
+                    </div>
+                </div>
+                {loading && <Loader />}
+                <Tooltip
+                    content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
+                    isVisible={tooltipVisible}
+                    style={{
+                        left: tooltipPosition.x,
+                        top: tooltipPosition.y,
+                    }}
+                    className={'text-center'}
+                />
+                <p className='plotexpl'></p>
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
+                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+
+                        </p>
+                    </div>
+                    <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
+                </div>
+            </div>
+        </>
     );
 };
 
