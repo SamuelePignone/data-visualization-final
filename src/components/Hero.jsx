@@ -5,7 +5,7 @@ import heroBase from '../assets/hero-base.png'
 function Hero() {
     return (
         <>
-            <div className='hidden w-screen h-screen bg-cover bg-no-repeat bg-bottom flex items-center relative' style={{ backgroundImage: `url(${heroImg})` }}>
+            <div className='hidden w-screen h-screen bg-cover bg-no-repeat bg-bottom flex items-center relative' style={{ backgroundImage: `url(${heroImg})` }} id='home'>
                 <div className='w-full h-full bg-black opacity-10 absolute'></div>
             </div>
             <div className='relative'>

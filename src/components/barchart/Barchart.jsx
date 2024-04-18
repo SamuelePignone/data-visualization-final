@@ -139,7 +139,7 @@ function BarChart() {
 
     return (
         <>
-            <div className='w-screen mt-24 mb-64 plotsection'>
+            <div className='w-screen mt-24 !mb-14 plotsection'>
                 <h1 className='plottitle'></h1>
                 <p className='plotintro'></p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>

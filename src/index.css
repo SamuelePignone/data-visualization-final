@@ -132,6 +132,10 @@ text {
   background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
 }
 
+#team {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+}
+
 @keyframes custom-small-bounce {
   0%, 100% { 
     transform: translate(-1%, -4%);
