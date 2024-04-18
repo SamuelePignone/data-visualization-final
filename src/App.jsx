@@ -12,6 +12,8 @@ import AreaChart from './components/areachart/Areachart'
 import StackedBarChart from './components/stackedbarchart/Stackedbarchart'
 import SpiderChart from './components/spiderchart/SpiderChart'
 import BarChart from './components/barchart/Barchart'
+import Team from './components/Team'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -29,6 +31,9 @@ function App() {
 			<StackedBarChart />
 			<SpiderChart />
 			<BarChart />
+
+			<Team />
+			<Footer />
 		</>
 	)
 }
