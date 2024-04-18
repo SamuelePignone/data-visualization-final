@@ -276,3 +276,26 @@ export const map_dii_to_description = (dii) => {
             return '';
     }
 }
+
+/*
+E_SECINS: Enterprises insured against ICT security incidents.
+E_SEC2IUSVA: Enterprises affected by external ICT attacks causing service outages.
+E_SEC2IUSVF: Enterprises facing ICT service outages due to hardware/software failures.
+E_SEC2ICNF: Enterprises experiencing breaches of confidential data.
+*/
+
+//create a new map fucntion
+export const map_sec_to_description = (sec) => {
+    switch (sec) {
+        case 'E_SECINS':
+            return 'Enterprises insured for cybersecurity';
+        case 'E_SEC2IUSVA':
+            return 'Enterprises attacked using DOS';
+        case 'E_SEC2IUSVF':
+            return 'Enterprises affected by Sw/Hw failures';
+        case 'E_SEC2ICNF':
+            return 'Enterprises with confidential data leaks';
+        default:
+            return '';
+    }
+}
