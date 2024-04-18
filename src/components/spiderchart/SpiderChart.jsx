@@ -84,10 +84,12 @@ function SpiderChart() {
 
         ticks.forEach(t =>
             svg.append("text")
-                .attr("x", -15)
+                .attr("x", 0)
                 .attr("y", - radialScale(t) - 5)
                 .attr("fill", "white")
-                .attr("font-size", "10px")
+                .attr("text-anchor", "middle")
+                .style("font-size", "15px")
+                .style("font-weight", "bold")
                 .text(t.toString())
         );
 
@@ -105,11 +107,21 @@ function SpiderChart() {
             svg.append("text")
                 .attr("text-anchor", "middle")
                 .attr("alignment-baseline", "central")
-                .attr("x", label_coordinate.x)
+                .attr("x", function(){
+                    if (features[i] == "E_SECMSPSW") {
+                        return label_coordinate.x + 80;
+                    }
+                    if (label_coordinate.x == 1.469576158976824e-14) {
+                        return 0;
+                    } else {
+                        return label_coordinate.x < 0 ? label_coordinate.x - 50 : label_coordinate.x + 50
+                    }
+                })
                 .attr("y", label_coordinate.y) // Adjust the y position to move the text up
-                .attr("font-size", "11px")
                 .attr("fill", "#333333")
-                .text(map_size_indic_is_sec(features[i]));
+                .text(map_size_indic_is_sec(features[i]))
+                .style("font-size", "16px")
+                .style("font-weight", "semibold");
 
             //draw axis line
             svg.append("line")
@@ -154,11 +166,11 @@ function SpiderChart() {
                 )
                 .attr("stroke-width", 4)
                 .attr("stroke", d => getColor(map_size_emp_to_number(d[0].size_emp), 0, 100))
+                .attr("stroke-opacity", 1)
                 .attr("fill", function (d) {
                     return getColor(map_size_emp_to_number(d[0].size_emp), 0, 100);
                 })
-                .attr("stroke-opacity", 0.9)
-                .attr("opacity", 0.5)
+                .attr("fill-opacity", 0.5)
                 .on("mouseover", (event, d) => {
                     setTooltipContent(`<p>${map_size_emp(d[0].size_emp)}</p>`);   
                     setTooltipPosition({ x: event.pageX, y: event.pageY });
@@ -170,8 +182,10 @@ function SpiderChart() {
 
             coords.forEach(d => {
                 svg.append("circle")
-                    .attr("r", 3)
-                    .attr("fill", "#000")
+                    .attr("r", 6)
+                    .attr("fill", getColor(map_size_emp_to_number(d.size_emp), 0, 100))
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 1)
                     .attr("cx", d.x)
                     .attr("cy", d.y);
             });
