@@ -121,17 +121,16 @@ function StackedBarChart() {
         processedData.forEach(d => {
             var sum = 0;
             indic_is_set_list.forEach(indic => {
-                sum += d[indic];
+            sum += d[indic];
             });
             if (sum > max_value) {
-                max_value = sum;
+            max_value = sum;
             }
         });
 
         if (max_value > 100) {
             max_value = 100;
         }
-
         // add a bar that reach the max value called "no_data"
         processedData.forEach(d => {
             var sum = 0;
@@ -141,6 +140,7 @@ function StackedBarChart() {
             if (sum > max_value) { d[indic_is_set_list[0]] = d[indic_is_set_list[0]] - (sum - max_value); }
             d.no_data = max_value - sum;
         });
+
 
         indic_is_set_list.push('no_data');
 
@@ -206,8 +206,8 @@ function StackedBarChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
-                <h1 className='plottitle'>E-commerce engagement</h1>
-                <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce.</p>
+                <h1 className='plottitle'>Role of AI in the business</h1>
+                <p className='plotintro'>One of the most well-known and discussed frontiers of digitalization in recent years is AI.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-7">
@@ -234,12 +234,12 @@ function StackedBarChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
+                <p className='plotexpl'>Using a percentage stacked bar chart we are able to show the different use of AI in european's enterprises by its size. <br />We clearly see how in past years despite the publicity AI has received it is still not used extensively by companies especially small ones. </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
-                            For this plot we used this <a href="https://doi.org/10.2908/ISOC_EC_IB20">dataset</a> from eurostat. We took the information regarding 3 age groups (16-24 years ,25-54 years, 55-74 years) and the average indicated in the dataset with <code>IND_TOTAL</code>. Aggregate data for the <code>"geo"</code> column such as <code>[EU27_2020]</code> were removed. <br />
-                            Finally, we converted the file from .csv to .json as a matter of convenience.                            </p>
+                        For this graph we used, as always, a <a href="https://doi.org/10.2908/ISOC_EB_AI" className='underline underline-offset-4 cursor-pointer' >dataset</a> from Eurostat. <br /> We had to choose several Ai tasks from the many available to allow visualization also we eliminated many missing data which is why values for certain orders of magnitude of companies in certain countries are not present for example. Finally, we changed the format to .json.
+                        </p>
                     </div>
                     <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
                 </div>

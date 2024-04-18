@@ -210,8 +210,8 @@ function SpiderChart() {
     return (
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
-                <h1 className='plottitle'>The year of this chart is the 2019</h1>
-                <p className='plotintro'></p>
+                <h1 className='plottitle'>Security and Trust in the Digital Age</h1>
+                <p className='plotintro'>What are the actions that enterprises put in place for their cybersecurity?</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
@@ -231,10 +231,11 @@ function SpiderChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'></p>
+                <p className='plotexpl'>Through this radar chart we can understand what were the most used practices in 2019 by companies according to their size for their security in the digitization era. </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        The <a href="https://doi.org/10.2908/ISOC_CISCE_RA" className='underline underline-offset-4 cursor-pointer'>data</a> were downloaded from Eurostat. After the first and elementary steps of preparing the data, the effort focused on transforming them into the format useful for creating a spider chart.<br />Then divided by state and by sets of values for each security measure still broken down by the various enterprise sizes.
                         </p>
                     </div>
                     <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
