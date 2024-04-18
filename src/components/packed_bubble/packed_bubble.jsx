@@ -31,6 +31,7 @@ function PackedBubble() {
     });
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
 

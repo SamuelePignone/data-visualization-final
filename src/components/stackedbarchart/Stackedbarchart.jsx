@@ -52,6 +52,7 @@ function StackedBarChart() {
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
         const svg = container

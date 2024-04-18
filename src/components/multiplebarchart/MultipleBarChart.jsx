@@ -5,6 +5,7 @@ import { getColor } from '../Config';
 import NationSelector from '../NationSelector';
 import Loader from '../Loader';
 import { map_size_emp } from '../MapState';
+import Tooltip from '../Tooltip';
 
 function getCodeDefinition(code) {
     const codeMap = {
@@ -33,6 +34,10 @@ function MultipleBarChart() {
     const [selectedGeo, setSelectedGeo] = useState("DE");
     const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
     const [loading, setLoading] = useState(true);
+
+    const [tooltipContent, setTooltipContent] = useState('');
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
         setLoading(true);
@@ -173,11 +178,11 @@ function MultipleBarChart() {
                     //console.log(i);
                     return getColor(d.value, 0, max_value);
                 })
-                .attr("filter", "url(#shadow)") // Add a shadow filter
+                .attr("filter", "url(#shadow)")// Add a shadow filter
                 .transition() // adding a transition
                 .duration(800)
                 .attr("width", d => xScale(normalizeValue(d.value))) // transition to the actual width
-                .attr("fill-opacity", 1); // slightly transparent for a more pleasant effect
+                .attr("fill-opacity", 1) // slightly transparent for a more pleasant effect
 
             svg.selectAll(".bar-text")
                 .data(categoryData)

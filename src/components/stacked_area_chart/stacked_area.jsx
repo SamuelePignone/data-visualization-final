@@ -43,16 +43,14 @@ function StackedAreaChart() {
     var data = processData(dataFile);
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
 
-        console.log(data);
         var tmp = data.filter(d => d.geo === geo);
         // sort by time period
         tmp.sort((a, b) => a.TIME_PERIOD - b.TIME_PERIOD);
-        console.log(tmp);
         const size_ent = Object.keys(data[0]).slice(3);
-        console.log(size_ent);
         const stackedData = d3.stack()
             .keys(size_ent)
             (tmp)
@@ -68,7 +66,6 @@ function StackedAreaChart() {
             });
         });
 
-        console.log(stackedData);
 
         const svg = container
             .append('svg')
@@ -173,7 +170,6 @@ function StackedAreaChart() {
         }
 
         var highlight = function (d) {
-            console.log(d)
             // reduce opacity of all groups
             d3.selectAll(".myArea").style("opacity", .1)
             // expect the one that is hovered
@@ -206,6 +202,7 @@ function StackedAreaChart() {
             .attr("d", area)
             .attr("fill", d => getColor(d.key));
         */
+       setLoading(false);
     }, []);
     return (
         <div className="w-screen mb-64">

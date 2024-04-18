@@ -37,7 +37,7 @@ function Test() {
 
 
     useEffect(() => {
-
+        setLoading(true);
         // clean the container
         d3.select(ref.current).selectAll('svg').remove();
 

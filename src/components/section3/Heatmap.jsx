@@ -29,6 +29,7 @@ function Section3D3() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
 

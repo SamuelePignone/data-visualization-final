@@ -17,7 +17,7 @@ function BarChart() {
     });
 
     const [selectedYear, setSelectedYear] = useState(2022);
-    const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))]);
+    const [nationList, setNationList] = useState([...new Set(dataFile.map(d => d.geo))].filter(nation => nation !== 'UK'));
     const [year_list, setYear_list] = useState([]);
     const [selectedGeo, setSelectedGeo] = useState("DE");
 
@@ -29,6 +29,7 @@ function BarChart() {
 
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
 
@@ -65,7 +66,6 @@ function BarChart() {
             .style("font-size", "14px")
             .style("font-weight", "700")
             .text(d => map_sec_to_description(d))
-        //.call(g => g.selectAll(".domain").remove());
 
         svg.append("g")
             .attr("transform", `translate(${dimensions.margin.left},0)`)
@@ -73,7 +73,6 @@ function BarChart() {
             .selectAll("text")
             .style("font-size", "14px")
             .style("font-weight", "700")
-        //.call(g => g.selectAll(".domain").remove());
 
         // gridlines in y axis function
         function make_y_gridlines() {
@@ -106,6 +105,12 @@ function BarChart() {
             .attr("height", d => y(0) - y(d.OBS_VALUE))
             .attr("fill", d => getColor(map_size_emp_to_number(d.size_emp)))
             .style("filter", "url(#barsshadow)")
+            .on('mouseover', function (event, d) {
+                setTooltipContent(`<b>${map_sec_to_description(d.indic_is)}</b><br><b>${map_size_emp(d.size_emp)}</b>: ${d.OBS_VALUE}%`);
+                setTooltipPosition({ x: event.pageX, y: event.pageY });
+                setTooltipVisible(true);
+            })
+            .on('mouseout', () => { setTooltipVisible(false); });
 
         // add a legend
         var legend = svg.selectAll(".legend")

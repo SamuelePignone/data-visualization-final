@@ -31,6 +31,7 @@ function LineChart() {
     const max_value = 100
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current)
         container.selectAll('svg').remove();
 

@@ -52,6 +52,7 @@ function SpiderChart() {
     }
 
     useEffect(() => {
+        setLoading(true);
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
 
@@ -65,7 +66,7 @@ function SpiderChart() {
             .attr("transform", "translate(" + dimensions.width / 2 + "," + dimensions.height / 2 + ")");
 
 
-        setNationList(Object.keys(dataFile));
+        setNationList(Object.keys(dataFile).filter(nation => nation !== "LU"));
 
         var features = dataFile[selectedGeo]['variables'].map(d => d.label);
         var data = dataFile[selectedGeo]['sets'];
@@ -175,9 +176,15 @@ function SpiderChart() {
                     setTooltipContent(`<p>${map_size_emp(d[0].size_emp)}</p>`);   
                     setTooltipPosition({ x: event.pageX, y: event.pageY });
                     setTooltipVisible(true);
+                    svg.selectAll("path")
+                        .attr("fill-opacity", 0.2)
+                        .filter((pathData) => pathData[0].size_emp === d[0].size_emp)
+                        .attr("fill-opacity", 0.7);
                 })
                 .on("mouseout", () => {
                     setTooltipVisible(false);
+                    svg.selectAll("path")
+                        .attr("fill-opacity", 0.7);
                 });
 
             coords.forEach(d => {
