@@ -51,8 +51,6 @@ function StackedBarChart() {
     const [tooltipVisible, setTooltipVisible] = useState(false);
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
-    const max_value = 100;
-
     useEffect(() => {
         const container = d3.select(ref.current);
         container.selectAll('svg').remove();
@@ -129,12 +127,17 @@ function StackedBarChart() {
             }
         });
 
+        if (max_value > 100) {
+            max_value = 100;
+        }
+
         // add a bar that reach the max value called "no_data"
         processedData.forEach(d => {
             var sum = 0;
             indic_is_set_list.forEach(indic => {
                 sum += d[indic];
             });
+            if (sum > max_value) { d[indic_is_set_list[0]] = d[indic_is_set_list[0]] - (sum - max_value); }
             d.no_data = max_value - sum;
         });
 
@@ -149,7 +152,8 @@ function StackedBarChart() {
             .tickSizeOuter(0);
 
         const yAxis = d3.axisLeft(y)
-            .ticks(10);
+            .ticks(10)
+            .tickFormat(d => d + '%'); // Add % sign to y-axis labels
 
         svg.append('g')
             .attr('transform', `translate(0, ${dimensions.height - dimensions.margin.top - dimensions.margin.bottom})`)
@@ -166,8 +170,6 @@ function StackedBarChart() {
         svg.append('g')
             .call(yAxis)
             .selectAll('text')
-            // add % sign to y-axis labels
-            .text(d => d + '%')
             .style('font-size', '12px')
             .style("font-weight", "700");
 
@@ -196,7 +198,6 @@ function StackedBarChart() {
             .on('mouseout', function () {
                 setTooltipVisible(false);
             })
-
 
         setLoading(false)
     }, [selectedGeo, size_emp])

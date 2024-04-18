@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import dataFile from '../../data/Last_barchart.json';
 import { getColor } from '../Config';
-import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description } from '../MapState';
+import { mapstate, map_size_emp, map_size_emp_to_number, map_code_to_description, map_sec_to_description } from '../MapState';
 import NationSelector from "../NationSelector";
 import Loader from "../Loader";
 import Tooltip from "../Tooltip";
@@ -11,7 +11,7 @@ function BarChart() {
     const ref = useRef();
     const [loading, setLoading] = useState(true);
     const [dimensions, setDimensions] = useState({
-        width: 1000,
+        width: 1300,
         height: 600,
         margin: { top: 30, right: 50, bottom: 30, left: 50 },
     });
@@ -64,6 +64,7 @@ function BarChart() {
             .selectAll("text")
             .style("font-size", "14px")
             .style("font-weight", "700")
+            .text(d => map_sec_to_description(d))
         //.call(g => g.selectAll(".domain").remove());
 
         svg.append("g")
@@ -149,13 +150,6 @@ function BarChart() {
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>
-                    <div className="mt-6 flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse">
-                        {
-                            year_list.map((year_iterator, index) => (
-                                <button key={index} onClick={() => setSelectedYear(year_iterator)} onMouseEnter={(e) => { setTooltipVisible(true); setTooltipContent(`<p>${year_iterator}</p>`); setTooltipPosition({ x: e.pageX, y: e.pageY }) }} onMouseLeave={() => setTooltipVisible(false)} className={`px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-[#386aa3] hover:text-white ${year_iterator === selectedYear ? 'bg-[#386aa3] text-white' : 'text-gray-600'}`}>{year_iterator}</button>
-                            ))
-                        }
-                    </div>
                 </div>
                 {loading && <Loader />}
                 <Tooltip

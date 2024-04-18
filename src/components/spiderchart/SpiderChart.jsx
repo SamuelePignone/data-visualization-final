@@ -170,7 +170,7 @@ function SpiderChart() {
                 .attr("fill", function (d) {
                     return getColor(map_size_emp_to_number(d[0].size_emp), 0, 100);
                 })
-                .attr("fill-opacity", 0.5)
+                .attr("fill-opacity", 0.7)
                 .on("mouseover", (event, d) => {
                     setTooltipContent(`<p>${map_size_emp(d[0].size_emp)}</p>`);   
                     setTooltipPosition({ x: event.pageX, y: event.pageY });
