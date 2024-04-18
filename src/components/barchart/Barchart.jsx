@@ -13,7 +13,7 @@ function BarChart() {
     const [dimensions, setDimensions] = useState({
         width: 1000,
         height: 600,
-        margin: { top: 100, right: 50, bottom: 100, left: 50 },
+        margin: { top: 30, right: 50, bottom: 30, left: 50 },
     });
 
     const [selectedYear, setSelectedYear] = useState(2022);
@@ -143,7 +143,7 @@ function BarChart() {
                 <p className='plotintro'></p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                    <div className="mt-4">
+                    <div className="mt-6">
                         <h2 className="text-xl font-semibold">
                             Percentage of <span className="underline underline-offset-4 font-bold">{ }</span> by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
