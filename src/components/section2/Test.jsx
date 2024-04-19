@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { colorScheme } from '../Config';
 import * as d3 from 'd3';
 import Loader from '../Loader';
+import Tooltip from '../Tooltip';
 
 const dataUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_yNHbo1Is82RqIZBFbkBBUA1rs4OXft0ghhucgXY8Kh7CfutB0Ed_nx-JL5i1i2tyZUegUWdTPTZ0/pub?gid=2024710507&single=true&output=csv";
 
@@ -34,6 +35,10 @@ function Test() {
     const [loading, setLoading] = useState(true);
 
     const [showDataPreparation, setShowDataPreparation] = useState(false);
+
+    const [tooltipContent, setTooltipContent] = useState('');
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+    const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
 
     useEffect(() => {
@@ -94,7 +99,7 @@ function Test() {
             });
 
             // Tooltip
-            var tooltip = d3.select("#tooltip");
+            //var tooltip = d3.select("#tooltip");
 
             // Add X axis
             var x = d3.scaleLinear()
@@ -124,7 +129,7 @@ function Test() {
 
             // Create a Y scale for densities
             var y = d3.scaleLinear()
-                .domain([0, yMax/1000])
+                .domain([0, yMax / 1000])
                 .range([spacing, 0]);
 
             // Create the Y axis for names
@@ -246,16 +251,11 @@ function Test() {
                             .attr("opacity", function (otherD) {
                                 return otherD === d ? 0.8 : 0.3;
                             });
-                        tooltip = d3.select('#tooltip');
-                        tooltip.style('display', 'block');
-                        tooltip.transition()
-                            .duration(200)
-                            .style('opacity', .9);
-                        tooltip.html(`<p style='color: #1e81b0'>${indicator === "H_ITV" ? "TV" : indicator === "H_IMPH" ? "Mobile" : "PC"}</p>
-                            <p style='color: #1e81b0'>${d.key}</p>
-                            <p style='color: #1e81b0'>${meanValue.toFixed(2)}%</p>`)
-                            .style('left', (event.pageX) + 'px')
-                            .style('top', (event.pageY - 28) + 'px');
+                        setTooltipContent(`<p style='color: #1e81b0'>Device: ${indicator === "H_ITV" ? "TV" : indicator === "H_IMPH" ? "Mobile" : "PC"}</p>
+                            <p style='color: #1e81b0'>Year: ${d.key}</p>
+                            <p style='color: #1e81b0'>Mean value: ${meanValue.toFixed(2)}%</p>`);
+                        setTooltipPosition({ x: event.pageX, y: event.pageY });
+                        setTooltipVisible(true);
                     })
                     .on("mouseout", function (d) {
                         d3.selectAll('.area')
@@ -263,10 +263,7 @@ function Test() {
                             .duration(200)
                             .attr("opacity", 0.7)
                             .attr("stroke-width", 1);
-
-                        tooltip.transition()
-                            .duration(200)
-                            .style("opacity", 0);
+                        setTooltipVisible(false);
                     })
             });
             setLoading(false);
@@ -275,25 +272,33 @@ function Test() {
 
     return (
         <>
-        <div className='w-screen mt-10 plotsection'>
-            <h1 className='plottitle'> The Evolution of Internet Devices</h1>
-            <p className='plotintro'>Internet use is strongly related to the tool to do so. Below we can see the difference between 3 devices (TV, PC and mobile). Unfortunately, the data are not very up-to-date.</p>
-            {loading && <Loader />}
-            <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex'}}>
-                <div ref={ref} className='w-fit'></div>
-            </div>
-            <div id='tooltip' className='absolute bg-white border border-gray-300 shadow-lg p-2 rounded-md opacity-0 hidden' onMouseLeave={() => d3.select('#tooltip').style('display', 'none')}></div>
-            <p className='plotexpl'>Using this ridgeline, we see how the most widely used method of accessing the Internet, shortly after its popularity (late 1990s) until the early 2010s of the new millennium, was the PC. To date, the doubt is that the most used method is via mobile, in the graph still a marginal method. Unfortunately, the data are not available.</p>
+            <div className='w-screen mt-10 plotsection'>
+                <h1 className='plottitle'> The Evolution of Internet Devices</h1>
+                <p className='plotintro'>Internet use is strongly related to the tool to do so. Below we can see the difference between 3 devices (TV, PC and mobile). Unfortunately, the data are not very up-to-date.</p>
+                {loading && <Loader />}
+                <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
+                    <div ref={ref} className='w-fit'></div>
+                </div>
+                <Tooltip
+                    content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
+                    isVisible={tooltipVisible}
+                    style={{
+                        left: tooltipPosition.x,
+                        top: tooltipPosition.y,
+                    }}
+                    className={'text-center'}
+                />
+                <p className='plotexpl'>Using this ridgeline, we see how the most widely used method of accessing the Internet, shortly after its popularity (late 1990s) until the early 2010s of the new millennium, was the PC. To date, the doubt is that the most used method is via mobile, in the graph still a marginal method. Unfortunately, the data are not available.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
-                        To create this chart we have this <a href="https://doi.org/10.2908/ISOC_CI_ID_H" className='underline underline-offset-4 cursor-pointer'>dataset</a> made available by eurostat. We selected 3 indicators (<code>H_IMPH , H_IPC, H_ITV</code>) keeping the ones with fewer missing values, comuments always abundant. We replaced the <code>:</code> character used by eurostat to indicate missing values with <code>NaN</code>. <br />
-                        For the rest we took all available countries and the same for years. 
+                            To create this chart we have this <a href="https://doi.org/10.2908/ISOC_CI_ID_H" className='underline underline-offset-4 cursor-pointer'>dataset</a> made available by eurostat. We selected 3 indicators (<code>H_IMPH , H_IPC, H_ITV</code>) keeping the ones with fewer missing values, comuments always abundant. We replaced the <code>:</code> character used by eurostat to indicate missing values with <code>NaN</code>. <br />
+                            For the rest we took all available countries and the same for years.
                         </p>
                     </div>
                     <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>
-                </div>       
-        </div>
+                </div>
+            </div>
         </>
     )
 }
