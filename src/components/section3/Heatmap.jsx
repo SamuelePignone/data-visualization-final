@@ -163,7 +163,7 @@ function Section3D3() {
                         text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                     />
                 </div>
-                <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet.</p>
+                <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet. <br />Showing how habits have changed over the years and in the most countries.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
