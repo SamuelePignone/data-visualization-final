@@ -240,8 +240,8 @@ function MultipleBarChart() {
                 .attr("x", 140)
                 .attr("y", -20)
                 .style("text-anchor", "middle")
-                .style("font-size", "25px")
-                .style("font-weight", "600")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
                 .attr("fill", d => getColor(year_list))
                 .text(year_list[index]);
         })

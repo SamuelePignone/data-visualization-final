@@ -110,7 +110,8 @@ function Test() {
 
             svg.append("g")
                 .attr("class", "xAxis")
-                .style("font-size", "12px")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
                 .attr("transform", "translate(0," + (height) + ")")
                 .call(d3.axisBottom(x).tickValues([0, 25, 50, 75, 100]).tickSize(-height))
                 .select(".domain").remove()
@@ -123,7 +124,8 @@ function Test() {
                 .attr("text-anchor", "end")
                 .attr("x", width)
                 .attr("y", height + 40)
-                .style("font-size", "15px")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
                 .style("fill", "#fff")
                 .text("Probability (%)");
 
@@ -140,7 +142,8 @@ function Test() {
 
             svg.append("g")
                 .call(d3.axisLeft(yName).tickSize(0))
-                .style("font-size", "12px")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
                 .select(".domain").remove()
 
 

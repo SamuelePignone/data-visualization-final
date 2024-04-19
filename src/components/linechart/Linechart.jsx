@@ -65,7 +65,7 @@ function LineChart() {
             // rotate x-axis labels by 45 degrees
             .call(xAxis)
             .selectAll('text')
-            .style('font-size', '14px')
+            .style('font-size', '16px')
             .style("font-weight", "700")
             .attr('transform', 'rotate(-45)')
             .attr('x', -10)
@@ -77,7 +77,7 @@ function LineChart() {
             .selectAll('text')
             // add % sign to y-axis labels
             .text(d => d + '%')
-            .style('font-size', '12px')
+            .style('font-size', '16px')
             .style("font-weight", "700");
 
         // gridlines in x axis function

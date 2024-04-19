@@ -96,7 +96,7 @@ function StackedAreaChart() {
             .attr("transform", `translate(0, ${dimensions.height - dimensions.margin.top - dimensions.margin.bottom})`)
             .call(xAxis)
             .selectAll('text')
-            .style('font-size', '14px')
+            .style('font-size', '16px')
             .style("font-weight", "700")
             .attr('transform', 'rotate(-45)')
             .attr('x', -10)
@@ -108,7 +108,7 @@ function StackedAreaChart() {
             .selectAll('text')
             // add % sign to y-axis labels
             .text(d => d + '%')
-            .style('font-size', '12px')
+            .style('font-size', '16px')
             .style("font-weight", "700");
 
         var clip = svg.append("defs").append("svg:clipPath")

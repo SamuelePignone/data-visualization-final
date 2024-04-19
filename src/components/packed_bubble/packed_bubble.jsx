@@ -92,9 +92,9 @@ function PackedBubble() {
             .attr("class", "textnode")
             .attr("x", function (d) { return d.x; })
             .attr("y", function (d) { return d.y; })
-            .attr("font-size", "10px")
+            .attr("font-size", "16px")
             .attr("fill", "black")
-            .attr("font-weight", "bold")
+            .attr("font-weight", "700")
             .each(function (d) {
                 if (size(d.OBS_VALUE) > 40) {
                     var text = d3.select(this);

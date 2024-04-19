@@ -63,8 +63,8 @@ function Section3D3() {
             .attr('transform', `translate(0, ${real_height + 4})`)
             .call(d3.axisBottom(x).tickSize(0))
             .selectAll('text')
-            .style('font-weight', "500")
-            .style('font-size', "18px");
+            .style('font-weight', "700")
+            .style('font-size', "16px");
 
         svg.select('.x-axis').select('.domain').remove();
 
@@ -72,8 +72,8 @@ function Section3D3() {
             .attr("class", "y-axis")
             .call(d3.axisLeft(y).tickSize(0))
             .selectAll('text')
-            .style('font-size', "18px")
-            .style('font-weight', "500");
+            .style('font-size', "16px")
+            .style('font-weight', "700");
 
         svg.select('.y-axis').select('.domain').remove();
 

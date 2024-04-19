@@ -63,7 +63,7 @@ function BarChart() {
             .attr("transform", `translate(0,${dimensions.height - dimensions.margin.bottom})`)
             .call(d3.axisBottom(fx).tickSizeOuter(0))
             .selectAll("text")
-            .style("font-size", "14px")
+            .style("font-size", "16px")
             .style("font-weight", "700")
             .text(d => map_sec_to_description(d))
 
@@ -71,7 +71,7 @@ function BarChart() {
             .attr("transform", `translate(${dimensions.margin.left},0)`)
             .call(d3.axisLeft(y).ticks(null, "s").tickFormat(d => d + "%"))
             .selectAll("text")
-            .style("font-size", "14px")
+            .style("font-size", "16px")
             .style("font-weight", "700")
 
         // gridlines in y axis function
@@ -135,7 +135,7 @@ function BarChart() {
             .style("text-anchor", "end")
             .text(d => map_size_emp(d))
             .style("font-size", "16px")
-            .style("font-weight", "bold")
+            .style("font-weight", "700")
 
         setYear_list([...new Set(dataFile.map(d => d.TIME_PERIOD))].sort((a, b) => a - b));
 

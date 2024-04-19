@@ -161,7 +161,7 @@ function StackedBarChart() {
             // rotate x-axis labels by 45 degrees
             .call(xAxis)
             .selectAll('text')
-            .style('font-size', '14px')
+            .style('font-size', '16px')
             .style("font-weight", "700")
             .attr('transform', 'rotate(-45)')
             .attr('x', -10)
@@ -171,7 +171,7 @@ function StackedBarChart() {
         svg.append('g')
             .call(yAxis)
             .selectAll('text')
-            .style('font-size', '12px')
+            .style('font-size', '16px')
             .style("font-weight", "700");
 
         const stackedData = d3.stack()

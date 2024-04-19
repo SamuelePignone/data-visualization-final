@@ -89,8 +89,8 @@ function SpiderChart() {
                 .attr("y", - radialScale(t) - 5)
                 .attr("fill", "white")
                 .attr("text-anchor", "middle")
-                .style("font-size", "15px")
-                .style("font-weight", "bold")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
                 .text(t.toString())
         );
 
@@ -122,7 +122,7 @@ function SpiderChart() {
                 .attr("fill", "#333333")
                 .text(map_size_indic_is_sec(features[i]))
                 .style("font-size", "16px")
-                .style("font-weight", "semibold");
+                .style("font-weight", "700");
 
             //draw axis line
             svg.append("line")
