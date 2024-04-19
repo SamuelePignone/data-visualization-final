@@ -14,6 +14,7 @@ import SpiderChart from './components/spiderchart/SpiderChart'
 import BarChart from './components/barchart/Barchart'
 import Team from './components/Team'
 import Footer from './components/Footer'
+import Chapter from './components/Chapter'
 
 function App() {
 	return (
@@ -21,11 +22,13 @@ function App() {
 			<Navbar />
 			<Hero />
 			<Intro />
+			<Chapter text='Part 1: Digital age among individuals' />
 			<Section1 />
 			<Section2 />
 			<Heatmap />
 			<MultipleBarChart />
 			<LineChart />
+			<Chapter text='Part 2: Digital Transformation in Enterprises' />
 			<PackedBubble />
 			<AreaChart />
 			<StackedBarChart />
