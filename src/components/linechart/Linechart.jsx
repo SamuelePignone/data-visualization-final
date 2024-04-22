@@ -262,7 +262,7 @@ function LineChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>E-commerce engagement</h1>
-                <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce. <br /> Let's see how European countries have embraced this new way of shopping.</p>
+                <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce. <br /> Let's see how European countries have embraced this new way of shopping. <br /> Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
@@ -277,7 +277,7 @@ function LineChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
+                <p className='plotexpl'>Looking at the results shown in the graph we would have expected steeper growth in the e-commerce engagement at least for the younger age groups.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>

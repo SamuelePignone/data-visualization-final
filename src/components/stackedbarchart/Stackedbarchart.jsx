@@ -214,7 +214,7 @@ function StackedBarChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>Role of AI in the business</h1>
-                <p className='plotintro'>One of the most well-known and discussed frontiers of digitalization in recent years is AI.</p>
+                <p className='plotintro'>One of the most well-known and discussed frontiers of digitalization in recent years is AI.<br /> Using a percentage stacked bar chart we are able to show the different use of AI in european's enterprises by its size.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-7">
@@ -241,7 +241,7 @@ function StackedBarChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Using a percentage stacked bar chart we are able to show the different use of AI in european's enterprises by its size. <br />We clearly see how in past years despite the publicity AI has received it is still not used extensively by companies especially small ones. </p>
+                <p className='plotexpl'>In the chart above, we clearly see how in past years despite the publicity AI has received it is still not used extensively by companies especially small ones. </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>

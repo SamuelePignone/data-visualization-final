@@ -193,7 +193,7 @@ function PackedBubble() {
     return (
         <div className='w-screen mb-64 plotsection'>
             <h1 className='plottitle'>Digitalization in enterprises</h1>
-            <p className='plotintro'>Below, we can see the percentage of companies with the same digital intensity index for different companies according to their size, for each European country.</p>
+            <p className='plotintro'>Below, we can see the percentage of companies with the same digital intensity index for different companies according to their size, for each European country.<br /> The radius of each bubble is represented by the percentage of enterprises in a certain European nation with a certain digital intensity index (DII). <br />The colors represent the size of the companies. </p>
             {loading && <Loader />}
             <div className='flex-col justify-center items-center w-full h-full mb-10' style={{ display: loading ? 'none' : 'flex' }}>
                 <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
@@ -207,7 +207,7 @@ function PackedBubble() {
                     top: tooltipPosition.y,
                 }}
             />
-            <p className='plotexpl'>The radius of each bubble is represented by the percentage of enterprises in a certain European nation with a certain digital intensity index (DII). <br />The colors represent the size of the companies. <br /> Looking at the graph, it can be seen that the size of companies does not determine their capacity in the digital sphere.  </p>
+            <p className='plotexpl'>Looking at the graph, it can be seen that the size of companies does not determine their capacity in the digital sphere.  </p>
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                     <p id='explain-1' className='w-[80%] text-center mx-auto'>

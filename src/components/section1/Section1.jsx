@@ -230,7 +230,7 @@ function Section1() {
                     text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                 />
             </div>
-            <p className='plotexpl'>This map, clearly shows, how the growth of Internet use has impacted Europe and beyond, changing the everyday lives of hundreds of millions of people. </p>
+            <p className='plotexpl'>This map clearly shows the rapid growth of Internet use in Europe without much difference between countries differing in population or economy.</p>
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                     <p id='explain-1' className='w-[80%] text-center mx-auto'>

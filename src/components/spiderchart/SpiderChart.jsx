@@ -211,7 +211,7 @@ function SpiderChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>Security and Trust in the Digital Age</h1>
-                <p className='plotintro'>What are the actions that enterprises put in place for their cybersecurity?</p>
+                <p className='plotintro'>What are the actions that enterprises put in place for their cybersecurity? <br />Through this radar chart we can understand what were the most used practices in 2019 by companies according to their size for their security in the digitization era. </p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
@@ -231,7 +231,7 @@ function SpiderChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Through this radar chart we can understand what were the most used practices in 2019 by companies according to their size for their security in the digitization era. </p>
+                <p className='plotexpl'>The radar chart shows us that smaller companies in various European countries are the ones that struggle the most to develop actions to ensure their cybersecurity. For medium to large companies, actions taken are on average more although they vary from country to country.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>

@@ -306,7 +306,7 @@ function AreaChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>The Role of E-commerce in Business</h1>
-                <p className='plotintro'> This area chart illustrating the growth of e-commerce sales in enterprises over the past years.</p>
+                <p className='plotintro'> This area chart illustrating the growth of e-commerce sales in enterprises over the past years. <br /> Each area rappresents a different size for a company (Micro, Small, Small and medium-sized, Large), we can also opt for a wide range of types of online sales. So we can see the trend of e-commerce sales for each size of company.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
@@ -333,7 +333,7 @@ function AreaChart() {
                     }}
                     className={'text-center'}
                 />
-                <p className='plotexpl'>Each area rappresents a different size for a company (Micro, Small, Small and medium-sized, Large), we can also opt for a wide range of types of online sales. So we can see the trend of e-commerce sales for each size of company. It is clear that the largest companies own the largest share of the online market. But without such a clear gap from smaller companies, though. Obviously these data are about Europe and therefore do not take into account the large U.S. and Chinese companies</p>
+                <p className='plotexpl'>Looking the plot, is clear that the largest companies own the largest share of the online market. But without such a clear gap from smaller companies, though. Obviously these data are about Europe and therefore do not take into account the large U.S. and Chinese companies</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>

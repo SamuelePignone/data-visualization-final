@@ -283,7 +283,7 @@ function Test() {
         <>
             <div className='w-screen mt-10 plotsection'>
                 <h1 className='plottitle'> The Evolution of Internet Devices</h1>
-                <p className='plotintro'>Internet use is strongly related to the tool to do so. Below we can see the difference between 3 devices (TV, PC and mobile). Unfortunately, the data are not very up-to-date.</p>
+                <p className='plotintro'>Internet use is strongly correlated with the tool to do so. Below we can see the difference between 3 devices (TV, PC, and cell phone) using a ridgline that allows us to see the different probability distrubutions in usage. Unfortunately, the data are not very up to date.</p>
                 {loading && <Loader />}
                 <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
                     <div ref={ref} className='w-fit'></div>

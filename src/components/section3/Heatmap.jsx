@@ -131,7 +131,7 @@ function Section3D3() {
         <>
             <div className='w-screen mt-10 plotsection'>
                 <h1 className='plottitle'>Digital Participation of Individuals</h1>
-                <p className='plotintro'>So, what do people in different countries do with the internet. Many things, in this heatmap we see the most common ones.</p>
+                <p className='plotintro'>So, what do people in different countries do with the internet? Many things, in this heatmap we see the most common ones. It displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet. <br />Showing how habits have changed over the years and in the most countries.</p>
                 <div className='w-full flex justify-center items-center mb-6'>
                     <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
                 </div>
@@ -163,7 +163,7 @@ function Section3D3() {
                         text={'Start an animation from ' + '2002' + ' to ' + '2023'}
                     />
                 </div>
-                <p className='plotexpl'>In the heatmap above, it displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet. <br />Showing how habits have changed over the years and in the most countries.</p>
+                <p className='plotexpl'>Unfortunately, for past years we do not have much data. In any case, it is clear that by now most people in EU countries find themselves used to doing a lot of online activity.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                         <p id='explain-1' className='w-[80%] text-center mx-auto'>
