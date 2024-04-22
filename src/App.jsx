@@ -22,7 +22,7 @@ function App() {
 			<Navbar />
 			<Hero />
 			<Intro />
-			<Chapter text='Part 1: Digital age among individuals' />
+			<Chapter text='Part 1: Digital age among individuals' id='journey_start' />
 			<Section1 />
 			<Section2 />
 			<Heatmap />

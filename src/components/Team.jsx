@@ -23,7 +23,7 @@ function Team() {
                 <div className="w-full -mt-24">
                     <div className="w-full flex justify-center items-center">
                         <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl bg-white shadow-xl mx-4">
-                            <img className="shadow-lg object-cover w-20 rounded-xl aspect-square" src="https://avatars.githubusercontent.com/u/45742466?s=48&v=4" alt="Samuele Pignone" />
+                            <img className="shadow-lg object-cover w-20 rounded-xl aspect-square" src="https://avatars.githubusercontent.com/u/45742466?v=4" alt="Samuele Pignone" />
 
                                 <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">Samuele Pignone</h1>
 

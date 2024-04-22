@@ -134,10 +134,17 @@ function StackedBarChart() {
         // add a bar that reach the max value called "no_data"
         processedData.forEach(d => {
             var sum = 0;
+            var max_indic = '';
+            var max_tmp_value = 0;
             indic_is_set_list.forEach(indic => {
                 sum += d[indic];
+                if (d[indic] > max_tmp_value) {
+                    max_tmp_value = d[indic];
+                    max_indic = indic;
+                }
             });
-            if (sum > max_value) { d[indic_is_set_list[0]] = d[indic_is_set_list[0]] - (sum - max_value); }
+            if (sum > max_value) { 
+                if (max_indic===''){console.log("Merda")}else{d[max_indic]-=(sum-max_value);}}
             d.no_data = max_value - sum;
         });
 

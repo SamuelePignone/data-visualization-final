@@ -18,6 +18,12 @@
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 * {

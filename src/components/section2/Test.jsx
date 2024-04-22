@@ -29,8 +29,8 @@ function Test() {
     const ref = useRef();
     const [dimensions, setDimensions] = useState({
         width: 800,
-        height: 400,
-        margin: { top: 30, right: 30, bottom: 50, left: 60 },
+        height: 500,
+        margin: { top: 50, right: 30, bottom: 50, left: 60 },
     });
     const [loading, setLoading] = useState(true);
 
