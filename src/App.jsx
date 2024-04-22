@@ -15,6 +15,7 @@ import BarChart from './components/barchart/Barchart'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import Chapter from './components/Chapter'
+import Conclusion from './components/Conclusion'
 
 function App() {
 	return (
@@ -34,7 +35,7 @@ function App() {
 			<StackedBarChart />
 			<SpiderChart />
 			<BarChart />
-
+			<Conclusion	  />
 			<Team />
 			<Footer />
 		</>
