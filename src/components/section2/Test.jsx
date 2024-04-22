@@ -110,11 +110,11 @@ function Test() {
 
             svg.append("g")
                 .attr("class", "xAxis")
-                .style("font-size", "16px")
-                .style("font-weight", "700")
                 .attr("transform", "translate(0," + (height) + ")")
                 .call(d3.axisBottom(x).tickValues([0, 25, 50, 75, 100]).tickSize(-height))
-                .select(".domain").remove()
+                .selectAll("text")
+                .style("font-size", "16px")
+                .style("font-weight", "700")
 
             svg.selectAll(".xAxis .tick text")
                 .attr("y", 10);
@@ -141,10 +141,16 @@ function Test() {
                 .paddingInner(1)
 
             svg.append("g")
+                .attr("class", "yAxis")
                 .call(d3.axisLeft(yName).tickSize(0))
+                .selectAll("text")
                 .style("font-size", "16px")
                 .style("font-weight", "700")
-                .select(".domain").remove()
+            
+            svg.selectAll(".yAxis .domain").remove();
+            svg.selectAll(".xAxis .domain").remove();
+
+
 
 
             // Compute kernel density estimation for each column:

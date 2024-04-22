@@ -216,7 +216,7 @@ function SpiderChart() {
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
                         <h2 className="text-xl font-semibold">
-                            <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span>  <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                            <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span> in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>

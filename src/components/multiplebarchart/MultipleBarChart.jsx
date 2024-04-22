@@ -256,7 +256,7 @@ function MultipleBarChart() {
                 {loading && <Loader />}
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                    <div ref={ref} className='w-fit flex items-center justify-center -translate-x-[100px] mt-4'></div>
+                    <div ref={ref} className='w-fit flex items-center justify-center -translate-x-[50px] mt-4'></div>
                 </div>
                 <p className='plotexpl'>The small multiple bar graph allows you to see how different IT skills have evolved in recent years for each European nation. <br /> It shows a small but steady improvement in all skills year by year.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
