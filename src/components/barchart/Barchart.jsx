@@ -146,7 +146,7 @@ function BarChart() {
         <>
             <div className='w-screen mt-24 !mb-14 plotsection'>
                 <h1 className='plottitle'>Security incidents in enterprises</h1>
-                <p className='plotintro'>Are the measures put in place by the companies seen in the plot before effective ? <br />We show through this grouped bar chart the different accidents that occurred according to the size of the companies in the year 2022.</p>
+                <p className='plotintro'>Are the measures put in place by the companies seen in the plot before effective? <br />We show through this grouped bar chart the different accidents that occurred according to the size of the companies in the year 2022.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-6">
