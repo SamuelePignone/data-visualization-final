@@ -15,14 +15,13 @@ function Navbar() {
     };
 
     const handleScroll = () => {
-        const sections = ['home', 'project', 'resources', 'team'];
+        const sections = ['home', 'project', 'team'];
         const scrollPosition = window.scrollY;
 
         if (scrollPosition < 100) setActiveSection('home');
-        else if (scrollPosition >= 100 && scrollPosition < 100 + document.getElementById('project').offsetTop) setActiveSection('home');
-        else if (scrollPosition >= 100 + document.getElementById('project').offsetTop && scrollPosition < 100 + document.getElementById('resources').offsetTop) setActiveSection('project');
-        else if (scrollPosition >= 100 + document.getElementById('resources').offsetTop && scrollPosition < 100 + document.getElementById('team').offsetTop) setActiveSection('resources');
-        else if (scrollPosition >= 100 + document.getElementById('team').offsetTop) setActiveSection('team');
+        else if (scrollPosition >= 100 && scrollPosition < document.getElementById('project').offsetTop -150) setActiveSection('home');
+        else if (scrollPosition >= document.getElementById('project').offsetTop - 150 && scrollPosition < document.getElementById('team').offsetTop - 150) setActiveSection('project');
+        else if (scrollPosition >= document.getElementById('team').offsetTop - 150) setActiveSection('team');
     };
 
     useEffect(() => {
@@ -46,6 +45,7 @@ function Navbar() {
                                 ? 'transition-colors duration-300 transform border-b-2 border-[#95dc6f] text-blue-400 mx-1.5 sm:mx-6 font-bold text-xl'
                                 : 'border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl cursor-pointer'
                         }`}
+                        onClick={() => scrollTo('home')}
                     >
                         Home
                     </div>
@@ -59,17 +59,6 @@ function Navbar() {
                         onClick={() => scrollTo('project')}
                     >
                         Project
-                    </div>
-
-                    <div
-                        className={`${
-                            isActiveSection('resources')
-                                ? 'transition-colors duration-300 transform border-b-2 border-[#95dc6f] text-blue-400 mx-1.5 sm:mx-6 font-bold text-xl'
-                                : 'border-b-2 border-transparent hover:border-[#95dc6f87] hover:text-blue-400 transition-colors duration-300 transform mx-1.5 sm:mx-6 font-bold text-xl cursor-pointer'
-                        }`}
-                        onClick={() => scrollTo('resources')}
-                    >
-                        Resources
                     </div>
 
                     <div
