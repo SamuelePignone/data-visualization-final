@@ -262,7 +262,7 @@ function LineChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>E-commerce engagement</h1>
-                <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce. <br /> Let's see how European countries have embraced this new way of shopping. <br /> Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
+                <p className='plotintro'>One of the most life-changing elements of digitalization in recent years is definitely e-commerce. <br /> Let's see how European countries have embraced this new way of shopping. <br /> Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">

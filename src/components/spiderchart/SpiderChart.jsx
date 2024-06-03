@@ -225,7 +225,7 @@ function SpiderChart() {
         <>
             <div className='w-screen mt-24 mb-64 plotsection'>
                 <h1 className='plottitle'>Security and Trust in the Digital Age</h1>
-                <p className='plotintro'>What are the actions that enterprises put in place for their cybersecurity? <br />Through this radar chart we can understand what were the most used practices in 2019 by companies according to their size for their security in the digitization era. </p>
+                <p className='plotintro'>What are the actions that enterprises put in place for their cybersecurity? <br />Through this radar chart we can understand what were the most used practices in 2019 by companies according to their size for their security in the digitalization era. </p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
