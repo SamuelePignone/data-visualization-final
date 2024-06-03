@@ -20,8 +20,8 @@ function Navbar() {
 
         if (scrollPosition < 100) setActiveSection('home');
         else if (scrollPosition >= 100 && scrollPosition < document.getElementById('project').offsetTop -150) setActiveSection('home');
-        else if (scrollPosition >= document.getElementById('project').offsetTop - 150 && scrollPosition < document.getElementById('team').offsetTop - 150) setActiveSection('project');
-        else if (scrollPosition >= document.getElementById('team').offsetTop - 150) setActiveSection('team');
+        else if (scrollPosition >= document.getElementById('project').offsetTop - 150 && scrollPosition < document.getElementById('team').offsetTop - 500) setActiveSection('project');
+        else if (scrollPosition >= document.getElementById('team').offsetTop - 500) setActiveSection('team');
     };
 
     useEffect(() => {

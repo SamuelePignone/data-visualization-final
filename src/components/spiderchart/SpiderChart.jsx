@@ -194,7 +194,21 @@ function SpiderChart() {
                     .attr("stroke", "white")
                     .attr("stroke-width", 1)
                     .attr("cx", d.x)
-                    .attr("cy", d.y);
+                    .attr("cy", d.y)
+                    .on("mouseover", (event) => {
+                        setTooltipContent(`<p>${map_size_emp(d.size_emp)}</p>`);
+                        setTooltipPosition({ x: event.pageX, y: event.pageY });
+                        setTooltipVisible(true);
+                        svg.selectAll("path")
+                            .attr("fill-opacity", 0.2)
+                            .filter((pathData) => pathData[0].data[0].size_emp === d.data[0].size_emp)
+                            .attr("fill-opacity", 0.7);
+                    })
+                    .on("mouseout", () => {
+                        setTooltipVisible(false);
+                        svg.selectAll("path")
+                            .attr("fill-opacity", 0.7);
+                    });
             });
 
             // sort data by the area of the radar chart
@@ -216,7 +230,7 @@ function SpiderChart() {
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
                         <h2 className="text-xl font-semibold">
-                            <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span> in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                            Security and Trust in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>
