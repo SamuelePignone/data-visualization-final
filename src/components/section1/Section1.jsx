@@ -199,8 +199,15 @@ function Section1() {
         <div className='w-screen plotsection'>
             <h1 className='plottitle'>The Digital Divide in European Households</h1>
             <p className='plotintro'>The first tap of the trip start from this map showing the percentage of households with internet access across European countries in different years.</p>
-            <div className='w-full flex justify-center items-center mb-6'>
-                <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+            <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                <div className='w-full flex justify-center items-center'>
+                    <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+                </div>
+                <div className="mt-4">
+                    <h2 className="text-xl font-semibold">
+                        Percentage of population have internet access in European households in {selectedYear}
+                    </h2>
+                </div>
             </div>
             {loading && (<Loader />)}
             <div className='flex justify-center items-center w-full h-full'>
@@ -234,9 +241,9 @@ function Section1() {
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
                     <p id='explain-1' className='w-[80%] text-left mx-auto'>
-                    The data displayed in this map were made available by Eurostat, specifically through this  
-                    <a href="https://doi.org/10.2908/ISOC_CI_IN_H" className='underline underline-offset-4 cursor-pointer' > dataset</a>.<br /> 
-                    Essentially, uncollected data were changed from the representation <code>:</code> to the canonical <code>NaN</code>.<br /> In addition, string values such as <code>(b)</code> or <code>(u)</code> were removed to equalize the type of each dataset element to <code>float</code>.
+                        The data displayed in this map were made available by Eurostat, specifically through this
+                        <a href="https://doi.org/10.2908/ISOC_CI_IN_H" className='underline underline-offset-4 cursor-pointer' > dataset</a>.<br />
+                        Essentially, uncollected data were changed from the representation <code>:</code> to the canonical <code>NaN</code>.<br /> In addition, string values such as <code>(b)</code> or <code>(u)</code> were removed to equalize the type of each dataset element to <code>float</code>.
                     </p>
                 </div>
                 <p className='underline underline-offset-4 cursor-pointer' onClick={() => setShowDataPreparation(!showDataPreparation)}>{showDataPreparation ? "Hide data preparation" : "Show data preparation"}</p>

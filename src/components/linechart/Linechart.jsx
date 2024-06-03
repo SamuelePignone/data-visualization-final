@@ -265,9 +265,16 @@ function LineChart() {
                 <p className='plotintro'>One of the most life-changing elements of digitization in recent years is definitely e-commerce. <br /> Let's see how European countries have embraced this new way of shopping. <br /> Using this line chart we can see the differences in utilization between European countries and the growth of this activity in recent years.</p>
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
-                    <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                    <div className="mt-4">
+                        <h2 className="text-xl font-semibold">
+                            Trend over the years of the e-commerce usage for different person's age ranges in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                        </h2>
+                    </div>
                 </div>
                 {loading && <Loader />}
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                    <div ref={ref} className='w-fit flex items-center justify-center mt-4'></div>
+                </div>
                 <Tooltip
                     content={<div dangerouslySetInnerHTML={{ __html: tooltipContent }} />}
                     isVisible={tooltipVisible}

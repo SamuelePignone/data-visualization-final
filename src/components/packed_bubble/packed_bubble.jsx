@@ -49,7 +49,7 @@ function PackedBubble() {
 
 
 
-        
+
 
 
         var node = svg.append("g")
@@ -193,9 +193,16 @@ function PackedBubble() {
         <div className='w-screen mb-64 plotsection'>
             <h1 className='plottitle'>Digitalization in enterprises</h1>
             <p className='plotintro'>Below, we can see the percentage of companies with the same digital intensity index for different companies according to their size, for each European country.<br /> The radius of each bubble is represented by the percentage of enterprises in a certain European nation with a certain digital intensity index (DII). <br />The colors represent the size of the companies. </p>
+            <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
+                <div className="mt-4">
+                    <h2 className="text-xl font-semibold">
+                        Digital intensity index by company size in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                    </h2>
+                </div>
+            </div>
             {loading && <Loader />}
             <div className='flex-col justify-center items-center w-full h-full mb-10' style={{ display: loading ? 'none' : 'flex' }}>
-                <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                 <div ref={ref} className='w-fit flex items-center justify-center'></div>
             </div>
             <Tooltip

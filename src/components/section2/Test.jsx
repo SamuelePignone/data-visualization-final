@@ -146,7 +146,7 @@ function Test() {
                 .selectAll("text")
                 .style("font-size", "16px")
                 .style("font-weight", "700")
-            
+
             svg.selectAll(".yAxis .domain").remove();
             svg.selectAll(".xAxis .domain").remove();
 
@@ -284,6 +284,13 @@ function Test() {
             <div className='w-screen mt-10 plotsection'>
                 <h1 className='plottitle'> The Evolution of Internet Devices</h1>
                 <p className='plotintro'>Internet use is strongly correlated with the tool to do so. Below we can see the difference between 3 devices (TV, PC, and cell phone) using a ridgline that allows us to see the different probability distrubutions in usage. Unfortunately, the data are not very up to date.</p>
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                    <div className="mt-4">
+                        <h2 className="text-xl font-semibold">
+                            Distribution of Internet Access by Device in different years
+                        </h2>
+                    </div>
+                </div>
                 {loading && <Loader />}
                 <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
                     <div ref={ref} className='w-fit'></div>

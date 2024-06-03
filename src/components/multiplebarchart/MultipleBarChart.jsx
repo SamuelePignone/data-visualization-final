@@ -4,7 +4,7 @@ import dataFile from '../../data/cleaned_multibar_chart.json';
 import { getColor } from '../Config';
 import NationSelector from '../NationSelector';
 import Loader from '../Loader';
-import { map_size_emp } from '../MapState';
+import { map_size_emp, mapstate } from '../MapState';
 import Tooltip from '../Tooltip';
 
 function getCodeDefinition(code) {
@@ -253,9 +253,16 @@ function MultipleBarChart() {
             <div className='w-screen mt-24 plotsection'>
                 <h1 className='plottitle'>Digital Skills Among Individuals</h1>
                 <p className='plotintro'>After the previous plots that showed us how much digitization is used and what it is used for. Now we see what capabilities people have in the digital age.<br /> The small multiple bar graph allows you to see how different IT skills have evolved in recent years for each European nation. </p>
-                {loading && <Loader />}
                 <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
+                    <div className="mt-4">
+                        <h2 className="text-xl font-semibold">
+                            Growth of digital skills over the years in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                        </h2>
+                    </div>
+                </div>
+                {loading && <Loader />}
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
                     <div ref={ref} className='w-fit flex items-center justify-center -translate-x-[50px] mt-4'></div>
                 </div>
                 <p className='plotexpl'>The graph shows a small but steady improvement in all skills year after year. <br /> Below meaning an increasing awareness by people of the importance of knowing how to use and take advantage of digitalization </p>

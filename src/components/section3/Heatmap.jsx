@@ -83,7 +83,7 @@ function Section3D3() {
             .append('g')
             .attr('class', 'col')
             .attr('transform', d => {
-            return `translate(${x(d.key)}, 0)`
+                return `translate(${x(d.key)}, 0)`
             })
             .selectAll()
             .data(d => d.data, d => d.key)
@@ -93,7 +93,7 @@ function Section3D3() {
             .attr('rx', 4)
             .attr('ry', 4)
             .attr('x', d => {
-            return x(d.key)
+                return x(d.key)
             })
             .attr('y', d => y(d.key))
             .attr('width', x.bandwidth())
@@ -132,8 +132,15 @@ function Section3D3() {
             <div className='w-screen mt-10 plotsection'>
                 <h1 className='plottitle'>Digital Participation of Individuals</h1>
                 <p className='plotintro'>So, what do people in different countries do with the internet? Many things, in this heatmap we see the most common ones. It displays year by year in various European countries what people do ( eg. e-banking, e-news, social networks ...) using the Internet. <br />Showing how habits have changed over the years and in the most countries.</p>
-                <div className='w-full flex justify-center items-center mb-6'>
-                    <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+                <div className='flex-col justify-center items-center w-full h-full mb-10 mt-1' style={{ display: loading ? 'none' : 'flex' }}>
+                    <div className='w-full flex justify-center items-center'>
+                        <YearSelector yearList={availableYears} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
+                    </div>
+                    <div className="mt-4">
+                        <h2 className="text-xl font-semibold">
+                            Percentage of people using internet for different activities in Europe during {selectedYear}
+                        </h2>
+                    </div>
                 </div>
                 {loading && (<Loader />)}
                 <div className='flex justify-center items-center w-full h-full -ml-10' style={{ display: loading ? 'none' : 'flex' }}>
