@@ -16,12 +16,14 @@ import Team from './components/Team'
 import Footer from './components/Footer'
 import Chapter from './components/Chapter'
 import Conclusion from './components/Conclusion'
+import BackToTop from './components/BackToTop'
 
 function App() {
 	return (
 		<>
 			<Navbar />
 			<Hero />
+			<BackToTop />
 			<Intro />
 			<Chapter text='Part 1: Digital age among individuals' id='journey_start' />
 			<Section1 />

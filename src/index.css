@@ -151,5 +151,22 @@ text {
   }
 }
 
+#back-to-top-btn.breathe {
+  animation: breathe 1.5s ease-in-out;
+}
+
+@keyframes breathe {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+
 @media (prefers-color-scheme: light) {
 }
