@@ -1,8 +1,22 @@
-# React + Vite
+# Data Visualization Final Project 📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website showcases the final project for the **Data Visualization** course, which is part of the Artificial Intelligence program at the University of Genoa.
 
-Currently, two official plugins are available:
+## Overview 🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project involves creating a variety of visualizations to represent data about digitalization in Europe. This website is thinked to be a pleasant journey through the digitalization of Europe, starting from personal use to companies. 
+
+## Data sources 📂
+Data are taken from [Eurostat Digital economy and society](https://ec.europa.eu/eurostat/web/digital-economy-and-society/database).
+
+## Technologies Used 💻
+
+- **HTML/CSS**: For the structure and styling of the website.
+- **JavaScript with React framework**: For interactive elements and dynamic visualizations.
+- **D3.js**: A JavaScript library for producing dynamic, interactive data visualizations in web browsers.
+- **Python**: For data preprocessing and analysis.
+
+## Contact 📧
+
+- **Samuele Pignone** - [GitHub](https://github.com/SamuelePignone)
+- **Nicolò Guainazzo** - [GitHub](https://github.com/Nicogs43)
