@@ -210,7 +210,7 @@ function PackedBubble() {
             <p className='plotexpl'>Looking at the graph, it can be seen that the size of companies does not determine their capacity in the digital sphere.  </p>
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                    <p id='explain-1' className='w-[80%] text-left mx-auto'>
                         In this graph we have shown of data from this eurostat <a href="https://doi.org/10.2908/ISOC_E_DII" className='underline underline-offset-4 cursor-pointer' >dataset</a> . To prepare them for display, we removed unnecessary columns and transformed the format from csv to json. We selected 4 different digital intensity indexes <code>['E_DI3_HI', 'E_DI3_LO', 'E_DI3_VHI', 'E_DI3_VLO']</code> and 4 different sizes for companies.
                     </p>
                 </div>

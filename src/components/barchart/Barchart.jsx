@@ -169,7 +169,7 @@ function BarChart() {
                 <p className='plotexpl'>To answer the question earlier it would seem that the measures taken bear fruit. The accidents are not as numerous. </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                         Also for this last graph we used <a href="https://doi.org/10.2908/ISOC_CISCE_IC" className='underline underline-offset-4 cursor-pointer'>data</a> provided by Eurostat. We cleaned the data by choosing only one set of the possible accidents and only for the year 2022 because of the lack of data in the other years. 
                         </p>
                     </div>

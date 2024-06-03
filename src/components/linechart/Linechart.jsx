@@ -280,7 +280,7 @@ function LineChart() {
                 <p className='plotexpl'>Looking at the results shown in the graph we would have expected steeper growth in the e-commerce engagement at least for the younger age groups.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                             For this plot we used this <a href="https://doi.org/10.2908/ISOC_EC_IB20">dataset</a> from eurostat. We took the information regarding 3 age groups (16-24 years ,25-54 years, 55-74 years) and the average indicated in the dataset with <code>IND_TOTAL</code>. Aggregate data for the <code>"geo"</code> column such as <code>[EU27_2020]</code> were removed. <br />
                             Finally, we converted the file from .csv to .json as a matter of convenience.                            </p>
                     </div>

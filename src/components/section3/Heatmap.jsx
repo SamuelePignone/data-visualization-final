@@ -166,7 +166,7 @@ function Section3D3() {
                 <p className='plotexpl'>Unfortunately, for past years we do not have much data. In any case, it is clear that by now most people in EU countries find themselves used to doing a lot of online activity.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                             For this chart, we used this <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> also produced by eurostat. We modified it to get a <code>.json</code> file.<br />
                             Where we have the different years, as the outermost key, which contain the different countries which in turn contain the value for each activity done online.
                         </p>

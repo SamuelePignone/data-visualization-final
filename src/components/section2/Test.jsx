@@ -300,7 +300,7 @@ function Test() {
                 <p className='plotexpl'>Using this ridgeline, we see how the most widely used method of accessing the Internet, shortly after its popularity (late 1990s) until the early 2010s of the new millennium, was the PC. To date, the doubt is that the most used method is via mobile, in the graph still a marginal method. Unfortunately, the data are not available.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                             To create this chart we have this <a href="https://doi.org/10.2908/ISOC_CI_ID_H" className='underline underline-offset-4 cursor-pointer'>dataset</a> made available by eurostat. We selected 3 indicators (<code>H_IMPH , H_IPC, H_ITV</code>) keeping the ones with fewer missing values, comuments always abundant. We replaced the <code>:</code> character used by eurostat to indicate missing values with <code>NaN</code>. <br />
                             For the rest we took all available countries and the same for years.
                         </p>

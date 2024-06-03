@@ -234,7 +234,7 @@ function SpiderChart() {
                 <p className='plotexpl'>The radar chart shows us that smaller companies in various European countries are the ones that struggle the most to develop actions to ensure their cybersecurity. For medium to large companies, actions taken are on average more although they vary from country to country.</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                         The <a href="https://doi.org/10.2908/ISOC_CISCE_RA" className='underline underline-offset-4 cursor-pointer'>data</a> were downloaded from Eurostat. After the first and elementary steps of preparing the data, the effort focused on transforming them into the format useful for creating a spider chart.<br />Then divided by state and by sets of values for each security measure still broken down by the various enterprise sizes.
                         </p>
                     </div>

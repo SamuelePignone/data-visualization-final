@@ -233,7 +233,7 @@ function Section1() {
             <p className='plotexpl'>This map clearly shows the rapid growth of Internet use in Europe without much difference between countries differing in population or economy.</p>
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                    <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                    <p id='explain-1' className='w-[80%] text-left mx-auto'>
                     The data displayed in this map were made available by Eurostat, specifically through this  
                     <a href="https://doi.org/10.2908/ISOC_CI_IN_H" className='underline underline-offset-4 cursor-pointer' > dataset</a>.<br /> 
                     Essentially, uncollected data were changed from the representation <code>:</code> to the canonical <code>NaN</code>.<br /> In addition, string values such as <code>(b)</code> or <code>(u)</code> were removed to equalize the type of each dataset element to <code>float</code>.

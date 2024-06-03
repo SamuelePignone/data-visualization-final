@@ -336,7 +336,7 @@ function AreaChart() {
                 <p className='plotexpl'>Looking the plot, is clear that the largest companies own the largest share of the online market. But without such a clear gap from smaller companies, though. Obviously these data are about Europe and therefore do not take into account the large U.S. and Chinese companies</p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                             For this chart, we used this <a href="https://doi.org/10.2908/ISOC_EC_ESELS" className='underline underline-offset-4 cursor-pointer'>dataset</a>  produced, as always, by eurostat. We modified it to get a <code>.json</code> file.<br />
                             After do that, we have to prepare the data in order to have as the external key the size of the company and as the internal key the year, with the value of the percentage of e-commerce sales. Obviously we have to filter the data for the country we want to analyze and for the type of online sales.
                         </p>

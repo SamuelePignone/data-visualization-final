@@ -244,7 +244,7 @@ function StackedBarChart() {
                 <p className='plotexpl'>In the chart above, we clearly see how in past years despite the publicity AI has received it is still not used extensively by companies especially small ones. </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[100px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                         For this graph we used, as always, a <a href="https://doi.org/10.2908/ISOC_EB_AI" className='underline underline-offset-4 cursor-pointer' >dataset</a> from Eurostat. <br /> We had to choose several Ai tasks from the many available to allow visualization also we eliminated many missing data which is why values for certain orders of magnitude of companies in certain countries are not present for example. Finally, we changed the format to .json.
                         </p>
                     </div>

@@ -261,7 +261,7 @@ function MultipleBarChart() {
                 <p className='plotexpl'>The graph shows a small but steady improvement in all skills year after year. <br /> Below meaning an increasing awareness by people of the importance of knowing how to use and take advantage of digitalization </p>
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className={`${showDataPreparation ? 'h-[150px]' : 'h-0'} overflow-hidden transition-[height] duration-1000 ease-in-out`}>
-                        <p id='explain-1' className='w-[80%] text-center mx-auto'>
+                        <p id='explain-1' className='w-[80%] text-left mx-auto'>
                             The <a href="https://doi.org/10.2908/ISOC_SK_CSKL_I" className='underline underline-offset-4 cursor-pointer'>dataset</a> was taken from Eurostat. As in the previous chart, it has been modified so that it can be converted to .json. <br />
                             Each element has 4 values together representing digital skill <code>"indic_is"</code>, year <code>"TIME_PERIOD"</code>, country <code>"geo"</code> and observed value <code>"OBS_VALUE"</code>.
                         </p>
