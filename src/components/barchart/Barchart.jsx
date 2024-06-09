@@ -151,7 +151,7 @@ function BarChart() {
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-6">
                         <h2 className="text-xl font-semibold">
-                            Percentage of Security incidents by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                            Percentage of companies by size that have had a certain security incident in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>

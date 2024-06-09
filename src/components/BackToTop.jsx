@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { MdOutlineBubbleChart } from "react-icons/md";
 
 function BackToTop() {
     const [isVisible, setIsVisible] = useState(false);
@@ -42,10 +43,11 @@ function BackToTop() {
     return (
         <button
             id="back-to-top-btn"
-            className={`z-[9999999] fixed right-10 bottom-10 px-6 py-3 font-medium tracking-wide text-[#3c70aa] capitalize transition-colors duration-300 transform bg-white rounded-lg hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-100 focus:ring-opacity-80 shadow-md ${isVisible || isAnimating ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+            className={`z-[9999999] w-14 h-14 fixed right-10 bottom-10 flex justify-center items-center font-medium tracking-wide text-[#3c70aa] capitalize transition-colors duration-300 transform bg-white rounded-full hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-100 focus:ring-opacity-80 shadow-md ${isVisible || isAnimating ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
             onClick={scrollToTop}
+            alt="Back to surface"
         >
-            🫧 Back to surface 🫧
+            <MdOutlineBubbleChart className="inline-block text-3xl" />
         </button>
     );
 }

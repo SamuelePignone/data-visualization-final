@@ -203,7 +203,7 @@ function Section1() {
                 <div className='w-full flex justify-center items-center'>
                     <YearSelector yearList={[...Array(22).keys()].map(i => 2002 + i)} currentYear={selectedYear} setCurrentYear={setSelectedYear} />
                 </div>
-                <div className="mt-4">
+                <div className="mt-4" id="firstplot">
                     <h2 className="text-xl font-semibold">
                         Percentage of population have internet access in European households in {selectedYear}
                     </h2>

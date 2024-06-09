@@ -7,7 +7,7 @@ const colorSchemes = {
         "#F3C583", // Peach
         "#E99497"  // Light Coral
     ],
-    protanopia: ['#5D8AA8', '#FFB347', '#B39EB5', '#FF6961'],
+    protanopia: ['#5D8AA8', '#B39EB5', '#FFB347', '#FF6961'],
     deuteranopia: ['#FF6F61', '#6B5B95', '#88B04B', '#FFCC5C'],
     tritanopia: ['#FFD662', '#955251', '#009B77', '#DD4124'],
     monochromacy: ['#BFBFBF', '#7F7F7F', '#3F3F3F', '#000000']

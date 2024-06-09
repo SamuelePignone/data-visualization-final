@@ -311,7 +311,7 @@ function AreaChart() {
                     <NationSelector nationsList={nationList} currentNation={selectedGeo} setCurrentNation={setSelectedGeo} />
                     <div className="mt-4">
                         <h2 className="text-xl font-semibold">
-                            Percentage of <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span> by size of enterprise in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span>
+                            Percentage of enterprises by size in <span className="underline underline-offset-4 font-bold">{mapstate(selectedGeo)}</span> that make <span className="underline underline-offset-4 font-bold">{map_code_to_description(indic_is)}</span>
                         </h2>
                     </div>
                     <div ref={ref} className='w-fit flex items-center justify-center'></div>
