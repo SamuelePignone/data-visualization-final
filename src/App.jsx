@@ -1,4 +1,6 @@
 import React from 'react'
+import { ColorBlindnessProvider } from './components/ColorBlindnessContext';
+import ColorBlindnessSelector from './components/ColorBlindnessSelector';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
@@ -21,25 +23,28 @@ import BackToTop from './components/BackToTop'
 function App() {
 	return (
 		<>
-			<Navbar />
-			<Hero />
-			<BackToTop />
-			<Intro />
-			<Chapter text='Part 1: Digital age among individuals' id='journey_start' />
-			<Section1 />
-			<Section2 />
-			<Heatmap />
-			<MultipleBarChart />
-			<LineChart />
-			<Chapter text='Part 2: Digital Transformation in Enterprises' />
-			<PackedBubble />
-			<AreaChart />
-			<StackedBarChart />
-			<SpiderChart />
-			<BarChart />
-			<Conclusion	  />
-			<Team />
-			<Footer />
+			<ColorBlindnessProvider>
+				<ColorBlindnessSelector />
+				<Navbar />
+				<Hero />
+				<BackToTop />
+				<Intro />
+				<Chapter text='Part 1: Digital age among individuals' id='journey_start' />
+				<Section1 />
+				<Section2 />
+				<Heatmap />
+				<MultipleBarChart />
+				<LineChart />
+				<Chapter text='Part 2: Digital Transformation in Enterprises' />
+				<PackedBubble />
+				<AreaChart />
+				<StackedBarChart />
+				<SpiderChart />
+				<BarChart />
+				<Conclusion />
+				<Team />
+				<Footer />
+			</ColorBlindnessProvider>
 		</>
 	)
 }
