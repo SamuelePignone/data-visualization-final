@@ -68,14 +68,14 @@ function PackedBubble() {
             .style("stroke-width", 0.8)
             .style("filter", "drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3))") // Add shadow with opacity of 0.3
             .on("mouseover", (event, d) => {
-                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)} <br> Digital intensity index: ${map_dii_to_description(d.indic_is)}`);
+                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Percentage: ${d.OBS_VALUE}% <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)} <br> Digital intensity index: ${map_dii_to_description(d.indic_is)}`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
                 setTooltipVisible(true);
             }).on("mouseout", () => {
                 setTooltipVisible(false);
             })
             .on("mousemove", (event, d) => {
-                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Value: ${d.OBS_VALUE} digital intensity <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)} <br> Digital intensity index: ${map_dii_to_description(d.indic_is)}`);
+                setTooltipContent(`Country: ${mapstate(d.geo)} <br> Percentage: ${d.OBS_VALUE}% <br> Year: ${d.TIME_PERIOD} <br> Enterprise size: ${map_size_emp(d.size_emp)} <br> Digital intensity index: ${map_dii_to_description(d.indic_is)}`);
                 setTooltipPosition({ x: event.pageX, y: event.pageY });
             })
             .call(d3.drag() // call specific function when circle is dragged
